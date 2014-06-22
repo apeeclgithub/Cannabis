@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Simple Ajax Contact Form</title>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/script.js"></script>
 
-<!--
-
-<script type="text/javascript">
+/* INICIO SCRIPT CONTACT FORM*/
 $(document).ready(function() {
     $("#submit_btn").click(function() { 
         //get input field values
@@ -71,34 +62,4 @@ $(document).ready(function() {
     });
     
 });
-</script>
--->
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-<fieldset id="contact_form">
-<legend>Contacto</legend>
-    <div id="result"></div>
-    <label for="name"><span>Nombre</span>
-    <input type="text" name="name" id="name"  />
-    </label>
-    
-    <label for="email"><span>E-mail</span>
-    <input type="email" name="email" id="email" />
-    </label>
-    
-    <label for="phone"><span>Tel&eacutefono</span>
-    <input type="text" name="phone" id="phone" />
-    </label>
-    
-    <label for="message"><span>Mensaje</span>
-    <textarea name="message" id="message" ></textarea>
-    </label>
-    
-    <label><span>&nbsp;</span>
-    <button class="submit_btn" id="submit_btn">Submit</button>
-    </label>
-</fieldset>
-</body>
-</html>
+/* FIN SCRIPT CONTACT FORM*/

@@ -47,6 +47,11 @@ if($_POST)
 		$output = json_encode(array('type'=>'error', 'text' => 'Debe ingresar sólo números'));
 		die($output);
 	}
+	if(strlen($user_Phone)<6) //check entered data is numbers
+	{
+		$output = json_encode(array('type'=>'error', 'text' => 'Debe ingresar mínimo 6 dígitos'));
+		die($output);
+	}
 	if(strlen($user_Message)<5) //check emtpy message
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Mensaje muy corto'));
@@ -62,11 +67,11 @@ if($_POST)
 	
 	if(!$sentMail)
 	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
+		$output = json_encode(array('type'=>'error', 'text' => 'No se pudo enviar el mensaje.'));
 		die($output);
 	}else{
-		$output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Thank you for your email'));
+		$output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Gracias por enviar su mensaje.'));
 		die($output);
 	}
 }
-?>
+?>.

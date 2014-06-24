@@ -87,7 +87,7 @@ include "../conexion.php";
         $headers .= "From: Remitente\r\n"; 
         
         //FUNCION PARA ENVIAR EL EMAIL
-        mail($correo,$asunto,$comentario,$headers);
+       // mail($correo,$asunto,$comentario,$headers);
 	
 		
 		//unset($_SESSION['carrito']);

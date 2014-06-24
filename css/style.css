@@ -9,3 +9,12 @@
 .submit_btn:hover { background: #ECECEC;}
 .success{ background: #CFFFF5;padding: 10px; margin-bottom: 10px; border: 1px solid #B9ECCE; border-radius: 5px; font-weight: normal; }
 .error{ background: #FFDFDF; padding: 10px; margin-bottom: 10px; border: 1px solid #FFCACA; border-radius: 5px; font-weight: normal;}
+
+/* items carro */
+
+.item{width:290px;border:1px solid #ddd;border-radius:5px; font-family: Arial; font-size: 11px; font-weight: bold;color:#666666;background:#fafafa; float:left}
+.derecha{text-align: right; float: right;}
+.text{padding-left: 10px;padding-bottom: 10px;width: 270px}
+.img-item{width:270px;height: 270px;padding: 10px;padding-bottom: 0}
+.agregar{border: 1px solid #D8D8D8; padding: 5px; color: #8D8D8D; text-shadow: 1px 1px 1px #FFF; border-radius: 3px; background: #F8F8F8; width: 100%}
+.agregar:hover { background: #ECECEC;}

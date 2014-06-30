@@ -21,7 +21,7 @@
 		       		url: 'carrito.php',
 		       		type: 'post',
 		       		success: function(){
-		       			$("#carrito").load("<?php echo $carrito->articulos_total()?>");
+		       			$("#carrito").load();
 		       		}
 		       	});
 
@@ -36,8 +36,7 @@
 			echo 'Precio: '.$carrito->precio_total();
 			echo "<hr />";
 			$carro = $carrito->get_content();
-			if(@$carro)
-			{
+			if($carro){
 			    foreach($carro as $producto)
 			    {
 			        echo 'Articulo: '.$producto["nombre"];

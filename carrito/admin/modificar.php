@@ -1,10 +1,10 @@
 <?php
 	session_start();
 	include "../conexion.php";
-	if(isset($_SESSION['Usuario'])){
-	}else{
-		header("Location: ./index.php?Error=Acceso denegado");
-	}
+//	if(isset($_SESSION['Usuario'])){
+//	}else{
+//		header("Location: ./index.php?Error=Acceso denegado");
+//	}
 ?>
 <!DOCTYPE html>
 <html lang="es">

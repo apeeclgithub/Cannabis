@@ -11,7 +11,6 @@ $articulo = array(
 //añadir el producto
 $carrito->add($articulo);
 
-echo $carrito->articulos_total();
 
 
 
@@ -143,6 +142,7 @@ class Carrito
     //método que retorna el número de artículos del carrito
     public function articulos_total()
     {
+    	
         //si no está definido el elemento articulos_total o no existe el carrito
         //el número de artículos será de 0
         if(!isset($this->carrito["articulos_total"]) || $this->carrito === null)
@@ -155,7 +155,7 @@ class Carrito
             throw new Exception("El número de artículos del carrito debe ser un número", 1);    
         }
         //en otro caso devolvemos el número de artículos del carrito
-        return $this->carrito["articulos_total"] ? $this->carrito["articulos_total"] : 0;
+        echo $this->carrito["articulos_total"] ? $this->carrito["articulos_total"] : 0;
     }
  
     //este método retorna el contenido del carrito

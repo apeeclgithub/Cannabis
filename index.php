@@ -20,8 +20,8 @@
 		       		data: parametro,
 		       		url: 'carrito.php',
 		       		type: 'post',
-		       		success: function(respuesta){
-		       			$("#carrito").html(respuesta);
+		       		success: function(){
+		       			$("#carrito").load("<?php echo $carrito->articulos_total()?>");
 		       		}
 		       	});
 
@@ -31,7 +31,29 @@
 	</head>
 	<body>
 		<span class="item" id="">
-			Articulos: <span id="carrito"><?php echo $carrito->articulos_total()?></span>
+			Articulos: <span id="carrito"><?php echo $carrito->articulos_total();
+			echo "<hr />";
+			echo 'Precio: '.$carrito->precio_total();
+			echo "<hr />";
+			$carro = $carrito->get_content();
+			if(@$carro)
+			{
+			    foreach($carro as $producto)
+			    {
+			        echo 'Articulo: '.$producto["nombre"];
+			        echo "<br />";
+			        echo 'Cantidad: '.$producto["cantidad"];
+			        echo "<br />";
+			        echo 'Valor: '.$producto["precio"];
+			        echo "<br />";
+			        echo 'Total: '.$producto['cantidad']*$producto['precio'];
+			        echo "<hr />";
+			    }
+			}
+
+
+
+			?></span>
 		</span>
 
 		<span item="item">

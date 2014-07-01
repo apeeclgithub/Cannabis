@@ -43,14 +43,19 @@ if($_POST)
 	}
 	if(strlen($user_Pass1)<6) //check entered data is numbers
 	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Debe ingresar mínimo 6 caracteres'));
+		$output = json_encode(array('type'=>'error', 'text' => 'Debe ingresar mínimo 6 caracteres en la contraseña'));
 		die($output);
 	}
+
+
+	
 	if(strlen($user_Date1)<5) //check emtpy message
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Seleccione fecha'));
 		die($output);
 	}
+
+
 	
 	$SQL = "Select * From usuario Where usu_mail = '$user_Email1'";
 	$consulta = mysql_query($SQL);

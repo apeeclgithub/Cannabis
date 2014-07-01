@@ -51,6 +51,11 @@
                   <?php  for($i=1900;$i<=2014;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
             </select>
         </label>
+
+        <label for="date1"><span>Mensaje</span>
+            <textarea name="date1" id="date1" ></textarea>
+        </label>
+
         <label><span>&nbsp;</span>
             <button class="submit_btn1" id="submit_btn1">Submit</button>
         </label>

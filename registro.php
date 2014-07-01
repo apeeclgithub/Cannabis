@@ -40,13 +40,13 @@
         
         <label for="date1"><span>Fecha de nacimiento</span>
            <!-- <textarea name="date1" id="date1" ></textarea> -->
-        <select name="nataliciodia" id="day">
+        <select name="day" id="day">
                 <option value="0">Día&nbsp;</option> <?php  for($i=1;$i<=31;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
             </select>
-            <select name="nataliciomes" id="month">
+            <select name="month" id="month">
                   <option value="0">Mes</option> <?php  for($i=1;$i<=12;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
             </select>
-            <select name="natalicioano" id="year">
+            <select name="year" id="year">
                   <option value="0">Año</option>
                   <?php  for($i=1900;$i<=2014;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
             </select>

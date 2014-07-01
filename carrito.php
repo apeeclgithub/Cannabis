@@ -8,11 +8,9 @@ $articulo = array(
         "precio"        => intval(@$_POST["precio"]),
         "nombre"        => @$_POST["nombre"]
     );
-//añadir el producto
-$carrito->add($articulo);
-
-
-
+if(empty($_POST["id"])){}else{$carrito->add($articulo);}
+if(empty($_POST["delete"])){}else{$carrito->remove_producto($_POST["delete"]);}
+if(empty($_POST["delall"])){}else{$carrito->destroy();}
 
 class Carrito
 {

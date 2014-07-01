@@ -1,5 +1,6 @@
 <?php
 	include 'carrito.php';
+	
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -21,10 +22,36 @@
 		       		url: 'carrito.php',
 		       		type: 'post',
 		       		success: function(){
-		       			$("#carrito").load();
+		       			location.reload();
 		       		}
 		       	});
 
+    		};
+    		function del(id){
+    			var dele = {
+    				"delete": id
+    			}
+    			$.ajax({
+    				data: dele,
+    				url: 'carrito.php',
+    				type: 'post',
+    				success: function(){
+    					location.reload();
+    				}
+    			});
+    		};
+    		function delall(del){
+    			var delall = {
+    				"delall" : del
+    			}
+    			$.ajax({
+    				data: delall,
+    				url: 'carrito.php',
+    				type: 'post',
+    				success: function(){
+    					location.reload();
+    				}
+    			});
     		}
 		</script>
 
@@ -39,7 +66,7 @@
 			if($carro){
 			    foreach($carro as $producto)
 			    {
-			        echo 'Articulo: '.$producto["nombre"];
+			        echo 'Articulo: '.$producto["nombre"]."<span class=\"derecha\"><a href=\"#\" onclick=\"del('".$producto["unique_id"]."')\">X</a>&nbsp;</span>";
 			        echo "<br />";
 			        echo 'Cantidad: '.$producto["cantidad"];
 			        echo "<br />";
@@ -48,10 +75,8 @@
 			        echo 'Total: '.$producto['cantidad']*$producto['precio'];
 			        echo "<hr />";
 			    }
+			echo "<center><a href=\"#\" onclick=\"delall('si')\">Borrar Carrito</a></center>";
 			}
-
-
-
 			?></span>
 		</span>
 

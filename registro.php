@@ -39,7 +39,6 @@
         </label>
         
         <label for="date1"><span>Fecha de nacimiento</span>
-           <!-- <textarea name="date1" id="date1" ></textarea> -->
             <select name="day" id="day">
                 <option value="">Día&nbsp;</option> <?php  for($i=1;$i<=31;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
             </select>

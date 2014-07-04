@@ -108,8 +108,7 @@ $(document).ready(function() {
         if(proceed) 
         {
             //data to be sent to server
-            post_data = {'userName1':user_name1, 'userEmail1':user_email1, 'userPass1':user_pass1, 'day':day, 'month':month, 'year':year};
-            
+            post_data = {'userName1':user_name1, 'userEmail1':user_email1, 'userPass1':user_pass1, 'day':day, 'month':month, 'year':year};           
             //Ajax post data to server
             $.post('function/registro.php', post_data, function(response){  
 

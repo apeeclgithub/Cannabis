@@ -1,9 +1,6 @@
 <?php
 	include 'conexion.php';
-
-
-
-        
+     
 if($_POST)
 {
 
@@ -31,7 +28,6 @@ if($_POST)
 	$user_Name1     = filter_var($_POST["userName1"], FILTER_SANITIZE_STRING);
 	$user_Email1    = filter_var($_POST["userEmail1"], FILTER_SANITIZE_EMAIL);
 	$user_Pass1     = filter_var($_POST["userPass1"], FILTER_SANITIZE_STRING);
-	$day     = filter_var($_POST["day"], FILTER_SANITIZE_STRING);var_dump($day);
 
 	//additional php validation
 	if(strlen($user_Name1)<4) // If length is less than 4 it will throw an HTTP error.

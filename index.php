@@ -1,5 +1,5 @@
 <?php
-	include 'carrito.php';
+	include 'function/carrito.php';
 	
 ?>
 <!DOCTYPE html>
@@ -9,55 +9,10 @@
 		<meta charset="UTF-8">
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<script src="js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript">
-			function add(id, cantidad, precio, nombre){
-		        var parametro = {
-		        	"id" 		: id,
-		        	"cantidad" 	: cantidad,
-		        	"precio" 	: precio,
-		        	"nombre" 	: nombre
-		        };
-		       	$.ajax({
-		       		data: parametro,
-		       		url: 'carrito.php',
-		       		type: 'post',
-		       		success: function(){
-		       			location.reload();
-		       		}
-		       	});
-
-    		};
-    		function del(id){
-    			var dele = {
-    				"delete": id
-    			}
-    			$.ajax({
-    				data: dele,
-    				url: 'carrito.php',
-    				type: 'post',
-    				success: function(){
-    					location.reload();
-    				}
-    			});
-    		};
-    		function delall(del){
-    			var delall = {
-    				"delall" : del
-    			}
-    			$.ajax({
-    				data: delall,
-    				url: 'carrito.php',
-    				type: 'post',
-    				success: function(){
-    					location.reload();
-    				}
-    			});
-    		}
-		</script>
-
+		<script src="js/script.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<span class="item" id="">
+		<span class="item">
 			Articulos: <span id="carrito"><?php echo $carrito->articulos_total();
 			echo "<hr />";
 			echo 'Precio: '.$carrito->precio_total();

@@ -127,4 +127,45 @@ $(document).ready(function() {
     /* FIN SCRIPT REGISTRO FORM*/
 
 });
-
+            function add(id, cantidad, precio, nombre){
+                var parametro = {
+                    "id"        : id,
+                    "cantidad"  : cantidad,
+                    "precio"    : precio,
+                    "nombre"    : nombre
+                };
+                $.ajax({
+                    data: parametro,
+                    url: 'function/carrito.php',
+                    type: 'post',
+                    success: function(){
+                        location.reload();
+                    }
+                });
+            };
+            function del(id){
+                var dele = {
+                    "delete": id
+                }
+                $.ajax({
+                    data: dele,
+                    url: 'function/carrito.php',
+                    type: 'post',
+                    success: function(){
+                        location.reload();
+                    }
+                });
+            };
+            function delall(del){
+                var delall = {
+                    "delall" : del
+                }
+                $.ajax({
+                    data: delall,
+                    url: 'function/carrito.php',
+                    type: 'post',
+                    success: function(){
+                        location.reload();
+                    }
+                });
+            };

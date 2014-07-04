@@ -1,6 +1,9 @@
 <?php
 	include 'conexion.php';
 
+
+
+        
 if($_POST)
 {
 
@@ -18,7 +21,7 @@ if($_POST)
     } 
 	
 	//check $_POST vars are set, exit if any missing
-	if(!isset($_POST["userName1"]) || !isset($_POST["userEmail1"]) || !isset($_POST["userPass1"]) || !isset($_POST["userDate1"]))
+	if(!isset($_POST["userName1"]) || !isset($_POST["userEmail1"]) || !isset($_POST["userPass1"]))
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Campos vacios'));
 		die($output);
@@ -28,7 +31,7 @@ if($_POST)
 	$user_Name1     = filter_var($_POST["userName1"], FILTER_SANITIZE_STRING);
 	$user_Email1    = filter_var($_POST["userEmail1"], FILTER_SANITIZE_EMAIL);
 	$user_Pass1     = filter_var($_POST["userPass1"], FILTER_SANITIZE_STRING);
-	$user_Date1     = filter_var($_POST["userDate1"], FILTER_SANITIZE_STRING);
+	$day     = filter_var($_POST["day"], FILTER_SANITIZE_STRING);var_dump($day);
 
 	//additional php validation
 	if(strlen($user_Name1)<4) // If length is less than 4 it will throw an HTTP error.
@@ -47,15 +50,6 @@ if($_POST)
 		die($output);
 	}
 
-
-	
-	if(strlen($user_Date1)<5) //check emtpy message
-	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Seleccione fecha'));
-		die($output);
-	}
-
-
 	
 	$SQL = "Select * From usuario Where usu_mail = '$user_Email1'";
 	$consulta = mysql_query($SQL);
@@ -70,9 +64,9 @@ if($_POST)
 	if(strtolower($_SERVER['REQUEST_METHOD']) == 'post') {
 
 	
-		$SQL = "Insert Into usuario (usu_nombre, usu_mail, usu_pass, usu_edad) 
+		$SQL = "Insert Into usuario (usu_nombre, usu_mail, usu_pass) 
 	
-		Values ('".$user_Name1."','".$user_Email1."','".$user_Pass1."','".$user_Date1."')";
+		Values ('".$user_Name1."','".$user_Email1."','".$user_Pass1."')";
 		mysql_query($SQL);
 
 		$output = json_encode(array('type'=>'error', 'text' => 'Usuario registrado correctamente'));

@@ -70,7 +70,10 @@ $(document).ready(function() {
         var user_name1       = $('input[name=name1]').val(); 
         var user_email1      = $('input[name=email1]').val();
         var user_pass1      = $('input[name=pass1]').val();
-        var user_date1    = $('textarea[name=date1]').val();
+        var day           = $('select[name=day]').val();
+        var month           = $('select[name=month]').val();
+        var year           = $('select[name=year]').val();
+
         
         //simple validation at client's end
         //we simply change border color to red if empty field using .css()
@@ -87,8 +90,17 @@ $(document).ready(function() {
             $('input[name=pass1]').css('border-color','red'); 
             proceed = false;
         }
-        if(user_date1=="") {  
-            $('textarea[name=date1]').css('border-color','red'); 
+
+        if(day==""){
+            $('select[name=day]').css('border-color','red');
+            proceed = false;
+        }
+        if(month==""){
+            $('select[name=month]').css('border-color','red');
+            proceed = false;
+        }
+        if(year==""){
+            $('select[name=year]').css('border-color','red');
             proceed = false;
         }
 
@@ -96,7 +108,7 @@ $(document).ready(function() {
         if(proceed) 
         {
             //data to be sent to server
-            post_data = {'userName1':user_name1, 'userEmail1':user_email1, 'userPass1':user_pass1, 'userDate1':user_date1};
+            post_data = {'userName1':user_name1, 'userEmail1':user_email1, 'userPass1':user_pass1, 'day':day, 'month':month, 'year':year};
             
             //Ajax post data to server
             $.post('function/registro.php', post_data, function(response){  
@@ -110,7 +122,7 @@ $(document).ready(function() {
                     
                     //reset values in all input fields
                     $('#contact_form1 input').val(''); 
-                    $('#contact_form1 textarea').val(''); 
+                    $('#contact_form1 select').val('');
                 }
                 
                 $("#result1").hide().html(output).slideDown();
@@ -120,8 +132,8 @@ $(document).ready(function() {
     });
     
     //reset previously set border colors and hide all message on .keyup()
-    $("#contact_form1 input, #contact_form textarea").keyup(function() { 
-        $("#contact_form1 input, #contact_form textarea").css('border-color',''); 
+    $("#contact_form1 input, #contact_form1 select").keyup(function() { 
+        $("#contact_form1 input, #contact_form1 select").css('border-color',''); 
         $("#result1").slideUp();
     });
     /* FIN SCRIPT REGISTRO FORM*/

@@ -40,21 +40,18 @@
         
         <label for="date1"><span>Fecha de nacimiento</span>
            <!-- <textarea name="date1" id="date1" ></textarea> -->
-        <select name="day" id="day">
-                <option value="0">Día&nbsp;</option> <?php  for($i=1;$i<=31;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
+            <select name="day" id="day">
+                <option value="">Día&nbsp;</option> <?php  for($i=1;$i<=31;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
             </select>
             <select name="month" id="month">
-                  <option value="0">Mes</option> <?php  for($i=1;$i<=12;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
+                  <option value="">Mes</option> <?php  for($i=1;$i<=12;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
             </select>
             <select name="year" id="year">
-                  <option value="0">Año</option>
+                  <option value="">Año</option>
                   <?php  for($i=1900;$i<=2014;$i++) { echo "<option value='".$i."'>".$i."</option>"; } ?>
             </select>
         </label>
 
-        <label for="date1"><span>Mensaje</span>
-            <textarea name="date1" id="date1" ></textarea>
-        </label>
 
         <label><span>&nbsp;</span>
             <button class="submit_btn1" id="submit_btn1">Submit</button>

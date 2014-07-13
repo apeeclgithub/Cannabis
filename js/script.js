@@ -39,20 +39,20 @@ $(document).ready(function() {
             $.post('function/contacto.php', post_data, function(response){  
 
                 //load json data from server and output message     
-				if(response.type == 'error')
-				{
-					output = '<div class="error">'+response.text+'</div>';
-				}else{
-				    output = '<div class="success">'+response.text+'</div>';
-					
-					//reset values in all input fields
-					$('#contact_form input').val(''); 
-					$('#contact_form textarea').val(''); 
-				}
-				
-				$("#result").hide().html(output).slideDown();
+                if(response.type == 'error')
+                {
+                    output = '<div class="error">'+response.text+'</div>';
+                }else{
+                    output = '<div class="success">'+response.text+'</div>';
+                    
+                    //reset values in all input fields
+                    $('#contact_form input').val(''); 
+                    $('#contact_form textarea').val(''); 
+                }
+                
+                $("#result").hide().html(output).slideDown();
             }, 'json');
-			
+            
         }
     });
     
@@ -62,81 +62,7 @@ $(document).ready(function() {
         $("#result").slideUp();
     });
     /* FIN SCRIPT CONTACT FORM*/
-
-    /* INICIO SCRIPT REGISTRO FORM*/
-
-    $("#submit_btn1").click(function() { 
-        //get input field values
-        var user_name1       = $('input[name=name1]').val(); 
-        var user_email1      = $('input[name=email1]').val();
-        var user_pass1      = $('input[name=pass1]').val();
-        var day           = $('select[name=day]').val();
-        var month           = $('select[name=month]').val();
-        var year           = $('select[name=year]').val();
-
-        
-        //simple validation at client's end
-        //we simply change border color to red if empty field using .css()
-        var proceed = true;
-        if(user_name1==""){ 
-            $('input[name=name1]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(user_email1==""){ 
-            $('input[name=email1]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(user_pass1=="") {    
-            $('input[name=pass1]').css('border-color','red'); 
-            proceed = false;
-        }
-
-        if(day==""){
-            $('select[name=day]').css('border-color','red');
-            proceed = false;
-        }
-        if(month==""){
-            $('select[name=month]').css('border-color','red');
-            proceed = false;
-        }
-        if(year==""){
-            $('select[name=year]').css('border-color','red');
-            proceed = false;
-        }
-
-        //everything looks good! proceed...
-        if(proceed) 
-        {
-            //data to be sent to server
-            post_data = {'userName1':user_name1, 'userEmail1':user_email1, 'userPass1':user_pass1, 'day':day, 'month':month, 'year':year};           
-            //Ajax post data to server
-            $.post('function/registro.php', post_data, function(response){  
-
-                //load json data from server and output message     
-                if(response.type == 'error')
-                {
-                    output = '<div class="error">'+response.text+'</div>';
-                }else{
-                    output = '<div class="success">'+response.text+'</div>';
-                    
-                    //reset values in all input fields
-                    $('#contact_form1 input').val(''); 
-                    $('#contact_form1 select').val('');
-                }
-                
-                $("#result1").hide().html(output).slideDown();
-            }, 'json');
-            
-        }
-    });
-    
-    //reset previously set border colors and hide all message on .keyup()
-    $("#contact_form1 input, #contact_form1 select").keyup(function() { 
-        $("#contact_form1 input, #contact_form1 select").css('border-color',''); 
-        $("#result1").slideUp();
-    });
-    /* FIN SCRIPT REGISTRO FORM*/
-
+    /* INICIO SCRIPT CARRO*/
 });
             function add(id, cantidad, precio, nombre){
                 var parametro = {
@@ -180,3 +106,53 @@ $(document).ready(function() {
                     }
                 });
             };
+    /* FIN SCRIPT CARRO */
+
+ /* INICIO SCRIPT REGISTRO FORM*/
+function validarReg() {
+    var name_err = email_err = pass_err = '';
+    var name1 = document.getElementById("name1").value;
+    var namexp = /[A-Z a-z]{3}/;
+        if (namexp.test(name1)) {
+            //alert('bien nombre');
+        }else{
+            name_err = 'mal nombre';
+        }
+
+    var email1 = document.getElementById("email1").value;
+    var emailexp = /[\w-\.]{3,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+        if (emailexp.test(email1)) {
+            //alert('bien mail');
+        }else{
+            email_err = 'mal mail';
+        }
+
+
+    var pass1 = document.getElementById("pass1").value;
+    var passexp = /[A-Z a-z 0-9]{3}/;
+        if (passexp.test(pass1)){
+            //alert('bien pass');
+        }else{
+            pass_err = 'mal pass';
+        }
+
+    if (name_err !== '' || email_err !== '' || pass_err !== '') {
+        alert(name_err + email_err + pass_err);
+        return false;
+    }
+
+    //Si pasa las validaciones, enviar form modo async
+    $.ajax({
+      url: "function/registro.php",
+      type: "POST",
+      data: $("#regform").serialize(),
+      beforeSend: function() {
+        $("#result1").empty().html('<h1>Procesando...</h1>');
+      },
+      success: function(results) {
+        $("#result1").delay(1000).empty().html('<h1>' + results + '</h1>');
+        $('#regform').trigger("reset");
+      }
+    });
+    return false;
+}

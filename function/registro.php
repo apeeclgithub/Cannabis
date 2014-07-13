@@ -1,52 +1,52 @@
 <?php
 	include 'conexion.php';
      
-if($_POST)
-{
 
-	//check if its an ajax request, exit if not
-    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
-	
-		//exit script outputting json data
-		$output = json_encode(
-		array(
-			'type'=>'error', 
-			'text' => 'Request must come from Ajax'
-		));
-		
-		die($output);
-    } 
-	
-	//check $_POST vars are set, exit if any missing
-	if(!isset($_POST["userName1"]) || !isset($_POST["userEmail1"]) || !isset($_POST["userPass1"]))
-	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Campos vacios'));
-		die($output);
+	$name1 = $_POST['name1'];
+	$email1 = $_POST['email1'];
+	$pass1 = $_POST['pass1'];
+/*	$day = $_POST['day'];
+	$month = $_POST['month'];
+	$year = $_POST['year'];
+*/
+	function val_name($name1){
+		if(preg_match("/^[A-Z a-z]{3,}+$/", $name1)){
+			return true;
+		}else{
+			return false;
+		}
 	}
 
-	//Sanitize input data using PHP filter_var().
-	$user_Name1     = filter_var($_POST["userName1"], FILTER_SANITIZE_STRING);
-	$user_Email1    = filter_var($_POST["userEmail1"], FILTER_SANITIZE_EMAIL);
-	$user_Pass1     = filter_var($_POST["userPass1"], FILTER_SANITIZE_STRING);
-
-	//additional php validation
-	if(strlen($user_Name1)<4) // If length is less than 4 it will throw an HTTP error.
-	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Nombre corto o vacío'));
-		die($output);
-	}
-	if(!filter_var($user_Email1, FILTER_VALIDATE_EMAIL)) //email validation
-	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Ingrese un mail válido'));
-		die($output);
-	}
-	if(strlen($user_Pass1)<6) //check entered data is numbers
-	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Debe ingresar mínimo 6 caracteres en la contraseña'));
-		die($output);
+	function val_email($email1){
+		if (preg_match("/^[A-Za-z0-9-_.+%]+@[A-Za-z0-9-.]+\.[A-Za-z]{2,4}$/", $email1)) {
+			return true;
+		}else{
+			return false;
+		}
 	}
 
-	
+	function val_pass1($pass1){
+		if (preg_match("/^[A-Z a-z 0-9]{3,}+$/", $pass1)) {
+			return true;
+		}else{
+			return false;
+		}
+
+	}
+
+
+	$error = '';
+	if (!val_name($name1)) $error .= 'Error nombre';
+	if (!val_email($email1)) $error .= ' Error email ';
+	if (!val_pass1($pass1)) $error .= ' Error pass ';
+/*	if (!val_edad($edad)) $error .= 'Error edad';*/
+
+if (!empty($error)) {
+		echo $error;
+	} else {
+		echo "Formulario guardado!";
+	}
+/*
 	$SQL = "Select * From usuario Where usu_mail = '$user_Email1'";
 	$consulta = mysql_query($SQL);
 	$filas = mysql_num_rows($consulta);
@@ -72,6 +72,5 @@ if($_POST)
 		$output = json_encode(array('type'=>'error', 'text' => 'Error al registrar usuario'));
 		die($output);	}                               
 	}
-	
-}
+*/	
 ?>

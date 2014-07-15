@@ -46,6 +46,17 @@ if (!empty($error)) {
 	} else {
 		echo "Formulario guardado!";
 	}
+
+	$day = $_POST['day'];
+	$month = $_POST['month'];
+	$year = $_POST['year'];
+
+	$nac = new DateTime($year.'-'.$month.'-'.$day);
+	$act = new DateTime(date('Y-m-d'));
+	$final = $nac->diff($act);
+	$edad = $final->y;
+
+	echo "edad".$edad;
 /*
 	$SQL = "Select * From usuario Where usu_mail = '$user_Email1'";
 	$consulta = mysql_query($SQL);

@@ -137,7 +137,7 @@ function validarReg() {
         }else{
             pass_err = 'Ingrese contraseña';
         }
-/* 
+/*
     var day = document.getElementById('day').value;
     var month = document.getElementById('month').value;
     var year = document.getElementById('year').value;
@@ -152,7 +152,6 @@ function validarReg() {
    }
    return age;
 }*/
-
         if(name1==""){ 
             $('input[name=name1]').css('border-color','red'); 
             proceed = false;

@@ -1,14 +1,15 @@
 <?php
 	include 'conexion.php';
-     
 
 	$name1 = $_POST['name1'];
 	$email1 = $_POST['email1'];
 	$pass1 = $_POST['pass1'];
-/*	$day = $_POST['day'];
+	$day = $_POST['day'];
 	$month = $_POST['month'];
 	$year = $_POST['year'];
-*/
+	$fecha = $year.'-'.$month.'-'.$day;
+	//var_dump($_POST);
+
 	function val_name($name1){
 		if(preg_match("/^[A-Z a-z]{3,}+$/", $name1)){
 			return true;
@@ -16,6 +17,7 @@
 			return false;
 		}
 	}
+	
 
 	function val_email($email1){
 		if (preg_match("/^[A-Za-z0-9-_.+%]+@[A-Za-z0-9-.]+\.[A-Za-z]{2,4}$/", $email1)) {
@@ -33,55 +35,50 @@
 		}
 
 	}
+	//FALTA VALIDAR Q NO ENTRE VACIA LA FECHA 1*1
+
+	function val_age($nac){ //var_dump($nac); die();
+		$nac = new DateTime($nac);
+		$act = new DateTime(date('Y-m-d'));
+		$final = $nac->diff($act);
+		$edad = $final->y;
+		if ($edad!="") {
+			if ($edad>18) { //corregir
+				return true;
+			}else{
+				return false;
+			}
+	}
+		}
 
 
 	$error = '';
-	if (!val_name($name1)) $error .= 'Error nombre';
-	if (!val_email($email1)) $error .= ' Error email ';
-	if (!val_pass1($pass1)) $error .= ' Error pass ';
-/*	if (!val_edad($edad)) $error .= 'Error edad';*/
+	if (!val_name($name1)) $error .= 'Nombre inválido';
+	if (!val_email($email1)) $error .= 'Email inválido';
+	if (!val_pass1($pass1)) $error .= 'Contraseña inválida';
+	if (!val_age($fecha)) $error .= ' Debes ser mayor de edad';
 
-if (!empty($error)) {
+
+	if (!empty($error)) {
 		echo $error;
 	} else {
-		echo "Formulario guardado!";
+		$SQL = "Select * From usuario Where usu_mail = '$email1'";
+		$consulta = mysql_query($SQL);
+		$filas = mysql_num_rows($consulta);
+		$datos = mysql_fetch_row($consulta);
+
+			if ($filas>0){
+				echo "Correo ya registrado";
+			}else{
+				$SQL = "INSERT INTO usuario (usu_nombre, usu_mail, usu_pass, usu_edad)  Values ('".$name1."','".$email1."','".$pass1."','".$fecha."')";
+				mysql_query($SQL);
+				echo "Formulario guardado!";
+			}
+
+		//echo "Formulario guardado!";
 	}
 
-	$day = $_POST['day'];
-	$month = $_POST['month'];
-	$year = $_POST['year'];
-
-	$nac = new DateTime($year.'-'.$month.'-'.$day);
-	$act = new DateTime(date('Y-m-d'));
-	$final = $nac->diff($act);
-	$edad = $final->y;
-
-	echo "edad".$edad;
 /*
-	$SQL = "Select * From usuario Where usu_mail = '$user_Email1'";
-	$consulta = mysql_query($SQL);
-	$filas = mysql_num_rows($consulta);
-	$datos = mysql_fetch_row($consulta);
-
-	if ($filas>0){
-		$output = json_encode(array('type'=>'error', 'text' => 'Correo ya registrado'));
-		die($output);
-	}else{
-
-	if(strtolower($_SERVER['REQUEST_METHOD']) == 'post') {
-
 	
-		$SQL = "Insert Into usuario (usu_nombre, usu_mail, usu_pass) 
-	
-		Values ('".$user_Name1."','".$user_Email1."','".$user_Pass1."')";
-		mysql_query($SQL);
-
-		$output = json_encode(array('type'=>'error', 'text' => 'Usuario registrado correctamente'));
-		die($output);
-
-	}else{
-		$output = json_encode(array('type'=>'error', 'text' => 'Error al registrar usuario'));
-		die($output);	}                               
-	}
 */	
 ?>

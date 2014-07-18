@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
+<html lang="es">
+<head>
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cannabis - Admin</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9 ]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/html5shiv-printshiv.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <fieldset id="login">
+        LOGIN        
+        <div id="result2"></div>
+        <div class="error_class2" style="color:red; display:none;"></div>
+            <form action="login.php" name="loginadmin" id="loginadmin" method="post" onsubmit="return validarLogin();">
+            <label for="useradmin"><span>Nombre</span>
+                <input type="text" name="useradmin" id="useradmin"  />
+            </label>
+            <label for="passadmin"><span>Contraseña</span>
+                <input type="password" name="passadmin" id="passadmin"/>
+            </label>
+            <label><span>&nbsp;</span>
+                <input class="submit_btn2" id="submit_btn2" type="submit" value="LOGIN">
+            </label>
+        </form>
+    </fieldset>
+<!--
+si inicia sesion q los muestre
+<div id="">logout</div>
+<div id="">Usuarios</div>
+<div id="">Pedidos</div>
+-->
+</body>
+</html>

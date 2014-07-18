@@ -109,92 +109,142 @@ $(document).ready(function() {
     /* FIN SCRIPT CARRO */
 
  /* INICIO SCRIPT REGISTRO FORM*/
-function validarReg() {
+function validarReg(){
 
-
-    var name_err = email_err = pass_err = '';
     var name1 = document.getElementById("name1").value;
+    var email1 = document.getElementById("email1").value;
+    var pass1 = document.getElementById("pass1").value;
+    var day = document.getElementById("day").value;
+    var month = document.getElementById("month").value;
+    var year = document.getElementById("year").value;
+
+if (name1 == '' && email1 == '' && pass1 == '' && day =='' && month =='' && year =='' ) {
+      $('.error_class').empty().html('Campos vacios').fadeIn(2000, function() {
+        $(this).fadeOut();
+      });
+      return false;
+    };
+
+
     var namexp = /[A-Z a-z]{3}/;
         if (namexp.test(name1)) {
             //alert('bien nombre');
         }else{
-            name_err = 'Ingrese nombre';
+            //name_err = 'mal nombre';
+      //if (name_err == '' ) {
+      $('.error_class').empty().html('Ingrese Nombre').fadeIn(2000, function() {
+        $(this).fadeOut();
+      });
+      return false;
+    //};
         }
 
-    var email1 = document.getElementById("email1").value;
     var emailexp = /[\w-\.]{3,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
         if (emailexp.test(email1)) {
             //alert('bien mail');
         }else{
-            email_err = 'Ingrese mail válido';
+      $('.error_class').empty().html('Ingrese e-mail válido').fadeIn(2000, function() {
+        $(this).fadeOut();
+      });
+      return false;
         }
 
-
-    var pass1 = document.getElementById("pass1").value;
     var passexp = /[A-Z a-z 0-9]{3}/;
         if (passexp.test(pass1)){
             //alert('bien pass');
         }else{
-            pass_err = 'Ingrese contraseña';
-        }
-/*
-    var day = document.getElementById('day').value;
-    var month = document.getElementById('month').value;
-    var year = document.getElementById('year').value;
-
-   function getAge(year, month, day) {
-   var today = new Date();
-   var birthDate = new Date(year, month, day);
-   var age = today.getFullYear() - birthDate.getFullYear();
-   var m = today.getMonth() - birthDate.getMonth();
-   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-       age--;
-   }
-   return age;
-}*/
-        if(name1==""){ 
-            $('input[name=name1]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(email1==""){ 
-            $('input[name=email1]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(pass1=="") {    
-            $('input[name=pass1]').css('border-color','red'); 
-            proceed = false;
-        }
-
-
-    $("#regform input").keyup(function() { 
-        $("#regform input").css('border-color',''); 
-    });
-
-    /*   if (name1 == '' || email1 == '' || pass1 == '') {
-        $(".error_class").empty().html("Campos vacios").fadeIn(2000, function(){
+      $('.error_class').empty().html('Ingrese Contraseña').fadeIn(2000, function() {
         $(this).fadeOut();
       });
-        return false;
-    }
-*/
-    if (name_err !== '' || email_err !== '' || pass_err !== '') {
-        $(".error_class").empty().html(name_err+'<br>' + email_err +'<br>'+ pass_err+'<br><br>').fadeIn(2000, function(){
+      return false;
+        }
+
+    if (day!=='' && month !=='' && year !=='' ) {
+        var today = new Date();
+        var birthDate = new Date(year, month, day);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (age > 18) {
+          //alert('mayor');
+        }else{
+      $('.error_class').empty().html('Debes ser mayor de edad').fadeIn(2000, function() {
         $(this).fadeOut();
       });
-        return false;
+      return false;        }
+    }else{
+      $('.error_class').empty().html('Ingrese edad').fadeIn(2000, function() {
+        $(this).fadeOut();
+      });
+      return false;
     }
-
     //Si pasa las validaciones, enviar form modo async
     $.ajax({
       url: "function/registro.php",
       type: "POST",
       data: $("#regform").serialize(),
       beforeSend: function() {
-        $("#result1").empty().html('<h1>Procesando...</h1>');
+        $("#result1").fadeOut(2000).empty().html('<h1>Procesando...</h1>');
       },
       success: function(results) {
         $("#result1").delay(1000).empty().html('<h1>' + results + '</h1>');
-        $('#regform').trigger("reset");
+        $('#regform').trigger("reset");      }
+    });
+    return false;
+
+
+}
+
+
+ /* FIN SCRIPT REGISTRO FORM*/
+ /* INICIO SCRIPT LOGIN ADMIN FORM*/
+
+function validarLogin(){
+  var useradmin = document.getElementById("useradmin").value;
+  var passadmin = document.getElementById("passadmin").value;
+    
+    if (useradmin == '' && passadmin == '' ) {
+      $('.error_class2').empty().html('Campos vacios').fadeIn(2000, function() {
+        $(this).fadeOut();
+      });
+      return false;
+    };
+
+    var useradminexp = /[A-Z a-z]{3}/;
+      if (useradminexp.test(useradmin)) {
+
+      }else{
+        $('.error_class2').empty().html('Error Usuario').fadeIn(2000, function() {
+          $(this).fadeOut();
+      });
+        return false;
+      }
+
+    var passadminexp = /[A-Z a-z 0-9]{3}/;
+      if (passadminexp.test(passadmin)){
+
+      }else{
+        $('.error_class2').empty().html('Error Contraseña').fadeIn(2000, function() {
+          $(this).fadeOut();
+      });
+        return false;
+      }
+
+    $.ajax({
+      url: "function/loginadmin.php",
+      type: "POST",
+      data: $("#loginadmin").serialize(),
+      dataType: 'json',
+      beforeSend: function() {
+        $("#result2").fadeOut(2000).empty().html('<h1>Procesando...</h1>');
+        $('#loginadmin').trigger("reset");
+      },
+      success: function(results) {
+        if (results.error === '') {
+          location.href = results.url;
+        } else{
+          $("#result2").delay(1000).empty().html('<h1>' + results.error + '</h1>');
+          $('#loginadmin').trigger("reset");
+        }
       }
     });
     return false;

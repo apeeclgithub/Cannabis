@@ -250,7 +250,6 @@ function validarLogin(){
     return false;
 }
  /* FIN SCRIPT LOGIN ADMIN FORM*/
-<<<<<<< HEAD
  /* DATAGRID ADMIN*/
 
 
@@ -269,7 +268,6 @@ function buscarAdmin (){
 }
 
  /* FIN BUSCADOR ADMIN*/
-=======
 
 
  /* INICIO SCRIPT LOGIN CLIENTE FORM*/
@@ -326,4 +324,3 @@ function validarLoginCliente(){
     return false;
 }
  /* FIN SCRIPT LOGIN CLIENTE FORM*/
->>>>>>> origin/master

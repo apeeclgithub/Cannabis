@@ -72,7 +72,7 @@
 			}else{
 				$SQL = "INSERT INTO usuario (usu_nombre, usu_mail, usu_pass, usu_edad)  Values ('".$name1."','".$email1."','".$pass1."','".$fecha."')";
 				mysql_query($SQL);
-				echo "Formulario guardado!";
+				echo "Usuario registrado Correctamente";
 			}
 
 		//echo "Formulario guardado!";

@@ -27,7 +27,8 @@
 
 						    }
 						    
-						echo "<li><a href=\"#\">Valor Total: CLP ".$carrito->precio_total()." <span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
+						echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')." <span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
+						echo "<li><a href=\"venta.php\"><button class=\"comprar\">Confirmar Compra</button></a></li>";
 						}
 						echo '</ul>';
 					?>	
@@ -122,11 +123,7 @@
 	        } else {
 
 	        }
-
 	    });
-
-
-	
 	});
 </script>
 	</body>

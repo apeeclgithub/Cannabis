@@ -250,6 +250,7 @@ function validarLogin(){
     return false;
 }
  /* FIN SCRIPT LOGIN ADMIN FORM*/
+<<<<<<< HEAD
  /* DATAGRID ADMIN*/
 
 
@@ -268,3 +269,61 @@ function buscarAdmin (){
 }
 
  /* FIN BUSCADOR ADMIN*/
+=======
+
+
+ /* INICIO SCRIPT LOGIN CLIENTE FORM*/
+
+function validarLoginCliente(){
+  var usercliente = document.getElementById("usercliente").value;
+  var passcliente = document.getElementById("passcliente").value;
+    
+    if (usercliente == '' && passcliente == '' ) {
+      $('.error_class2').empty().html('Campos vacios').fadeIn(2000, function() {
+        $(this).fadeOut();
+      });
+      return false;
+    };
+
+    var userclienteexp = /[A-Z a-z]{3}/;
+      if (userclienteexp.test(usercliente)) {
+
+      }else{
+        $('.error_class2').empty().html('Error Usuario').fadeIn(2000, function() {
+          $(this).fadeOut();
+      });
+        return false;
+      }
+
+    var passclienteexp = /[A-Z a-z 0-9]{3}/;
+      if (passclienteexp.test(passcliente)){
+
+      }else{
+        $('.error_class2').empty().html('Error Contraseña').fadeIn(2000, function() {
+          $(this).fadeOut();
+      });
+        return false;
+      }
+
+    $.ajax({
+      url: "function/logincliente.php",
+      type: "POST",
+      data: $("#logincliente").serialize(),
+      dataType: 'json',
+      beforeSend: function() {
+        $("#result3").fadeOut(2000).empty().html('<h1>Procesando...</h1>');
+        $('#logincliente').trigger("reset");
+      },
+      success: function(results) {
+        if (results.error === '') {
+          location.href = results.url;
+        } else{
+          $("#result3").delay(1000).empty().html('<h1>' + results.error + '</h1>');
+          $('#logincliente').trigger("reset");
+        }
+      }
+    });
+    return false;
+}
+ /* FIN SCRIPT LOGIN CLIENTE FORM*/
+>>>>>>> origin/master

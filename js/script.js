@@ -250,3 +250,21 @@ function validarLogin(){
     return false;
 }
  /* FIN SCRIPT LOGIN ADMIN FORM*/
+ /* DATAGRID ADMIN*/
+
+
+function adminCargar()
+{
+    $('#datagrid').load('function/consulta.php'); 
+
+}
+
+ /* fin ADMIN*/
+
+ /* BUSCADOR ADMIN*/
+
+function buscarAdmin (){
+  
+}
+
+ /* FIN BUSCADOR ADMIN*/

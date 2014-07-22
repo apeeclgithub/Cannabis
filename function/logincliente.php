@@ -29,7 +29,7 @@
 		$response = array('error' => $error);
 	} else {
 
-		$SQL = "SELECT * FROM USUARIO WHERE USU_MAIL = '".$usercliente."' AND USU_PASS = '".$passcliente."'" ;
+		$SQL = "SELECT * FROM USUARIO WHERE USU_MAIL = '$usercliente' AND USU_PASS = '$passcliente'" ;
 		$consulta = mysql_query($SQL);
 		$filas = mysql_num_rows($consulta);
 		$datos = mysql_fetch_array($consulta);

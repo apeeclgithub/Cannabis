@@ -5,6 +5,26 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/script.js" type="text/javascript"></script>
+<script language="javascript">// <![CDATA[
+$(document).ready(function() {
+
+   // Interceptamos el evento submit
+    $('#logincliente').submit(function() {
+  // Enviamos el formulario usando AJAX
+        $.ajax({
+            type: 'POST',
+            url: $(this).attr('action'),
+            data: $(this).serialize(),
+            // Mostramos un mensaje con la respuesta de PHP
+            success: function(data) {
+         
+                $('#data').html(data);
+            }
+        })        
+        return false;
+    }); 
+})
+// ]]></script>
 	</head>
 	<body>
 
@@ -48,32 +68,14 @@
 		<a href="carro.php">Ver Catalogo</a>
 
 		<hr />
-		<h2>Ingrese a su cuenta para continuar.</h2>
-		<fieldset id="login">
-        LOGIN        
-        <div id="result3"></div>
-        <div class="error_class2" style="color:red; display:none;"></div>
-            <form action="venta.php" name="logincliente" id="logincliente" method="post" onsubmit="return validarLoginCliente();">
-            <label for="usercliente"><span>Nombre</span>
-                <input type="text" name="usercliente" id="usercliente" />
-            </label>
-            <label for="passcliente"><span>Contraseña</span>
-                <input type="password" name="passcliente" id="passcliente" />
-            </label>
-            <label><span>&nbsp;</span>
-                <input class="submit_btn3" id="submit_btn3" type="submit" value="LOGIN">
-            </label>
-        </form>
-    </fieldset>
 
-    <?php 
-    if(@$_SESSION["nombre"]){
-    	echo 'con session';
-    }else{
-    	echo 'sin session';
-    }
-
-    ?>
+	    <?php 
+		    if(@$_SESSION["usuario"]){
+		    	include 'datoscliente.php';
+		    }else{
+		    	include 'login_cliente.html';
+		    }
+	    ?>
 
 	</body>	
 </html>

@@ -26,4 +26,5 @@
 	echo $dato1["reg_nombre"];
 	echo '<br>';
 	echo '<a href="#">Modificar</a>';
+
 ?>

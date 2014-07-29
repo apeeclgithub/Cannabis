@@ -223,24 +223,25 @@ a >.comprar:hover .comprar:before {
 	display: inline;
 	list-style: none;
 }
-.reg{
-	float:right;
-	margin-right: 10%;
-
-}
-
-.reg li{
-	display: inline;
-	list-style: none;
-}
-
 .menu{
 	float:right;
 	margin-right: 10%;
-
+	position: relative;
+	top: 20px;
 }
 
 .menu li{
+	display: inline;
+	list-style: none;
+}
+.reg{
+	float:right;
+	margin-right: 10%;
+	position: relative;
+	top:40px;
+}
+
+.reg li{
 	display: inline;
 	list-style: none;
 }

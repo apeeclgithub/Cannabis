@@ -207,3 +207,40 @@ background-color: #35afe3;
 a >.comprar:hover .comprar:before {
 	background: #32373D;
 }
+
+
+
+
+/*header */
+
+
+.redes{
+	float:right;
+	margin-right: 10%;
+}
+
+.redes li{
+	display: inline;
+	list-style: none;
+}
+.reg{
+	float:right;
+	margin-right: 10%;
+
+}
+
+.reg li{
+	display: inline;
+	list-style: none;
+}
+
+.menu{
+	float:right;
+	margin-right: 10%;
+
+}
+
+.menu li{
+	display: inline;
+	list-style: none;
+}

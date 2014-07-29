@@ -255,10 +255,12 @@ function validarLogin(){
 
 function adminCargar()
 {
-    $('#datagrid').load('function/consulta.php'); 
-
+ //   $('#datagrid').load('function/consulta.php');
 }
 
+function confirmar(){ 
+      return confirm("Si Borra este registro no se podra recuperar, ¿confirma el borrado del registro?");
+} 
  /* fin ADMIN*/
 
  /* BUSCADOR ADMIN*/

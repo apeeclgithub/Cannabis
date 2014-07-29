@@ -46,9 +46,32 @@ si inicia sesion q los muestre
 <div id="">Pedidos</div>
 -->
     <button id="carga" name="carga" onclick="adminCargar();">CARGAR</button>
-        <h4 class="widgettitulo">Listado de Empleados</h4> 
+        <h4 class="widgettitulo">Listado de Clientes con todos los datos</h4> 
         <div class="datagrid" id="datagrid"> 
+            <table>
+            <thead><tr><th>ID usuario</th><th>Nombre</th><th>Fono</th><th>Mail</th><th>Edad</th><th>Dirección</th><th>Comuna</th><th>Región</th></tr></thead>
+            <tbody>
+                <?php
+                    include 'function/conexion.php';
+                    $consulta = mysql_query("SELECT usuario.usu_id, usu_nombre, usu_fono, usu_mail, usu_edad, dir_direccion, com_nombre, reg_nombre FROM usuario INNER JOIN direccion ON usuario.usu_id = direccion.usu_id INNER JOIN comuna ON direccion.com_id = comuna.com_id INNER JOIN region ON comuna.reg_id = region.reg_id where usuario.usu_id = direccion.usu_id");
+                    while ($fila = mysql_fetch_array($consulta)) { 
+                    echo "<tr>";
+                    echo "<td>".$fila['usu_id']."</td>";
+                    echo "<td>".$fila['usu_nombre']."</td>";
+                    echo "<td>".$fila['usu_fono']."</td>";
+                    echo "<td>".$fila['usu_mail']."</td>";
+                    echo "<td>".$fila['usu_edad']."</td>";
+                    //echo "<td>".$row['USU_PASS']."</td>";
+                    echo "<td>".$fila['dir_direccion']."</td>";
+                    echo "<td>".$fila['com_nombre']."</td>";
+                    echo "<td>".$fila['reg_nombre']."</td>";
 
+                    echo '<td><a onClick="return confirmar();" href="function/deleteuser.php?id='.trim($fila['usu_id']).'" >Eliminar</a></td>';
+                    echo "</tr>";
+                        }
+                ?>
+            </tbody>
+            </table>
         </div> 
 
 </body>

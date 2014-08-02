@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto|Oswald:400,700);
+
 /* form Contacto  */
 #contact_form{ width:300px; padding:20px; border: 1px solid #DDD;border-radius: 5px; font-family: Arial; font-size: 11px; font-weight: bold;color: #666666; background:#FAFAFA; margin-right: auto; margin-left: auto;}
 #contact_form legend{font-size: 15px; color: #C9C9C9;}
@@ -213,35 +215,114 @@ a >.comprar:hover .comprar:before {
 
 /*header */
 
-
-.redes{
-	float:right;
-	margin-right: 10%;
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url('../img/bg.png');
 }
 
-.redes li{
-	display: inline;
-	list-style: none;
+.contenedor{
+
 }
-.menu{
-	float:right;
-	margin-right: 10%;
+
+.header{
+	width:100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.redes_top{
+	background-color: #5a903f;
+	padding:10px;
+	font-size: 13.65px;
+	font-family:'Oswald', sans-serif;
+	color:white;
+	font-weight: 700;
+}
+.red_top{
+	margin-left:78.8%;
+	display:inline;
+}
+
+.red_top img{
+	width: 31px;
+	height: 27px;
+}
+
+.redes_top a {
+	text-decoration: none;
+	padding: 2px;
+	color:white;
+}
+#follow{
+	float: left;
 	position: relative;
-	top: 20px;
+	margin-right: 5px;
+	list-style: none;
+	padding-top: 5px;
+	left: 78%;
 }
 
-.menu li{
-	display: inline;
-	list-style: none;
-}
-.reg{
-	float:right;
-	margin-right: 10%;
-	position: relative;
-	top:40px;
+.menu_p{
+
+	font-family:'Oswald', sans-serif;
+	text-align:center;
+	background-color: #a2bb39;
+	font-weight: 700;
 }
 
-.reg li{
-	display: inline;
-	list-style: none;
+.menu_p a{
+	text-decoration: none;
+	color:white;
+}
+
+.menu_p ul li{
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	padding: 10px 10px 5px 10px;
+	font-size: 15.58px;
+}
+#menu_inicio{
+	border-right: medium solid white;
+	padding-right: 20px;
+}
+
+#menu_quienes{
+	border-right: medium solid white;
+	padding-right: 20px;
+}
+
+#menu_prod{
+	border-right: medium solid white;
+	padding-right: 20px;
+}
+
+#menu_cont{
+	border-right: medium solid white;
+	padding-right: 20px;
+}
+
+#menu_cond{	
+	border-right: medium solid white;
+	padding-right: 20px;
+}
+
+.ul_menu{
+	padding: 15px;
+	background-color: #a2bb39;
+	margin-top: -5px;
+}
+
+.logo {
+	text-align: center;
+	margin-top: -6%;
+	font-size: 15.58px;
+	font-family:'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+.logo a{
+	color:#689851;
+
 }

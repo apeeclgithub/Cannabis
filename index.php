@@ -40,6 +40,7 @@
 
 
 <!-- Script GA-->
+<!--
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -50,34 +51,51 @@
   ga('send', 'pageview');
 
 </script>
+-->
 </head>
 <body>
-	<header>
-		<nav>
-			<ul class="redes">
-				<li>SÍGUENOS</li>
-				<li><a href="#">TW</a></li>
-				<li><a href="#">IN</a></li>
-				<li><a href="#">FB</a></li>
-			</ul>
-		</nav>
-		<nav>
-			<ul class="menu">
-				<li><a href="#">INICIO</a></li>
-				<li><a href="#">QUIENES SOMOS</a></li>
-				<li><a href="#">NUESTROS PRODUCTOS</a></li>
-				<li><a href="#">CONTACTO</a></li>
-				<li><a href="#">CONDICIONES DE COMPRA</a></li>
-				<li><a href="#">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
-			</ul>
-		<nav>
-			<ul class="reg">
-				<li><a href="#">LOGO</a></li>
-				<li><a href="#">REGISTRO</a></li>
-				<li><a href="#">CUENTA</a></li>
-				<li><a href="#">CARRO</a></li>
-			</ul>
-		</nav>
-	</header>
+	<div class="contenedor">
+		<header class="header">
+			<div class="redes_top">
+				<div class="red_top">
+					<li id="follow">SÍGUENOS</li>
+					<a href="#"><img src="img/fb.png" alt="twitter"></a>
+					<a href="#"><img src="img/fb.png" alt="instagran"></a>
+					<a href="#"><img src="img/fb.png" alt="facebook"></a>
+				</div>
+			</div>
+			
+			
+			<div class="ul_menu">
+				<nav class="menu_p">
+						<ul>
+							<li ><a href="" id="menu_inicio">INICIO</a></li>
+							<li ><a href="" id="menu_quienes">QUIENES SOMOS</a></li>
+							<li ><a href="" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+							<li ><a href="" id="menu_cont">CONTACTO</a></li>
+							<li ><a href="" id="menu_cond">CONDICIONES DE COMPRA</a></li>
+							<li><a href="">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+						</ul>
+				</nav>
+			</div>
+
+			<div class="logo">
+				<img src="img/logo-500.png" alt="">
+				<a href="#">REGISTRO</a>
+				<a href="#">MI CUENTA</a>
+				<a href="#">CARRO</a>
+			</div>
+
+		</header>
+	</div>
 </body>
 </html>
+
+
+
+
+
+
+letra oswald
+a2bb39
+16.4

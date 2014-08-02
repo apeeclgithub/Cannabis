@@ -7,8 +7,8 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<link href="img/favicon.ico" rel="icon" type="image/x-icon" /><!--faltafavicon -->
-    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link href="img/logo-250.png" rel="icon" type="image/x-icon" /><!--faltafavicon -->
+    <link href="img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espacio verde natural</title>
@@ -23,7 +23,7 @@
 
 <!--Facebook Tags-->
 	<meta property="og:title" content="Espacio verde natural"/>
-	<meta property="og:image" content="IMAGEN EN 250"/>
+	<meta property="og:image" content="img/logo-250.png"/>
 	<meta property="og:site_name" content="Espacio verde natural"/>
 	<meta property="og:description" content="Espacio verde natural, venta de variados productos"/>	
 	<!--Twitter Cards Tags-->
@@ -32,7 +32,7 @@
 	<meta name="twitter:title" content="Espacio verde natural">
 	<meta name="twitter:description" content="Espacio verde natural, venta de variados productos">
 	<meta name="twitter:creator" content="@PONER TWITTER">
-	<meta name="twitter:image:src" content="IMAGEN EN 250">
+	<meta name="twitter:image:src" content="img/logo-250.png">
 
 	<meta name="description" content="Espacio verde natural, venta de variados productos">
 	<meta name="author" content="Espacio verde natural">

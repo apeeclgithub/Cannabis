@@ -59,9 +59,9 @@
 			<div class="redes_top">
 				<div class="red_top">
 					<li id="follow">SÍGUENOS</li>
-					<a href="#"><img src="img/fb.png" alt="twitter"></a>
-					<a href="#"><img src="img/fb.png" alt="instagran"></a>
-					<a href="#"><img src="img/fb.png" alt="facebook"></a>
+					<a href="#"><img src="img/twitter.png" alt="twitter"></a>
+					<a href="#"><img src="img/instagram.png" alt="instagran"></a>
+					<a href="#"><img src="img/facebook.png" alt="facebook"></a>
 				</div>
 			</div>
 			
@@ -78,14 +78,17 @@
 						</ul>
 				</nav>
 			</div>
-
-			<div class="logo">
-				<img src="img/logo-500.png" alt="">
-				<a href="#">REGISTRO</a>
-				<a href="#">MI CUENTA</a>
-				<a href="#">CARRO</a>
+	
+			
+				<div class="logo">
+					<img src="img/logo-500.png" alt="">
+				</div>
+			<div class="sesion">
+				<a href="#" id="menu_registro">REGISTRO</a>
+				<a href="#" id="menu_cuenta">MI CUENTA</a>
+				<a href="#" id="img_carro"><img src="img/carro.png" alt="carro"></a>
+				<a href="#" id="menu_carro">CARRO (2)</a>
 			</div>
-
 		</header>
 	</div>
 </body>

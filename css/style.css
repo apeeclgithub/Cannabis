@@ -233,7 +233,7 @@ body{
 
 .redes_top{
 	background-color: #5a903f;
-	padding:10px;
+	padding:5px;
 	font-size: 13.65px;
 	font-family:'Oswald', sans-serif;
 	color:white;
@@ -246,7 +246,7 @@ body{
 
 .red_top img{
 	width: 31px;
-	height: 27px;
+	height: 31px;
 }
 
 .redes_top a {
@@ -257,16 +257,15 @@ body{
 #follow{
 	float: left;
 	position: relative;
-	margin-right: 5px;
+	margin-right: -5px;
 	list-style: none;
-	padding-top: 5px;
+	padding-top: 6px;
 	left: 78%;
 }
 
 .menu_p{
 
 	font-family:'Oswald', sans-serif;
-	text-align:center;
 	background-color: #a2bb39;
 	font-weight: 700;
 }
@@ -280,49 +279,60 @@ body{
 	list-style:none;
 	position:relative;
 	display:inline-block;
-	padding: 10px 10px 5px 10px;
 	font-size: 15.58px;
 }
 #menu_inicio{
-	border-right: medium solid white;
-	padding-right: 20px;
+	border-right: solid;
 }
 
 #menu_quienes{
-	border-right: medium solid white;
-	padding-right: 20px;
+	border-right: solid;
 }
 
 #menu_prod{
-	border-right: medium solid white;
-	padding-right: 20px;
+	border-right: solid;
 }
 
 #menu_cont{
-	border-right: medium solid white;
-	padding-right: 20px;
+	border-right: solid;
 }
 
 #menu_cond{	
-	border-right: medium solid white;
-	padding-right: 20px;
+	border-right: solid;
 }
 
 .ul_menu{
-	padding: 15px;
 	background-color: #a2bb39;
-	margin-top: -5px;
 }
 
 .logo {
 	text-align: center;
 	margin-top: -6%;
-	font-size: 15.58px;
+}
+
+.sesion a{
+	color:#689851;
+
+}
+.sesion{
+	margin-left: 62%;
+	margin-top: -23%;
+	font-size: 16.61px;
 	font-family:'Oswald', sans-serif;
 	font-weight: 400;
 }
 
-.logo a{
-	color:#689851;
+#menu_registro{
+	padding-right: 13%
+}
 
+#menu_cuenta{
+	padding-right: 10%
+}
+
+#img_carro{
+	padding-right:2%;
+}
+
+#menu_carro{
 }

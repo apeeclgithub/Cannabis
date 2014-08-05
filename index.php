@@ -86,7 +86,7 @@
 			<div class="sesion">
 				<a href="#" id="menu_registro">REGISTRO</a>
 				<a href="#" id="menu_cuenta">MI CUENTA</a>
-				<a href="#" id="img_carro"><img src="img/carro.png" alt="carro"></a>
+				<a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
 				<a href="#" id="menu_carro">CARRO (2)</a>
 			</div>
 		</header>

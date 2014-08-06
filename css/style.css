@@ -222,26 +222,29 @@ body{
 }
 
 .contenedor{
-
+	width:100%;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .header{
-	width:100%;
-	max-width: 1280px;
-	margin: 0 auto;
+
 }
 
 .redes_top{
 	background-color: #5a903f;
 	padding:5px;
-	font-size: 13.65px;
+	font-size: 13.64px;
 	font-family:'Oswald', sans-serif;
 	color:white;
 	font-weight: 700;
+	padding-left: 78.5%;
+
 }
 .red_top{
-	margin-left:78.8%;
 	display:inline;
+	max-width:1080px;
 }
 
 .red_top img{
@@ -256,11 +259,9 @@ body{
 }
 #follow{
 	float: left;
-	position: relative;
-	margin-right: -5px;
-	list-style: none;
-	padding-top: 6px;
-	left: 78%;
+    margin-right: 5px;
+    padding-top: 6px;
+    list-style: none;
 }
 
 .menu_p{
@@ -268,8 +269,11 @@ body{
 	font-family:'Oswald', sans-serif;
 	background-color: #a2bb39;
 	font-weight: 700;
-	height: 50px;
-	padding-top: 25px;
+	height: auto;
+	padding: 25px;
+	margin:auto;
+	max-width:1280px;
+	text-align: center;
 }
 
 .menu_p a{
@@ -285,22 +289,40 @@ body{
 }
 #menu_inicio{
 	border-right: solid;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 #menu_quienes{
 	border-right: solid;
+	padding-right: 20px;
+		padding-left: 20px;
+
 }
 
 #menu_prod{
 	border-right: solid;
+	padding-right: 20px;
+		padding-left: 20px;
+
 }
 
 #menu_cont{
 	border-right: solid;
+	padding-right: 20px;
+	padding-left: 20px;
+
 }
 
 #menu_cond{	
 	border-right: solid;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+
+#menu_pol{
+	padding-left: 20px;
 }
 
 .ul_menu{
@@ -309,6 +331,11 @@ body{
 
 .logo {
 	text-align: center;
+	margin-top: 30px;
+}
+
+.logo img{
+	position:relative;
 }
 
 .sesion a{
@@ -320,6 +347,8 @@ body{
 	font-size: 16.61px;
 	font-family:'Oswald', sans-serif;
 	font-weight: 400;
+	margin-top: -13%;
+	max-width: 1280px;
 }
 
 #menu_registro{
@@ -334,6 +363,43 @@ body{
 	padding-right:2%;
 }
 
+#img_carro img{
+	border:0;
+}
 
 #menu_carro{
 }
+/*slider*/
+.news{
+	text-align: center;
+}
+
+.noticia{
+	font-size: 19.56px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #939c07;
+}
+
+.noticia img{
+	width:100%;
+	max-width: 1080px;	
+}
+
+/*ultimos productos*/
+
+
+.prods{
+	margin: 0 auto;
+	width: 1080px;
+}
+
+.ult_prods{
+	font-size: 46.43px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #939c07;
+	padding-top: 45px;
+}
+
+

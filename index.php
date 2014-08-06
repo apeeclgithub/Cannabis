@@ -14,6 +14,7 @@
     <title>Espacio verde natural</title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/script.js"></script>
+	<script src="js/modernizr.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9 ]>
     <script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -74,7 +75,7 @@
 							<li ><a href="" id="menu_prod">NUESTROS PRODUCTOS</a></li>
 							<li ><a href="" id="menu_cont">CONTACTO</a></li>
 							<li ><a href="" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-							<li><a href="">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+							<li><a href="" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
 						</ul>
 				</nav>
 			</div>
@@ -90,15 +91,22 @@
 				<a href="#" id="menu_carro">CARRO (2)</a>
 			</div>
 		</header>
+		<section class="section">
+			<article class="news">
+				<div class="noticia">
+					<img src="img/noticia.png" alt="news">
+				</div>
+			</article>
+
+			<article class="prods">
+				<div class="ult_prods">
+					ÚLTIMOS PRODUCTOS
+				</div>
+
+			</article>
+		</section>
 	</div>
+
+
 </body>
 </html>
-
-
-
-
-
-
-letra oswald
-a2bb39
-16.4

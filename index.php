@@ -22,7 +22,7 @@
     <script type="text/javascript" src="js/respond.min.js"></script>
     <![endif]-->
 
-<!--Facebook Tags-->
+	<!--Facebook Tags-->
 	<meta property="og:title" content="Espacio verde natural"/>
 	<meta property="og:image" content="img/logo-250.png"/>
 	<meta property="og:site_name" content="Espacio verde natural"/>
@@ -72,9 +72,9 @@
 							<li ><a href="" id="menu_inicio">INICIO</a></li>
 							<li ><a href="" id="menu_quienes">QUIENES SOMOS</a></li>
 							<li ><a href="" id="menu_prod">NUESTROS PRODUCTOS</a></li>
-							<li ><a href="" id="menu_cont">CONTACTO</a></li>
+							<li ><a href="contacto.html" 	id="menu_cont">CONTACTO</a></li>
 							<li ><a href="" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-							<li><a href="" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+							<li ><a href="" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
 						</ul>
 				</nav>
 			</div>

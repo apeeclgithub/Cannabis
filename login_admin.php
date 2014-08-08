@@ -1,16 +1,8 @@
 <?php
 include 'function/conexion.php';
-if(isset($_SESSION['user'])){
 
-}else{
-	$sql = "SELECT user FROM admin WHERE user = '".$_SESSION['user']."'";
-	$dato = mysql_num_rows(mysql_query($sql));
-	if($dato > 0){
-		
-	}else{
-		echo "<script>location.href='admin.php';</script>";
-	}
-	echo $dato;
+if(isset($_SESSION['admin'])){
+	echo "<script>location.href='admin.php';</script>";
 }
 
 ?>
@@ -60,6 +52,8 @@ if(isset($_SESSION['user'])){
 	</fieldset>
 		
 		<div id="data1"></div>
+
+
 
 	</body>
 </html>

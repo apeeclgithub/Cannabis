@@ -1,3 +1,22 @@
+<?php
+session_start();
+include 'function/conexion.php';
+
+if(isset($_SESSION['admin'])){
+    $sql = "SELECT user FROM admin WHERE user = '".$_SESSION['admin']."'";
+    $dato = mysql_num_rows(mysql_query($sql));
+    if($dato > 0){
+
+    }else{
+        echo "<script>location.href='login_admin.php';</script>";
+    }
+}
+if(empty($_SESSION['admin'])){
+    echo "<script>location.href='login_admin.php';</script>";
+}
+?>
+
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
@@ -15,6 +34,47 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/script.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script>
+        $(document).ready(function(){
+                                
+        var consulta;
+                                                                          
+         //hacemos focus al campo de búsqueda
+        $("#busqueda").focus();
+                                                                                                    
+        //comprobamos si se pulsa una tecla
+        $("#busqueda").keyup(function(e){
+                                     
+              //obtenemos el texto introducido en el campo de búsqueda
+              consulta = $("#busqueda").val();
+                                                                           
+              //hace la búsqueda
+                                                                                  
+              $.ajax({
+                    type: "POST",
+                    url: "buscar.php",
+                    data: "b="+consulta,
+                    dataType: "html",
+                    beforeSend: function(){
+                          //imagen de carga
+                          $("#resultado").html("<p align='center'><img src='ajax-loader.gif' /></p>");
+                    },
+                    error: function(){
+                          alert("error petición ajax");
+                    },
+                    success: function(data){                                                    
+                          $("#resultado").empty();
+                          $("#resultado").append(data);
+                                                             
+                    }
+              });
+                                                                                  
+                                                                           
+        });
+                                                                   
+});
+
+    </script>
     <!--[if lt IE 9 ]>
     <script type="text/javascript" src="js/html5shiv.min.js"></script>
     <script type="text/javascript" src="js/html5shiv-printshiv.min.js"></script>
@@ -23,32 +83,17 @@
 </head>
 
 <body>
-    <fieldset id="login">
-        LOGIN        
-        <div id="result2"></div>
-        <div class="error_class2" style="color:red; display:none;"></div>
-            <form action="login.php" name="loginadmin" id="loginadmin" method="post" onsubmit="return validarLogin();">
-            <label for="useradmin"><span>Nombre</span>
-                <input type="text" name="useradmin" id="useradmin"  />
-            </label>
-            <label for="passadmin"><span>Contraseña</span>
-                <input type="password" name="passadmin" id="passadmin"/>
-            </label>
-            <label><span>&nbsp;</span>
-                <input class="submit_btn2" id="submit_btn2" type="submit" value="LOGIN">
-            </label>
-        </form>
-    </fieldset>
-<!--
-si inicia sesion q los muestre
-<div id="">logout</div>
-<div id="">Usuarios</div>
-<div id="">Pedidos</div>
--->
-    <button id="carga" name="carga" onclick="adminCargar();">CARGAR</button>
-        <h4 class="widgettitulo">Listado de Clientes con todos los datos</h4> 
-        <div class="datagrid" id="datagrid"> 
-            <table>
+
+<input type="text" id="busqueda" />
+             
+<div id="resultado"></div>
+
+
+    <a href="function/logout.php">salir</a>
+        <fieldset> 
+        <legend class="widgettitulo">Listado de Clientes con todos los datos</legend> 
+        
+            <table border="1">
             <thead><tr><th>ID usuario</th><th>Nombre</th><th>Fono</th><th>Mail</th><th>Edad</th><th>Dirección</th><th>Comuna</th><th>Región</th></tr></thead>
             <tbody>
                 <?php
@@ -72,7 +117,30 @@ si inicia sesion q los muestre
                 ?>
             </tbody>
             </table>
-        </div> 
+        </fieldset> 
+
+
+        <fieldset>
+            <legend>Pedidos Pendientes</legend>
+
+            <?php
+
+            $sql = "SELECT ped_id, usu_nombre, ped_valor FROM pedido INNER JOIN usuario ON usuario.usu_id = pedido.usu_id WHERE ped_estado = 'pendiente'";
+            $con = mysql_query($sql);
+            while($dato = mysql_fetch_array($con)){
+                echo $dato['ped_id'];
+                echo $dato['usu_nombre'];
+                echo $dato['ped_valor'];
+
+            }
+
+        
+
+
+
+
+            ?>
+        </fieldset>
 
 </body>
 </html>

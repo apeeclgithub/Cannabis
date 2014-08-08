@@ -454,3 +454,9 @@ body{
 	border:0;
 }
 
+.footer_home{
+	background-color: #a2bb39;
+	max-width:1280px;
+	width:100%;
+	clear: both;
+}

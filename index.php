@@ -55,7 +55,6 @@
 -->
 </head>
 <body>
-	<div class="contenedor">
 		<header class="header">
 			<div class="redes_top">
 				<div class="red_top">
@@ -192,6 +191,8 @@
 				</div>
 			</article>
 		</section>
-	</div>
+		<footer>
+			
+		</footer>
 </body>
 </html>

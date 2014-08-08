@@ -220,13 +220,14 @@ body{
 	margin: 0;
 	background-image: url('../img/bg-mini.png');
     background-repeat: repeat;
-}
-
-.contenedor{
-	width:100%;
+    width:100%;
 	margin: 0 auto;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.contenedor{
+
 }
 
 .header{
@@ -450,4 +451,6 @@ body{
 	width:100%;
 	padding-left: 17px;
 	padding-bottom: 14px;
+	border:0;
 }
+

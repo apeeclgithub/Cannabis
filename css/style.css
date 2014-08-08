@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto|Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400|Oswald:400,700);
 
 /* form Contacto  */
 #contact_form{ width:300px; padding:20px; border: 1px solid #DDD;border-radius: 5px; font-family: Arial; font-size: 11px; font-weight: bold;color: #666666; background:#FAFAFA; margin-right: auto; margin-left: auto;}
@@ -218,7 +218,8 @@ a >.comprar:hover .comprar:before {
 body{
 	padding: 0;
 	margin: 0;
-	background-image: url('../img/bg.png');
+	background-image: url('../img/bg-mini.png');
+    background-repeat: repeat;
 }
 
 .contenedor{
@@ -349,6 +350,7 @@ body{
 	font-weight: 400;
 	margin-top: -13%;
 	max-width: 1280px;
+
 }
 
 #menu_registro{
@@ -389,9 +391,9 @@ body{
 /*ultimos productos*/
 
 
-.prods{
+.ult_prod{
 	margin: 0 auto;
-	width: 1080px;
+	max-width: 1080px;
 }
 
 .ult_prods{
@@ -402,4 +404,50 @@ body{
 	padding-top: 45px;
 }
 
+.productos{
+	width:100%;
+	float: left;
+	position: relative;
+}
 
+/* nuevos productos*/
+.item_home{
+	color: #939c07;
+    float: left;
+    font-family: 'Oswald',sans-serif;
+    font-size: 16.56px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 260px;
+    padding-right: 9.3px;
+    padding-bottom: 3%;
+}
+
+.item_home img{
+	margin:0 auto;
+    padding-top: 22.3px;
+    width: 100%;
+}
+
+.text_home{
+    background-color: #a56122;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    margin-top: -5px;
+    padding-top: 23px;
+    padding-left: 17px;
+    font-size:12.88px;
+    padding-right:17px;
+    font-weight: 400;
+}
+
+.img_vermas{
+	width:60px;
+}
+
+.img_vermas img{
+	padding-top: 14px;
+	width:100%;
+	padding-left: 17px;
+	padding-bottom: 14px;
+}

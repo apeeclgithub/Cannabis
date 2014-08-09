@@ -68,6 +68,7 @@
 			
 			<div class="ul_menu">
 				<nav class="menu_p">
+					<div id="menuGrande">
 						<ul>
 							<li ><a href="" id="menu_inicio">INICIO</a></li>
 							<li ><a href="" id="menu_quienes">QUIENES SOMOS</a></li>
@@ -76,6 +77,23 @@
 							<li ><a href="" id="menu_cond">CONDICIONES DE COMPRA</a></li>
 							<li ><a href="" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
 						</ul>
+					</div>
+					<div id="menuChico">
+					<input id="check1" type="checkbox" />
+			        <label for="check1">
+			            <img src="img/menu.png" alt="icono">
+			        </label>
+			        <div class="menu">
+						<ul>
+							<li ><a href="" id="menu_inicio">INICIO</a></li>
+							<li ><a href="" id="menu_quienes">QUIENES SOMOS</a></li>
+							<li ><a href="" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+							<li ><a href="contacto.html" 	id="menu_cont">CONTACTO</a></li>
+							<li ><a href="" id="menu_cond">CONDICIONES DE COMPRA</a></li>
+							<li ><a href="" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+						</ul>
+					</div>
+					</div>
 				</nav>
 			</div>
 	

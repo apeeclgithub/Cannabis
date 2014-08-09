@@ -46,9 +46,9 @@
             <div class="redes_top">
                 <div class="red_top">
                     <li id="follow">SÍGUENOS</li>
-                    <a href="#"><img src="img/twitter.png" alt="twitter"></a>
-                    <a href="#"><img src="img/instagram.png" alt="instagran"></a>
-                    <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                    <a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+                    <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagran"></a>
+                    <a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
                 </div>
             </div>
             
@@ -56,12 +56,12 @@
             <div class="ul_menu">
                 <nav class="menu_p">
                         <ul>
-                            <li ><a href="" id="menu_inicio">INICIO</a></li>
-                            <li ><a href="" id="menu_quienes">QUIENES SOMOS</a></li>
-                            <li ><a href="" id="menu_prod">NUESTROS PRODUCTOS</a></li>
-                            <li ><a href="contacto.html"    id="menu_cont">CONTACTO</a></li>
-                            <li ><a href="" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-                            <li ><a href="" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+                            <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
+                            <li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
+                            <li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+                            <li ><a href="contacto.php"    id="menu_cont">CONTACTO</a></li>
+                            <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
+                            <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
                         </ul>
                 </nav>
             </div>
@@ -88,8 +88,36 @@
         </label>
         
         <label><span>&nbsp;</span>
-            <button class="submit_btn" id="submit_btn">Submit</button>
+            <button class="submit_btn" id="submit_btn">Enviar</button>
         </label>
     </fieldset>
+        <footer class="pie">
+            <div class="cont_pie">
+                <div class="logo_pie">
+                    <img src="img/logo-footer.png" alt="Espacio verde natural">
+                </div>
+                <div class="follow_pie">
+                    <div class="follow_text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias</div>
+                    <div class="sig_foot">
+                        SÍGUENOS
+                    </div>
+                    <div class="tw_pie"><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></div>
+                </div>
+                <div class="soporte">
+                    <div class="title_sop">SOPORTE</div>
+                    <div class="cond_sop">Condiciones de compra</div>
+                    <div class="cond_sop">Políticas de privacidad</div>
+                    <div class="cond_sop">Términos de uso</div>
+                    <div class="cond_sop_1">Preguntas frecuentes</div>
+
+                </div>
+                <div class="contacto">
+                    <div class="title_cont">CONTÁCTANOS</div>
+                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;alo@espacioverdenatural.cl</div>
+                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;800 800 800</div>
+                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;+9 999 9999</div>                      
+                </div>
+            </div>
+        </footer>  
 </body>
 </html>

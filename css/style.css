@@ -1,16 +1,47 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400|Oswald:400,700);
 
 /* form Contacto  */
-#contact_form{ width:300px; padding:20px; border: 1px solid #DDD;border-radius: 5px; font-family: Arial; font-size: 11px; font-weight: bold;color: #666666; background:#FAFAFA; margin-right: auto; margin-left: auto;}
-#contact_form legend{font-size: 15px; color: #C9C9C9;}
-#contact_form label{display: block; margin-bottom:5px;}
-#contact_form label span{float:left; width:100px; color:#666666;}
+#contact_form{
+	width: 300px;
+	padding: 20px;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin-right: auto;
+	margin-left: auto;
+	color:#5a903f;
+	padding-bottom: 4%;
+	max-width: 1280px;
+}
+
+#contact_form legend{
+	font-size: 23px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	padding-left: 30%;
+	padding-top: 20%;
+}
+
+#contact_form label{
+	display: block;
+	margin-bottom: 5%;
+}
+
+#contact_form label span{float:left; width:100px; color:#5a903f;}
 #contact_form input{height: 25px; border: 1px solid #DBDBDB; border-radius: 3px; padding-left: 4px; color: #666; width: 180px; font-family: Arial, Helvetica, sans-serif;}
 #contact_form textarea{resize:none; border: 1px solid #DBDBDB; border-radius: 3px; padding-left: 4px;color: #666; height:100px; width: 180px; font-family: Arial, Helvetica, sans-serif;}
 .submit_btn { border: 1px solid #D8D8D8; padding: 5px 15px 5px 15px; color: #8D8D8D; text-shadow: 1px 1px 1px #FFF; border-radius: 3px; background: #F8F8F8;}
 .submit_btn:hover { background: #ECECEC;}
 .success{ background: #CFFFF5;padding: 10px; margin-bottom: 10px; border: 1px solid #B9ECCE; border-radius: 5px; font-weight: normal; }
-.error{ background: #FFDFDF; padding: 10px; margin-bottom: 10px; border: 1px solid #FFCACA; border-radius: 5px; font-weight: normal;}
+.error{
+    color: red;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 10px;
+}
 
 /* items carro */
 
@@ -55,17 +86,58 @@ top:0;
 }
 
 /* form Registro  */
-#contact_form1{ width:300px; padding:20px; border: 1px solid #DDD;border-radius: 5px; font-family: Arial; font-size: 11px; font-weight: bold;color: #666666; background:#FAFAFA; margin-right: auto; margin-left: auto;}
-#contact_form1 legend{font-size: 15px; color: #C9C9C9;}
-#contact_form1 label{display: block; margin-bottom:5px;}
-#contact_form1 label span{float:left; width:100px; color:#666666;}
-#contact_form1 input{height: 25px; border: 1px solid #DBDBDB; border-radius: 3px; padding-left: 4px; color: #666; width: 180px; font-family: Arial, Helvetica, sans-serif;}
-#contact_form1 textarea{resize:none; border: 1px solid #DBDBDB; border-radius: 3px; padding-left: 4px;color: #666; height:100px; width: 180px; font-family: Arial, Helvetica, sans-serif;}
-.submit_btn1 { border: 1px solid #D8D8D8; padding: 5px 15px 5px 15px; color: #8D8D8D; text-shadow: 1px 1px 1px #FFF; border-radius: 3px; background: #F8F8F8;}
-.submit_btn1:hover { background: #ECECEC;}
-.success{ background: #CFFFF5;padding: 10px; margin-bottom: 10px; border: 1px solid #B9ECCE; border-radius: 5px; font-weight: normal; }
-.error{ background: #FFDFDF; padding: 10px; margin-bottom: 10px; border: 1px solid #FFCACA; border-radius: 5px; font-weight: normal;}
+#contact_form1{
+	width: 300px;
+	padding: 20px;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin-right: auto;
+	margin-left: auto;
+	color:#5a903f;
+	padding-bottom: 4%;
+	max-width: 1280px;
+}
+#contact_form1 legend{
+	font-size: 23px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	padding-left: 30%;
+	padding-top: 20%;
+}
 
+#contact_form1 label{
+	display: block;
+	margin-bottom: 7%;
+}
+
+#contact_form1 label span{float:left; width:100px; color:#5a903f;}
+
+#contact_form1 input{height: 25px; border: 1px solid #DBDBDB; border-radius: 3px; padding-left: 4px; color: #666; width: 180px; font-family: Arial, Helvetica, sans-serif;}
+
+#contact_form1 textarea{resize:none; border: 1px solid #DBDBDB; border-radius: 3px; padding-left: 4px;color: #666; height:100px; width: 180px; font-family: Arial, Helvetica, sans-serif;}
+
+.submit_btn1 { 
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    color: #8d8d8d;
+    padding: 5px 15px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.submit_btn1:hover { background: #ECECEC;}
+
+.success{ background: #CFFFF5;padding: 10px; margin-bottom: 10px; border: 1px solid #B9ECCE; border-radius: 5px; font-weight: normal; }
+
+.error{
+    color: red;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 10px;
+}
 
 /*header */
 
@@ -207,6 +279,9 @@ body{
 	max-width: 1280px;
 
 }
+.sesion a:link{
+	text-decoration: none;
+}
 
 #menu_registro{
 	padding-right: 13%
@@ -307,7 +382,7 @@ body{
 	padding-bottom: 14px;
 	border:0;
 }
-
+/*INICIO FOOTER*/
 .pie{
 	background-color: #a2bb39;
 	margin: 0px auto;
@@ -411,6 +486,7 @@ body{
 .contacto{
 	float: left;
     width: 21%;
+    padding-left: 3%;
 }
 
 .title_cont{
@@ -427,6 +503,16 @@ body{
 	font-weight: 400;
 	font-size: 11.4px;
 }
+
+/*FIN FOOTER*/
+
+/*INICIO QUIENES SOMOS*/
+.quienes{
+	width: 100%;
+	margin: 0px auto;
+}
+
+/*FIN QUIENES SOMOS*/
 /***********************CARRO************************************/
 
 #colorNav > ul > li{ /* will style only the top level li */

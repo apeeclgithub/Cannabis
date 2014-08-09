@@ -59,9 +59,9 @@
 			<div class="redes_top">
 				<div class="red_top">
 					<li id="follow">SÍGUENOS</li>
-					<a href="#"><img src="img/twitter.png" alt="twitter"></a>
-					<a href="#"><img src="img/instagram.png" alt="instagran"></a>
-					<a href="#"><img src="img/facebook.png" alt="facebook"></a>
+					<a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+					<a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagran"></a>
+					<a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
 				</div>
 			</div>
 			
@@ -70,12 +70,12 @@
 				<nav class="menu_p">
 					<div id="menuGrande">
 						<ul>
-							<li ><a href="" id="menu_inicio">INICIO</a></li>
-							<li ><a href="" id="menu_quienes">QUIENES SOMOS</a></li>
-							<li ><a href="" id="menu_prod">NUESTROS PRODUCTOS</a></li>
-							<li ><a href="contacto.html" 	id="menu_cont">CONTACTO</a></li>
-							<li ><a href="" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-							<li ><a href="" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+							<li ><a href="index.php" id="menu_inicio">INICIO</a></li>
+							<li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
+							<li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+							<li ><a href="contacto.php" 	id="menu_cont">CONTACTO</a></li>
+							<li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
+							<li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
 						</ul>
 					</div>
 					<div id="menuChico">
@@ -102,8 +102,8 @@
 					<h1><img src="img/logo-500.png" alt="Espacio verde natural"></h1>
 				</div>
 			<div class="sesion">
-				<a href="#" id="menu_registro">REGISTRO</a>
-				<a href="#" id="menu_cuenta">MI CUENTA</a>
+				<a href="registro.php" id="menu_registro">REGISTRO</a>
+				<a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
 				<a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
 				<a href="#" id="menu_carro">CARRO (2)</a>
 			</div>
@@ -210,7 +210,7 @@
 					<div class="sig_foot">
 						SÍGUENOS
 					</div>
-					<div class="tw_pie"><a href=""><img src="img/twitter.png" alt="Twitter"></a><a href=""><img src="img/instagram.png" alt="Instagram"></a><a href=""><img src="img/facebook.png" alt="Facebook"></a></div>
+					<div class="tw_pie"><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></div>
 				</div>
 				<div class="soporte">
 					<div class="title_sop">SOPORTE</div>
@@ -221,7 +221,7 @@
 
 				</div>
 				<div class="contacto">
-					<div class="title_cont">CONTACTO</div>
+					<div class="title_cont">CONTÁCTANOS</div>
 					<div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;alo@espacioverdenatural.cl</div>
 					<div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;800 800 800</div>
 					<div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;+9 999 9999</div>						

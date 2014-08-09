@@ -1,4 +1,3 @@
-<?php include 'function/carrito.php';?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
@@ -39,6 +38,7 @@
 	<meta name="description" content="Espacio verde natural, venta de variados productos">
 	<meta name="author" content="Espacio verde natural">
 	<meta name="keywords" content="venta cremas, venta semillas, semillas, cremas, ropa, vestuario, venta vestuario,  venta ropa, venta fertilizante, fertilizante, cosmetica, semillas feminizadas, feminizadas, semillas automaticas, automaticas, accesorios, vestuario y accesorios, marihuana, cannabis">
+
 
 <!-- Script GA-->
 <!--
@@ -83,33 +83,11 @@
 				<div class="logo">
 					<h1><img src="img/logo-500.png" alt="Espacio verde natural"></h1>
 				</div>
-
 			<div class="sesion">
 				<a href="#" id="menu_registro">REGISTRO</a>
 				<a href="#" id="menu_cuenta">MI CUENTA</a>
-				
-				<div id="colorNav">
-					<ul>
-						<li>
-							<a href="">Carro (<?php echo $carrito->articulos_total()?>)</a>
-							<?php
-								echo '<ul>';
-								$carro = $carrito->get_content();
-								if($carro){
-								    foreach($carro as $producto){
-								    	
-								        echo '<li><a href="#">'.$producto["cantidad"].' x '.$producto["nombre"].'</a></li>';
-								    }
-								    
-									echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
-									echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
-									echo "<li><a href=\"venta.php\"><button class=\"comprar\">Modificar y Compra</button></a></li>";
-								}
-								echo '</ul>';
-							?>
-						</li>
-					</ul>
-				</div>
+				<a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
+				<a href="#" id="menu_carro">CARRO (2)</a>
 			</div>
 		</header>
 		<section class="section">
@@ -128,7 +106,7 @@
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas" onclick="add(1, 1, 19990, 'Producto destacado 1')"></a>
+							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
 						</div>
 					</div>
 				</div>
@@ -211,12 +189,24 @@
 				</div>
 				<div class="follow_pie">
 					<div class="follow_text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias</div>
-					<ul id="follow_pie_ul">
-						<li>SÍGUENOS</li>
-						<li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
-						<li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
-						<li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
-					</ul>
+					<div class="sig_foot">
+						SÍGUENOS
+					</div>
+					<div class="tw_pie"><a href=""><img src="img/twitter.png" alt="Twitter"></a><a href=""><img src="img/instagram.png" alt="Instagram"></a><a href=""><img src="img/facebook.png" alt="Facebook"></a></div>
+				</div>
+				<div class="soporte">
+					<div class="title_sop">SOPORTE</div>
+					<div class="cond_sop">Condiciones de compra</div>
+					<div class="cond_sop">Políticas de privacidad</div>
+					<div class="cond_sop">Términos de uso</div>
+					<div class="cond_sop_1">Preguntas frecuentes</div>
+
+				</div>
+				<div class="contacto">
+					<div class="title_cont">CONTACTO</div>
+					<div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;alo@espacioverdenatural.cl</div>
+					<div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;800 800 800</div>
+					<div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;+9 999 9999</div>						
 				</div>
 			</div>
 		</footer>

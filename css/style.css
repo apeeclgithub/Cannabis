@@ -325,10 +325,18 @@ body{
 	width:167px;
 	float: left;
 	position: relative;
+	padding-right: 12%;
 }
 
 .logo_pie img{
 	padding-left: 32%;
+
+}
+
+.follow_pie{
+	float: left;
+    width: 200px;
+    padding-right: 7%;
 }
 
 #follow_pie_ul li{
@@ -337,20 +345,88 @@ body{
 	padding:2px;
 }
 
-.follow_pie{
-	float: left;
-    font-family: 'Roboto',sans-serif;
-    font-size: 14.4px;
-    font-weight: 400;
+.sig_foot{
+	padding-top: 6%;
+	font-family: 'Oswald',sans-serif;
+    font-size: 19.64px;
+    font-weight: 700;
+    color:white;
+    float:left;
     position: relative;
-    width: 200px;
-    padding-left:13%;
+    padding-left: 6%;
+
 }
 
+.follow_text{
+	font-family:'Roboto', sans-serif;
+	font-weight: 400;
+	color:white;
+	font-size: 11.4px;
+	padding: 11% 11px 11px;
 
+}
 
+.tw_pie{
+    margin: 0 auto;
+    padding-left: 50%;
+    padding-top: 12px;
+}
 
+.tw_pie img{
+	padding-left: 6px;
+}
 
+.soporte{
+	float: left;
+    width: 164px;
+    padding-right: 7%;
+}
+
+.title_sop{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 19.64px;
+	color:white;
+}
+
+.cond_sop{
+	padding-bottom: 5%;
+	padding-top:8%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size:11.4px;
+	color:white;
+	border-bottom: 1px dashed;
+}
+
+.cond_sop_1{
+	padding-bottom: 5%;
+	padding-top:8%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size:11.4px;
+	color:white;
+}
+
+.contacto{
+	float: left;
+    width: 21%;
+}
+
+.title_cont{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 19.64px;
+	color:white;
+}
+
+.cont_mail{
+	padding-top:8%;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 11.4px;
+}
 /***********************CARRO************************************/
 
 #colorNav > ul > li{ /* will style only the top level li */
@@ -428,3 +504,4 @@ body{
  border-bottom-left-radius:3px;
  border-bottom-right-radius:3px;
 }
+

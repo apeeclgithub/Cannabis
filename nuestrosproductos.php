@@ -42,30 +42,59 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="redes_top">
-            <div class="red_top">
-                <li id="follow">SÍGUENOS</li>
-                <a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
-                <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagran"></a>
-                <a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+        <header class="header">
+            <div class="redes_top">
+                <div class="red_top">
+                    <li id="follow">SÍGUENOS</li>
+                    <a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+                    <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagran"></a>
+                    <a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+                </div>
             </div>
-        </div>
-        
-        
-        <div class="ul_menu">
-            <nav class="menu_p">
-                    <ul>
-                        <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
-                        <li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
-                        <li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
-                        <li ><a href="contacto.php"    id="menu_cont">CONTACTO</a></li>
-                        <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-                        <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
-                    </ul>
-            </nav>
-        </div>
-    </header>
+            
+            
+            <div class="ul_menu">
+                <nav class="menu_p">
+                    <div id="menuGrande">
+                        <ul>
+                            <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
+                            <li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
+                            <li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+                            <li ><a href="contacto.php"     id="menu_cont">CONTACTO</a></li>
+                            <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
+                            <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+                        </ul>
+                    </div>
+                    <div id="menuChico">
+                    <input id="check1" type="checkbox" />
+                    <label for="check1">
+                        <img src="img/menu.png" alt="icono">
+                    </label>
+                    <div class="menu">
+                        <ul>
+                            <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
+                            <li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
+                            <li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+                            <li ><a href="contacto.php"     id="menu_cont">CONTACTO</a></li>
+                            <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
+                            <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+    
+            
+                <div class="logo">
+                    <h1><img src="img/logo-500.png" alt="Espacio verde natural"></h1>
+                </div>
+            <div class="sesion">
+                <a href="registro.php" id="menu_registro">REGISTRO</a>
+                <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
+                <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
+                <a href="#" id="menu_carro">CARRO (2)</a>
+            </div>
+        </header>
     <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
 
         <div class="quienes">SITIO EN CONSTRUCCIÓN</div>

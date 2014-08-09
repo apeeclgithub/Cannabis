@@ -85,12 +85,12 @@
 			        </label>
 			        <div class="menu">
 						<ul>
-							<li ><a href="" id="menu_inicio">INICIO</a></li>
-							<li ><a href="" id="menu_quienes">QUIENES SOMOS</a></li>
-							<li ><a href="" id="menu_prod">NUESTROS PRODUCTOS</a></li>
-							<li ><a href="contacto.html" 	id="menu_cont">CONTACTO</a></li>
-							<li ><a href="" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-							<li ><a href="" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+							<li ><a href="index.php" id="menu_inicio">INICIO</a></li>
+							<li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
+							<li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+							<li ><a href="contacto.php" 	id="menu_cont">CONTACTO</a></li>
+							<li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
+							<li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
 						</ul>
 					</div>
 					</div>

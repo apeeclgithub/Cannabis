@@ -308,13 +308,44 @@ body{
 	border:0;
 }
 
-.footer_home{
+.pie{
 	background-color: #a2bb39;
-	max-width:1280px;
-	width:100%;
+	margin: 0px auto;
 	clear: both;
 }
+.cont_pie{
+	max-width:1080px;
+	width:100%;
+	margin: 0 auto;
+	padding-bottom: 17%;
+    padding-top: 3%;
+}
 
+.logo_pie{
+	width:167px;
+	float: left;
+	position: relative;
+}
+
+.logo_pie img{
+	padding-left: 32%;
+}
+
+#follow_pie_ul li{
+	display:inline;
+	list-style-type: none;
+	padding:2px;
+}
+
+.follow_pie{
+	float: left;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14.4px;
+    font-weight: 400;
+    position: relative;
+    width: 200px;
+    padding-left:13%;
+}
 
 
 

@@ -204,7 +204,21 @@
 				</div>												
 			</article>
 		</section>
-
-		<footer class="footer_home">ASDASD</footer>
+		<footer class="pie">
+			<div class="cont_pie">
+				<div class="logo_pie">
+					<img src="img/logo-footer.png" alt="Espacio verde natural">
+				</div>
+				<div class="follow_pie">
+					<div class="follow_text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias</div>
+					<ul id="follow_pie_ul">
+						<li>SÍGUENOS</li>
+						<li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+						<li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+						<li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 </body>
 </html>

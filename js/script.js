@@ -272,4 +272,34 @@ function buscarAdmin (){
  /* FIN BUSCADOR ADMIN*/
 
 
+  $(function() {
+  
+      var menu_ul = $('.carro > li > ul'),
+             menu_a  = $('.carro > li > a'),
+             menu_ul_a = $('.carro > li > ul > li');
+      
+      menu_ul.hide();
+  
+      menu_a.mouseenter(function(e) {
+          e.preventDefault();
+          if(!$(this).hasClass('active')) {
+              menu_a.removeClass('active');
+              menu_ul.filter(':visible').slideUp('normal');
+              $(this).addClass('active').next().stop(true,true).slideDown('normal');
+          } else {
 
+          }
+
+      });
+      menu_ul.mouseleave(function(e) {
+          e.preventDefault();
+          if(!$(this).hasClass('active')) {
+            menu_ul.removeClass('active');
+        menu_a.removeClass('active');
+        menu_ul.filter(':visible').slideUp('normal');
+              $(this).next().stop(true,true).slideUp('normal');
+          } else {
+
+          }
+      });
+  });

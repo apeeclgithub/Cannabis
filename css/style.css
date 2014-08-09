@@ -505,3 +505,85 @@ body{
  border-bottom-right-radius:3px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+#menuChico label {
+    display: block;
+    height: 20px;
+    cursor: pointer;
+}
+#menuChico input {
+    display: none;
+}
+#menuChico .menu {
+    overflow: hidden;
+    height: 0px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+#menuChico input:checked ~ .menu {
+    height: 100px;
+}
+#menuChico ul {
+    list-style: none;
+    text-align: center;
+}
+#menuChico ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menuChico ul a:hover {
+    color: #999;
+}
+#menuGrande {
+    display: none;
+    padding: 4px;
+}
+#menuGrande ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#menuGrande ul li {
+    display: inline;
+}
+#menuGrande ul li img {
+    vertical-align: text-bottom;
+}
+#menuGrande ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+#menuGrande ul a:hover {
+    color: white;
+}
+@media all and (max-width: 1000px) and (min-width: 635px) {
+    #menuChico {
+        display: none;
+    }
+    #menuGrande {
+        display: block;
+    }
+    #menuGrande ul li img {
+        display: none;
+    }
+}
+@media all and (min-width: 1001px) {
+    #menuChico {
+        display: none;
+    }
+    #menuGrande {
+        display: block;
+    }
+    #menuGrande ul li img {
+        display: inline;
+    }
+}
+>>>>>>> origin/master

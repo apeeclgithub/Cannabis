@@ -96,8 +96,8 @@
             </div>
         </header>
 
-        <section>
-            <article>
+        <section class="sec_contacto">
+            <article class="art_contacto">
                 <fieldset id="contact_form">
                     <legend>Contacto</legend>
                     <div id="result"></div>

@@ -1,6 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400|Oswald:400,700);
 
 /* form Contacto  */
+
+.sec_contacto{
+	 margin-top: 8%;
+}
+
+
 #contact_form{
 	width: 300px;
 	padding: 20px;
@@ -21,6 +27,7 @@
 	font-weight: 700;
 	padding-left: 30%;
 	padding-top: 20%;
+	color:#5a903f;
 }
 
 #contact_form label{
@@ -98,6 +105,9 @@ top:0;
 	color:#5a903f;
 	padding-bottom: 4%;
 	max-width: 1280px;
+	margin-top: 8%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #contact_form1 legend{
 	font-size: 23px;
@@ -105,6 +115,7 @@ top:0;
 	font-weight: 700;
 	padding-left: 30%;
 	padding-top: 20%;
+	color:#5a903f;
 }
 
 #contact_form1 label{

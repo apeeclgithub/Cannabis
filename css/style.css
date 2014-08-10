@@ -677,3 +677,25 @@ body{
         display: inline;
     }
 }
+
+/*CSS CATEGORIAS*/
+.cat{
+	float:left;
+}
+#cat-nav{
+
+}
+
+.section_cos{
+	float:right;
+}
+/* CSS COSMETICA*/
+
+.title_cosmetica{
+	font-size: 46.43px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #939c07;
+	text-align: center;
+	padding-top: 8%;	
+}

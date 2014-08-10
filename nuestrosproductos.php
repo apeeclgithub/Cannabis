@@ -95,13 +95,7 @@
                 <a href="#" id="menu_carro">CARRO (2)</a>
             </div>
         </header>
-    <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-        <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-            <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-                <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
+        
     <footer class="pie">
         <div class="cont_pie">
             <div class="logo_pie">

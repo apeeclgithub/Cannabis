@@ -168,7 +168,6 @@ body{
 }
 
 .header{
-
 }
 
 .redes_top{
@@ -352,24 +351,52 @@ body{
 }
 
 /* nuevos productos*/
+.item_home_index{
+color: #939c07;
+    float: left;
+    font-family: 'Oswald',sans-serif;
+    font-size: 15.56px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    width: 259px;
+} /*ITEMS DE INDEX*/
+
+.item_home_img{
+	margin: 0 auto;
+    opacity: 0.9;
+    padding-top: 0;
+    width: 259px;	
+}
+
+
+
 .item_home{
 	color: #939c07;
     float: left;
     font-family: 'Oswald',sans-serif;
-    font-size: 16.56px;
+    font-size: 15.56px;
     font-weight: bold;
     margin: 0 auto;
     width: 260px;
-    padding-right: 9.3px;
-    padding-bottom: 3%;
+	padding-right: 0.6%;
+	padding-bottom: 5%;
+	padding-left: 1%;
 }
 
 .item_home img{
 	margin:0 auto;
-    padding-top: 22.3px;
+    padding-top: 0px;
     width: 100%;
+    opacity: 0.9;
 }
 
+.item_home img:hover{
+	opacity: 2;
+
+}
 .text_home{
     background-color: #a56122;
     color: white;
@@ -387,12 +414,28 @@ body{
 }
 
 .img_vermas img{
-	padding-top: 14px;
-	width:100%;
-	padding-left: 17px;
-	padding-bottom: 14px;
-	border:0;
+    border: 0 none;
+    display: block;
+    float: left;
+    padding-bottom: 14px;
+    padding-left: 17px;
+    padding-top: 14px;
+    position: relative;
+    width: 100%;
 }
+
+.img_agregar{
+	width:50%;
+}
+.img_agregar img{
+border: 0 none;
+    display: block;
+    padding-bottom: 14px;
+    padding-left: 17px;
+    padding-top: 14px;
+    width: 100%;
+}
+
 /*INICIO FOOTER*/
 .pie{
 	background-color: #a2bb39;
@@ -678,24 +721,77 @@ body{
     }
 }
 
-/*CSS CATEGORIAS*/
+ /*CONTENEDOR GENERAL PRODUCTOS*/
+.wrapcenter{       
+	margin: 0 auto;
+    max-width: 1080px;
+    margin: 12% auto 0;
+}
+
+/*CSS GENERAL CATEGORIAS*/
 .cat{
-	float:left;
+	width: 260px;
 }
 #cat-nav{
+    font-family: 'Oswald',sans-serif;
+    font-size: 18.45px;
+    font-weight: 700;
+    list-style: none outside none;
+	margin: 0;
+    padding: 0;
+    width: 210px;
+}
+
+#cat-nav li{
+	color: white;
+ 	border-bottom: 2px dotted #D0D0D0; 
+	padding-bottom: 15px;
+    padding-top: 15px;
+    color:#689851;
+ }
+#cat-nav a{
+	text-decoration: none;
+	color:#689851;
 
 }
 
-.section_cos{
-	float:right;
+#cat-nav li:first-child{
+  border-top: none;
 }
-/* CSS COSMETICA*/
 
-.title_cosmetica{
-	font-size: 46.43px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
-	color: #939c07;
-	text-align: center;
-	padding-top: 8%;	
+#cat-navi li:last-child{
+	border-bottom: none;
+}
+
+
+#cat-nav a:hover{
+	opacity: 0.5;
+}
+
+.title_cat{
+	padding-left: 26%;
+	padding-top: 10%;
+}
+
+.li_cos{
+	padding-bottom: 10%;
+}
+
+.cont_aside{
+	width:260px;
+	display: block;
+    float: left;
+}
+
+/*CSS CONTENEDOR PRODUCTOS*/
+
+.cont_prod{
+	max-width: 820px;
+	float: left;
+	display: block;
+}
+
+.img_productos{
+	width:266px;
+	height: 238px;
 }

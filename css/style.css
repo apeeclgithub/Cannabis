@@ -848,8 +848,8 @@ opacity: 1;
 
 
 /*****************MEDIA QUERY**********************/
-
-@media only screen  and (min-width:768px) and (max-width: 1024px) {
+/**INDEX****/
+@media only screen  and (min-width:768px) and (max-width: 1022px) {
 	.follow_top {
 		padding-left: 75%;
   	}
@@ -915,4 +915,76 @@ opacity: 1;
 		padding-bottom: 24%;
 	}
 
+}
+
+@media only screen and (min-width:1023px) and (max-width: 1154px){
+	.follow_top {
+		padding-left: 80%;
+  	}
+	
+	#menuGrande ul {
+	    margin-bottom: 1%;
+	    margin-top: 1%;
+	}
+	
+	.menu_p {
+    padding: 0px;
+	}
+
+	#menu_inicio {
+	    padding-left: 0px;
+	    padding-right: 1%;
+	}
+	.menu_p ul li {
+	    font-size: 95%;
+	}
+	#menu_quienes {
+		padding-left: 1%;
+	    padding-right: 1%;
+	}
+
+	#menu_prod {
+		padding-left: 1%;
+    	padding-right: 1%;
+	}
+
+	#menu_cont {
+		padding-left: 1%;
+    	padding-right: 1%;
+	}
+
+	#menu_cond {
+		padding-left: 1%;
+    	padding-right: 1%;
+	}
+
+	#menu_pol {
+		padding-left: 1%;
+	}
+
+	.ult_prods {
+	    text-align: center;
+	}
+	.item_home_index {
+		width: 24%;	
+	}
+	.item_home_img {
+	    width: 100%;
+	}
+
+	.btn_vermas {
+    	padding-left: 0%;
+	}
+	
+	.cont_pie {
+		padding-bottom: 24%;
+	}
+	
+	.logo_pie{
+		padding-right: 10%;
+	}
+
+	.contacto{
+		padding-left:1%;
+	}
 }

@@ -1,5 +1,38 @@
 
 $(document).ready(function() {
+  //actualiza datos del cliente
+         // Interceptamos el evento submit
+          $('#modifica').submit(function() {
+        // Enviamos el formulario usando AJAX
+              $.ajax({
+                  type: 'POST',
+                  url: $(this).attr('action'),
+                  data: $(this).serialize(),
+                  // Mostramos un mensaje con la respuesta de PHP
+                  success: function(data) {
+               
+                      $('#data').html(data);
+                  }
+              })        
+              return false;
+          }); 
+
+  //LOGIN CLIENTE
+$('#logincliente').submit(function() {
+  // Enviamos el formulario usando AJAX
+        $.ajax({
+            type: 'POST',
+            url: $(this).attr('action'),
+            data: $(this).serialize(),
+            // Mostramos un mensaje con la respuesta de PHP
+            success: function(data) {
+         
+                $('#data').html(data);
+            }
+        })        
+        return false;
+    });
+
     /* INICIO SCRIPT CONTACT FORM*/
 
     $("#submit_btn").click(function() { 
@@ -303,3 +336,41 @@ function buscarAdmin (){
           }
       });
   });
+
+////////////////////////////////////////////////////////////////////////CARRO
+  $(function() {
+  
+      var menu_ul = $('.carro > li > ul'),
+             menu_a  = $('.carro > li > a'),
+             menu_ul_a = $('.carro > li > ul > li');
+      
+      menu_ul.hide();
+  
+      menu_a.mouseenter(function(e) {
+          e.preventDefault();
+          if(!$(this).hasClass('active')) {
+              menu_a.removeClass('active');
+              menu_ul.filter(':visible').slideUp('normal');
+              $(this).addClass('active').next().stop(true,true).slideDown('normal');
+          } else {
+          }
+      });
+      menu_ul.mouseleave(function(e) {
+          e.preventDefault();
+          if(!$(this).hasClass('active')) {
+            menu_ul.removeClass('active');
+        menu_a.removeClass('active');
+        menu_ul.filter(':visible').slideUp('normal');
+              $(this).next().stop(true,true).slideUp('normal');
+          } else {
+          }
+      });
+  });
+  ////////////////////////////////////////////////////////////////////////////////
+  window.onload=function(){
+var pos=window.name || 0;
+window.scrollTo(0,pos);
+}
+window.onunload=function(){
+window.name=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
+}

@@ -28,23 +28,23 @@ $(document).ready(function() {
 	</head>
 	<body>
 
-		<h3>Lista de productos</h3>
-
-		<table border="1">
-			<thead>
-				<tr>
-					<td></td>
-					<td>Nombre</td>
-					<td>Cantidad</td>
-					<td>Valor</td>
-					<td>Total</td>
-					<td>Borrar</td>
-				</tr>
-			</thead>
 			<?php
 				include 'function/carrito.php'; 
 				$carro = $carrito->get_content();
 						if($carro){
+							echo "<h3>Lista de productos</h3>";
+
+							echo "<table border=\"1\">";
+								echo "<thead>";
+									echo "<tr>";
+										echo "<td></td>";
+										echo "<td>Nombre</td>";
+										echo "<td>Cantidad</td>";
+										echo "<td>Valor</td>";
+										echo "<td>Total</td>";
+										echo "<td>Borrar</td>";
+										echo "</tr>";
+										echo "</thead>";
 						    foreach($carro as $producto)
 						    {
 						    	
@@ -58,13 +58,17 @@ $(document).ready(function() {
 						        echo '</tr>';
 
 						    }
+				echo "<tr>";
+				echo "<td colspan=\"4\">Total</td>";
+				echo "<td colspan=\"2\">".number_format($carrito->precio_total(),0,',','.')."</td>";
+				echo "</tr>";
+				echo "</table>";
+						}else{
+							echo "<h2>No tiene productos en su carro.</h2>";
 						}
+				
 			?>
-			<tr>
-				<td colspan="4">Total</td>
-				<td colspan="2"><?php echo number_format($carrito->precio_total(),0,',','.')?></td>
-			</tr>
-		</table>
+			
 		<a href="carro.php">Ver Catalogo</a>
 
 		<hr />
@@ -72,6 +76,7 @@ $(document).ready(function() {
 	    <?php 
 		    if(@$_SESSION["usuario"]){
 		    	include 'datoscliente.php';
+		    	echo '<a href="function/comprar.php">COMPRAR!!</a>';
 		    }else{
 		    	include 'login_cliente.html';
 		    }

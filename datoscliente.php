@@ -30,5 +30,3 @@
 
 ?>
 
-<a href="function/comprar.php">COMPRAR!!</a>
-

@@ -1,0 +1,545 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"con",
+				"consulta2"
+			],
+			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
+				"mys",
+				"mysql_query"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"session_d",
+				"session_destroy"
+			],
+			[
+				"submit",
+				"submit_login"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"sli",
+				"slideUp"
+			],
+			[
+				"men",
+				"menu_a"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"menu",
+				"menu_ul_a"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"del",
+				"delall"
+			],
+			[
+				"hr",
+				"href"
+			],
+			[
+				"total",
+				"articulos_total"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"cal",
+				"calculadora"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"st",
+				"style	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "venta.php",
+			"settings":
+			{
+				"buffer_size": 2131,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Pablo/Downloads/producto.sql",
+		"/C/wamp/www/GITHUB/Cannabis/js/script.js",
+		"/C/wamp/www/GITHUB/Cannabis/cuenta.php",
+		"/C/Users/Pablo/Downloads/cannabis_30-07.sql",
+		"/C/wamp/www/GITHUB/Cannabis/carro.php",
+		"/C/wamp/www/GITHUB/Cannabis/index.php",
+		"/C/wamp/www/Cannabis/index.php",
+		"/C/Users/Pablo/Downloads/cannabis (1).sql",
+		"/C/Users/Pablo/Downloads/cannabis (2).sql",
+		"/C/Users/Pablo/Downloads/usuario.sql",
+		"/C/wamp/www/GITHUB/Cannabis/cuenta_ingresada.php",
+		"/C/wamp/www/GITHUB/Cannabis/css/style.css",
+		"/C/wamp/www/Cannabis/css/style.css",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/mostrar.php",
+		"/C/wamp/www/Cannabis/mi_cuenta.php",
+		"/C/wamp/www/Cannabis/admin.php",
+		"/C/wamp/www/Cannabis/js/script.js",
+		"/C/wamp/www/Cannabis/micuenta.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/css/stylesheet.css",
+		"/C/Users/Pablo/Downloads/Compressed/0168/style.css",
+		"/C/Users/Pablo/Downloads/Compressed/0168/index.html",
+		"/C/wamp/www/Cannabis/carro.php",
+		"/C/wamp/www/Cannabis/buscar.php",
+		"/C/wamp/www/Cannabis/contacto.html",
+		"/C/wamp/www/Cannabis/login_admin.php",
+		"/C/wamp/www/Cannabis/function/logout.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/logout.php",
+		"/C/wamp/www/Cannabis/function/loginadmin.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/actualiza.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/contacto.php",
+		"/C/wamp/www/Cannabis/css/style2.css",
+		"/C/wamp/www/Cannabis/index2.php",
+		"/C/wamp/www/Cannabis/style2.css",
+		"/C/wamp/www/Cannabis/login_cliente.html",
+		"/C/wamp/www/Cannabis/function/logincliente.php",
+		"/C/wamp/www/Cannabis/function/modifica.php",
+		"/C/wamp/www/Cannabis/modifica.php",
+		"/C/wamp/www/Cannabis/venta.php",
+		"/C/wamp/www/Cannabis/datoscliente.php",
+		"/C/wamp/www/Cannabis/function/comprar.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/valida.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/registro.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/actualizar.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/enviopedido.php",
+		"/C/wamp/www/ElPollitoPe/ElPollitoPe/function/comprobar.php",
+		"/C/wamp/www/Cannabis/login_cliente.php",
+		"/C/wamp/www/Cannabis/registro.php",
+		"/C/wamp/www/Cannabis/contacto.php",
+		"/C/Users/Pablo/Downloads/Compressed/menu/menu/css/styles.css",
+		"/C/Users/Pablo/Downloads/Compressed/menu/menu/index.html",
+		"/C/wamp/www/Cannabis/carrito/carritodecompras.php",
+		"/C/wamp/www/Cannabis/carrito/admin/agregarproducto.php",
+		"/C/wamp/www/Cannabis/carrito.php",
+		"/C/wamp/www/Cannabis/carrito/conexion.php",
+		"/C/wamp/www/Cannabis/carrito/detalles.php",
+		"/C/wamp/www/Cannabis/carrito/index.php",
+		"/C/wamp/www/Cannabis/js/jquery-1.11.1.min.js",
+		"/C/wamp/www/Cannabis/ejemplo_ajax_proceso.php",
+		"/C/wamp/www/Cannabis/function/registro.php",
+		"/C/wamp/www/test/index.php",
+		"/C/wamp/www/prueba/index.php",
+		"/C/wamp/www/Cannabis/function/contacto.php",
+		"/C/wamp/www/prueba/Carrito.class.php",
+		"/C/Users/Pablo/Downloads/jcart-1.3/jcart-1.3/index.php",
+		"/C/Users/Pablo/Downloads/jcart-1.3/jcart-1.3/jcart/jcart.php",
+		"/C/wamp/www/Cannabis/jcart/config.php",
+		"/C/wamp/www/Cannabis/jcart/jcart.php",
+		"/C/wamp/www/Cannabis/carrito/login.php",
+		"/C/wamp/www/test/dame-datos.php",
+		"/C/Users/Pablo/Downloads/Compressed/wojodesign-simplecart-js-51a9a38/wojodesign-simplecart-js-51a9a38/test/dame-datos.php",
+		"/C/Users/Pablo/Downloads/Compressed/wojodesign-simplecart-js-51a9a38/wojodesign-simplecart-js-51a9a38/test/index.php",
+		"/C/wamp/www/Cannabis/carrito/admin.php",
+		"/C/wamp/www/Cannabis/carrito/admin/modificar.php",
+		"/C/wamp/www/Cannabis/carrito/admin/modificar.js",
+		"/C/Users/Pablo/Downloads/Compressed/wojodesign-simplecart-js-51a9a38/wojodesign-simplecart-js-51a9a38/test/index.html",
+		"/C/Users/Pablo/Downloads/contact/contact/db.php",
+		"/C/wamp/www/Cannabis/carrito/restarCantidad.php",
+		"/C/wamp/www/Cannabis/carrito/compras/compras.php",
+		"/C/wamp/www/carrito/login/cerrar.php",
+		"/C/Users/Pablo/Desktop/index.html",
+		"/C/Users/Pablo/Desktop/cannabis.sql",
+		"/C/wamp/www/carrito/index.php",
+		"/C/wamp/www/carrito/css/estilos.css",
+		"/C/wamp/www/carrito/compras/compras.php",
+		"/C/Users/Pablo/Downloads/gimnasio.sql",
+		"/C/wamp/www/Cannabis/index.html",
+		"/C/Users/Pablo/Downloads/ElPollitoPe/css/stylesheet.css",
+		"/C/wamp/www/apee/index.html",
+		"/C/Users/Pablo/Desktop/2/index.html",
+		"/C/wamp/www/apee/css/style.css",
+		"/C/wamp/www/apee/css/basic.css",
+		"/C/Users/Pablo/Desktop/2/jquery.destaque.js",
+		"/C/wamp/www/apee/js/jquery1.8.js",
+		"/C/Users/Pablo/Downloads/Compressed/Slides-SlidesJS-3/Slides-SlidesJS-3/examples/playing/index.html",
+		"/C/Users/Pablo/Downloads/Compressed/fractionslider/example/css/style.css",
+		"/C/Users/Pablo/Downloads/Compressed/fractionslider/example/css/fractionslider.css",
+		"/C/Users/Pablo/Downloads/Compressed/fractionslider/example/index.html",
+		"/C/Users/Pablo/Desktop/2/jquery.transition.min.js",
+		"/C/Users/Pablo/Desktop/2/jquery.mobile.events.js",
+		"/C/Users/Pablo/Desktop/2/simple_jquery_destaque.js",
+		"/C/Users/Pablo/Desktop/2/2968649.js",
+		"/C/Users/Pablo/Desktop/2/init.js",
+		"/C/Users/Pablo/Desktop/2/style.css",
+		"/C/Users/Pablo/Desktop/2/bootstrap.min.css",
+		"/C/Users/Pablo/Desktop/2/basic.css",
+		"/C/Users/Pablo/Downloads/Compressed/destaque-master/destaque-master/spec/javascripts/fixtures/default.html",
+		"/C/Users/Pablo/Downloads/Compressed/destaque-master/destaque-master/spec/destaqueSpec.js",
+		"/C/Users/Pablo/Downloads/ElPollitoPe/index.php",
+		"/C/Users/Pablo/Downloads/ElPollitoPe/admin.php",
+		"/C/Users/Pablo/Downloads/ElPollitoPe/js/bootstrap.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<td></td>",
+			"50",
+			"}\n",
+			"gif",
+			"./",
+			"jpg",
+			"URL_IMAGEN1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "venta.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

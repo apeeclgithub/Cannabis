@@ -56,16 +56,16 @@
 </head>
 <body>
 		<header class="header">
-			<div class="redes_top">
-				<div class="red_top">
-					<li id="follow">SÍGUENOS</li>
-					<a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
-					<a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagran"></a>
-					<a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+			<div class="cont_color_follow">
+				<div class="cont_follow_top">
+					<div class="follow_top">
+						<div class="sig_top">
+		                    SÍGUENOS
+		                </div>
+		                <div class="redestop"><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></div>
+					</div>
 				</div>
 			</div>
-			
-			
 			<div class="ul_menu">
 				<nav class="menu_p">
 					<div id="menuGrande">
@@ -85,12 +85,12 @@
 			        </label>
 			        <div class="menu">
 						<ul>
-							<li ><a href="index.php" id="menu_inicio">INICIO</a></li>
-							<li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
-							<li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
-							<li ><a href="contacto.php" 	id="menu_cont">CONTACTO</a></li>
-							<li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-							<li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+							<li ><a href="index.php" >INICIO</a></li>
+							<li ><a href="quienessomos.php" >QUIENES SOMOS</a></li>
+							<li ><a href="nuestrosproductos.php" >NUESTROS PRODUCTOS</a></li>
+							<li ><a href="contacto.php" 	>CONTACTO</a></li>
+							<li ><a href="condiciones.php" >CONDICIONES DE COMPRA</a></li>
+							<li ><a href="politicas.php" >POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
 						</ul>
 					</div>
 					</div>

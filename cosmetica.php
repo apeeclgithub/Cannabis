@@ -112,6 +112,7 @@
             </div>
             <div class="cont_prod">
                 <section class="productos">
+                    <div class="title_seccion">COSMÉTICA</div>
                     <div class="item_home">
                         <h3 class="item_home">CREMA FACIAL DE CANNABIS</h3>
                         <img class="img_productos" src="img/cosmetica/crema de cannabis.png" alt="crema de cannabis">

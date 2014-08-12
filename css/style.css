@@ -170,36 +170,33 @@ body{
 .header{
 }
 
-.redes_top{
-	background-color: #5a903f;
-	padding:5px;
-	font-size: 13.64px;
-	font-family:'Oswald', sans-serif;
-	color:white;
+.cont_color_follow{
+		background-color: #5a903f;
+
+}
+.cont_follow_top {
+	margin: 0 auto;
+	max-width: 1080px;
+}
+
+.sig_top{
+	font-family: 'Oswald',sans-serif;
+	font-size: 13.65px;
 	font-weight: 700;
-	padding-left: 78.5%;
-
-}
-.red_top{
-	display:inline;
-	max-width:1080px;
-}
-
-.red_top img{
-	width: 31px;
-	height: 31px;
-}
-
-.redes_top a {
-	text-decoration: none;
-	padding: 2px;
-	color:white;
-}
-#follow{
+	color: white;
 	float: left;
-    margin-right: 5px;
-    padding-top: 6px;
-    list-style: none;
+	position: relative;
+	padding-right: 7%;
+	padding-top: 3%;
+}
+.follow_top{
+	padding-left: 84%;
+	padding-top: 0.5%;
+	padding-bottom: 0.25%;
+}
+
+.redestop img {
+	padding-left: 6px;
 }
 
 .menu_p{
@@ -617,7 +614,7 @@ body{
  border-bottom-left-radius:3px;
  border-bottom-right-radius:3px;
 }
-
+/*MENU RESPONSIVE*/
 #menuChico label {
     display: block;
     height: 20px;
@@ -713,6 +710,7 @@ body{
 	margin: 0;
     padding: 0;
     width: 210px;
+	margin-top: 40%;
 }
 
 #cat-nav li{
@@ -773,6 +771,14 @@ body{
 	opacity: 0.9;
 }
 
+.title_seccion{
+	font-size: 46.43px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #939c07;
+	padding-left: 22%;
+	padding-bottom: 6%;
+}
 
 
 /***************************************************************************CUENTA*******************/
@@ -838,4 +844,75 @@ opacity: 1;
 -webkit-transform: translateX(0);
 -o-transform: translateX(0);
 -ms-transform: translateX(0);
+}
+
+
+/*****************MEDIA QUERY**********************/
+
+@media only screen  and (min-width:768px) and (max-width: 1024px) {
+	.follow_top {
+		padding-left: 75%;
+  	}
+	
+	#menuGrande ul {
+	    margin-bottom: 1%;
+	    margin-top: 1%;
+	}
+	
+	.menu_p {
+    padding: 0px;
+	}
+
+	#menu_inicio {
+	    padding-left: 0px;
+	    padding-right: 1%;
+	}
+	.menu_p ul li {
+	    font-size: 74%;
+	}
+	#menu_quienes {
+		padding-left: 1%;
+	    padding-right: 1%;
+	}
+
+	#menu_prod {
+		padding-left: 1%;
+    	padding-right: 1%;
+	}
+
+	#menu_cont {
+		padding-left: 1%;
+    	padding-right: 1%;
+	}
+
+	#menu_cond {
+		padding-left: 1%;
+    	padding-right: 1%;
+	}
+
+	#menu_pol {
+		padding-left: 1%;
+	}
+
+	.ult_prods {
+	    text-align: center;
+	}
+	.item_home_index {
+	    width: 32%;
+	}
+	.item_home_img {
+	    width: 100%;
+	}
+
+	.btn_vermas {
+    	padding-left: 4%;
+	}
+	
+	.logo_pie {
+    display: none;
+	}
+	.cont_pie {
+		padding-bottom: 24%;
+	}
+
 }

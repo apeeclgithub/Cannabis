@@ -117,9 +117,8 @@
                         <img class="img_productos" src="img/cosmetica/crema de cannabis.png" alt="crema de cannabis">
                         <div class="text_home">
                             <h4 class="text_home">Crema Facial Hidratante y Nutritiva , con Aceite de Cannabis Sativa 100 % puro, rico en Ácidos Grasos esenciales, Omega 3, Omega 6 y Acido Linoleico que previenen el enve...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -127,9 +126,8 @@
                         <img class="img_productos" src="img/cosmetica/serum contorno de ojos.png" alt="serum contorno de ojos">
                         <div class="text_home">
                             <h4 class="text_home">Actúa en forma Antiedematosa, restaurando los signos propios del envejecimiento y micro agresiones del área del ojo, ayudando a la flacidez, descongestionando bolsas y oj...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -137,9 +135,8 @@
                         <img class="img_productos" src="img/cosmetica/crema manos y cuerpo de cannabis.png" alt="crema manos y cuerpo de cannabis">
                         <div class="text_home">
                             <h4 class="text_home">Especialmente formulada para proteger su piel otorgando suavidad, humectación e hidratación dada la presencia de Ácidos Grasos esenciales contenidos en el Aceite de Can...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -147,9 +144,8 @@
                         <img class="img_productos" src="img/cosmetica/aceite para masajes de cannabis.png" alt="aceite para masajes de cannabis">
                         <div class="text_home">
                             <h4 class="text_home">Aceite corporal para Masajes con las propiedades del Aceite de Cannabis Sativa, los cuales regeneran y aumentan la resistencia de la piel, otorgando elasticidad y suavidad al tacto...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -157,9 +153,8 @@
                         <img class="img_productos" src="img/cosmetica/aceite de cannabis.png" alt="aceite de cannabis">
                         <div class="text_home">
                             <h4 class="text_home">Aceite de cáñamo especialmente indicado para pieles secas y/o agrietadas, mantiene hidratada la piel de cutis, manos y cuerpo, restaura los aceites naturales de la piel, rico en aceites esencial...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -167,9 +162,8 @@
                         <img class="img_productos" src="img/cosmetica/shampoo y acondicionador de cannabis.png" alt=" shampoo y acondicionador de cannabis">
                         <div class="text_home">
                             <h4 class="text_home">Shampoo Hidratante del cabello, con Aceite de Cannabis Sativa 100% puro, rico en Omega 3 y 6, previene el resecamiento del cuero cabelludo, ayuda a prevenir la caspa. Por su PH...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -177,9 +171,8 @@
                         <img class="img_productos" src="img/cosmetica/gel de bano.png" alt="gel de bano">
                         <div class="text_home">
                             <h4 class="text_home">Producto enriquecido con Aceite 100% puro de Cannabis Sativa, el cual provoca en su piel hidratación y nutrición dejándola suave y confortable durante todo el día. PH neutro para uso fami...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -187,9 +180,8 @@
                         <img class="img_productos" src="img/cosmetica/jabon de cannabis.png" alt="jabon de cannabis">
                         <div class="text_home">
                             <h4 class="text_home">Jabón de Cannabis elaborado a base de aceite de semilla de cáñamo 100% puro, cuyos componentes naturales como Omega 3 y Omega 6 regeneran y aumentan la resistencia y elast...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -197,9 +189,8 @@
                         <img class="img_productos" src="img/cosmetica/exfoliante de cannabis.png" alt="exfoliante de cannabis">
                         <div class="text_home">
                             <h4 class="text_home">Exfoliante de cáñamo limpia y suaviza profundamente la piel, impidiendo la acumulación de toxinas, acelera la circulación sanguínea, aumenta la oxigenación de la piel, mejora l...</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                     <div class="item_home">
@@ -207,9 +198,8 @@
                         <img class="img_productos" src="img/cosmetica/aceite de canamo.png" alt="aceite de canamo">
                         <div class="text_home">
                             <h4 class="text_home">Aceite Gourmet 100% puro Semilla de cáñamo. Rico en Omegas 3 - 6 y 9. Ingredientes: Aceite de semilla de cáñamo (cannabis sativa, orgánico), menor al 0.4% de acidez.</h4>
-                            <div class="img_vermas">
-                                <a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-                            </div>
+                            <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
                     </div>
                 </section>

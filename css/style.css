@@ -371,8 +371,9 @@ color: #939c07;
     width: 259px;	
 }
 
-
-
+.item_home_img:hover{
+	opacity:1;
+}
 .item_home{
 	color: #939c07;
     float: left;
@@ -386,6 +387,7 @@ color: #939c07;
 	padding-left: 1%;
 }
 
+
 .item_home img{
 	margin:0 auto;
     padding-top: 0px;
@@ -394,7 +396,7 @@ color: #939c07;
 }
 
 .item_home img:hover{
-	opacity: 2;
+	opacity: 1;
 
 }
 .text_home{
@@ -415,8 +417,7 @@ color: #939c07;
 
 .img_vermas img{
     border: 0 none;
-    display: block;
-    float: left;
+
     padding-bottom: 14px;
     padding-left: 17px;
     padding-top: 14px;

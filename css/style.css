@@ -352,7 +352,7 @@ body{
 
 /* nuevos productos*/
 .item_home_index{
-color: #939c07;
+	color: #939c07;
     float: left;
     font-family: 'Oswald',sans-serif;
     font-size: 15.56px;
@@ -374,6 +374,7 @@ color: #939c07;
 .item_home_img:hover{
 	opacity:1;
 }
+
 .item_home{
 	color: #939c07;
     float: left;
@@ -388,17 +389,14 @@ color: #939c07;
 }
 
 
-.item_home img{
-	margin:0 auto;
-    padding-top: 0px;
-    width: 100%;
-    opacity: 0.9;
+.btn_vermas{
+	padding-left: 5%;
 }
 
 .item_home img:hover{
 	opacity: 1;
-
 }
+
 .text_home{
     background-color: #a56122;
     color: white;
@@ -409,34 +407,8 @@ color: #939c07;
     font-size:12.88px;
     padding-right:17px;
     font-weight: 400;
+   padding-bottom: 10%;
 }
-
-.img_vermas{
-	width:60px;
-}
-
-.img_vermas img{
-    border: 0 none;
-
-    padding-bottom: 14px;
-    padding-left: 17px;
-    padding-top: 14px;
-    position: relative;
-    width: 100%;
-}
-
-.img_agregar{
-	width:50%;
-}
-.img_agregar img{
-border: 0 none;
-    display: block;
-    padding-bottom: 14px;
-    padding-left: 17px;
-    padding-top: 14px;
-    width: 100%;
-}
-
 /*INICIO FOOTER*/
 .pie{
 	background-color: #a2bb39;
@@ -795,6 +767,10 @@ border: 0 none;
 .img_productos{
 	width:266px;
 	height: 238px;
+	margin: 0 auto;
+	padding-top: 0px;
+	width: 100%;
+	opacity: 0.9;
 }
 
 

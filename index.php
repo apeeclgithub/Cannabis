@@ -123,9 +123,8 @@
 						<img class="item_home_img" src="img/prod1.png" alt="">
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
-						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-						</div>
+                        <a href="#" class="btn_vermas"><img src="img/vermas.png" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/agregar.png" alt="Agregar"></a>
 					</div>
 				</div>
 				<div class="item_home_index">
@@ -133,9 +132,8 @@
 						<img class="item_home_img" src="img/prod1.png" alt="">
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
-						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-						</div>
+                        <a href="#" class="btn_vermas"><img src="img/vermas.png" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/agregar.png" alt="Agregar"></a>
 					</div>
 				</div>
 				<div class="item_home_index">
@@ -143,9 +141,8 @@
 						<img class="item_home_img" src="img/prod1.png" alt="">
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
-						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-						</div>
+                        <a href="#" class="btn_vermas"><img src="img/vermas.png" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/agregar.png" alt="Agregar"></a>
 					</div>
 				</div>
 				<div class="item_home_index">
@@ -153,9 +150,8 @@
 						<img class="item_home_img" src="img/prod1.png" alt="">
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
-						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-						</div>
+                        <a href="#" class="btn_vermas"><img src="img/vermas.png" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/agregar.png" alt="Agregar"></a>
 					</div>
 				</div>
 				<div class="item_home_index">
@@ -163,9 +159,8 @@
 						<img class="item_home_img" src="img/prod1.png" alt="">
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
-						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-						</div>
+                        <a href="#" class="btn_vermas"><img src="img/vermas.png" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/agregar.png" alt="Agregar"></a>
 					</div>
 				</div>
 				<div class="item_home_index">
@@ -173,9 +168,8 @@
 						<img class="item_home_img" src="img/prod1.png" alt="">
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
-						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-						</div>
+                        <a href="#" class="btn_vermas"><img src="img/vermas.png" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/agregar.png" alt="Agregar"></a>
 					</div>
 				</div>
 				<div class="item_home_index">
@@ -183,9 +177,8 @@
 						<img class="item_home_img" src="img/prod1.png" alt="">
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
-						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-						</div>
+                        <a href="#" class="btn_vermas"><img src="img/vermas.png" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/agregar.png" alt="Agregar"></a>
 					</div>
 				</div>
 				<div class="item_home_index">
@@ -193,9 +186,8 @@
 						<img class="item_home_img" src="img/prod1.png" alt="">
 					<div class="text_home">
 						<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
-						<div class="img_vermas">
-							<a href="#"><img src="img/vermas.png" alt="Ver mas"></a>
-						</div>
+                        <a href="#" class="btn_vermas"><img src="img/vermas.png" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/agregar.png" alt="Agregar"></a>
 					</div>
 				</div>												
 			</article>

@@ -146,7 +146,7 @@
                         <h3 class="item_home">SERUM CONTORNO DE OJOS</h3>
                         <img class="img_productos" src="img/cosmetica/serum contorno de ojos.png" alt="serum contorno de ojos">
                         <div class="text_home">
-                            <h4 class="text_home">Actúa en forma Antiedematosa, restaurando los signos propios del envejecimiento y micro agresiones del área del ojo, ayudando a la flacidez, descongestionando bolsas y oj...</h4>
+                            <h4 class="text_home">Actúa en forma Antiedematosa, restaurando los signos propios del envejecimiento y micro agresiones del área del ojo, ayudando a la flacidez, descongestionando...</h4>
                             <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                             <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
@@ -164,7 +164,7 @@
                         <h3 class="item_home">ACEITE PARA MASAJES DE CANNABIS</h3>
                         <img class="img_productos" src="img/cosmetica/aceite para masajes de cannabis.png" alt="aceite para masajes de cannabis">
                         <div class="text_home">
-                            <h4 class="text_home">Aceite corporal para Masajes con las propiedades del Aceite de Cannabis Sativa, los cuales regeneran y aumentan la resistencia de la piel, otorgando elasticidad y suavidad al tacto...</h4>
+                            <h4 class="text_home">Aceite corporal para Masajes con las propiedades del Aceite de Cannabis Sativa, los cuales regeneran y aumentan la resistencia de la piel, otorgando elasticidad y suavi...</h4>
                             <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                             <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
@@ -173,7 +173,7 @@
                         <h3 class="item_home">ACEITE DE CANNABIS</h3>
                         <img class="img_productos" src="img/cosmetica/aceite de cannabis.png" alt="aceite de cannabis">
                         <div class="text_home">
-                            <h4 class="text_home">Aceite de cáñamo especialmente indicado para pieles secas y/o agrietadas, mantiene hidratada la piel de cutis, manos y cuerpo, restaura los aceites naturales de la piel, rico en aceites esencial...</h4>
+                            <h4 class="text_home">Aceite de cáñamo especialmente indicado para pieles secas y/o agrietadas, mantiene hidratada la piel de cutis, manos y cuerpo, restaura los aceites naturales de la piel, rico en aceites es...</h4>
                             <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                             <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>
@@ -209,7 +209,7 @@
                         <h3 class="item_home">EXFOLIANTE DE CANNABIS</h3>
                         <img class="img_productos" src="img/cosmetica/exfoliante de cannabis.png" alt="exfoliante de cannabis">
                         <div class="text_home">
-                            <h4 class="text_home">Exfoliante de cáñamo limpia y suaviza profundamente la piel, impidiendo la acumulación de toxinas, acelera la circulación sanguínea, aumenta la oxigenación de la piel, mejora l...</h4>
+                            <h4 class="text_home">Exfoliante de cáñamo limpia y suaviza profundamente la piel, impidiendo la acumulación de toxinas, acelera la circulación sanguínea, aumenta la oxigenación de...</h4>
                             <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                             <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
                         </div>

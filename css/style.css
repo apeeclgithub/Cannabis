@@ -663,8 +663,9 @@ body{
 	margin-left: -44px;
 }
 #menuChicoC ul li {
-    border-bottom: 1px dotted;
+    border-bottom: 1px dashed;
     border-width: 1px;
+    border-color:white;
 }
 #menuChicoC ul a {
     text-transform: uppercase;
@@ -748,7 +749,8 @@ body{
 	margin-left: -44px;
 }
 #menuChico ul li{
-	border-bottom: medium solid;
+	border-bottom: 1px dashed white;
+    border-color: white;
 }
 #menuChico ul a {
     text-transform: uppercase;
@@ -815,6 +817,10 @@ body{
 /*CSS GENERAL CATEGORIAS*/
 .cat{
 	width: 260px;
+}
+
+.item_home_cat{
+	font-size: 16px;
 }
 #cat-nav{
     font-family: 'Oswald',sans-serif;
@@ -1020,7 +1026,7 @@ opacity: 1;
 	}
 
 	.item_home{
-		font-size:24.56px ;
+		font-size:15.56px ;
 	}
 
 	.btn_vermas {
@@ -1074,11 +1080,14 @@ opacity: 1;
 	}
 
 	.item_home {
-	    font-size: 11.56px;
 	    width: 193px;
 	}
 	.text_home img{
 		width:43%;
+	}
+
+	.item_home_cat{
+		font-size: 10px;
 	}
 }
 
@@ -1316,6 +1325,7 @@ opacity: 1;
 
 @media only screen and (min-width:320px) and (max-width: 480px){
 	
+
 	body{
 		margin:0px;
 		padding:0px;
@@ -1370,5 +1380,8 @@ opacity: 1;
 	.cat_1{
 		display: none;
 	}
-
+	
+	.item_home{
+		padding-left:10%;
+	}
 }

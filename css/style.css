@@ -614,11 +614,121 @@ body{
  border-bottom-left-radius:3px;
  border-bottom-right-radius:3px;
 }
+
+/*MENU CATEGORIAS RESPONSIVE*/
+
+#menuChicoC{
+	background-color: #a2bb39;
+    padding-top: 1%;
+}
+
+.menu_1 {
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menu_1 a{
+	list-style: none;
+	color: white;
+}
+
+#menuChicoC label {
+    background-color: #5a903f;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: 'oswald',sans-serif;
+    font-size: 26.43px;
+    font-weight: 700;
+    padding: 3%;
+    text-align: center;
+    margin: 6%;
+}
+#menuChicoC input {
+    display: none;
+}
+#menuChicoC .menu_1 {
+    overflow: hidden;
+    height: 0px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+#menuChicoC input:checked ~ .menu_1 {
+    height: 150px;
+}
+#menuChicoC ul {
+    list-style: none;
+    text-align: center;
+	margin-left: -44px;
+}
+#menuChicoC ul li {
+    border-bottom: 1px dotted;
+    border-width: 1px;
+}
+#menuChicoC ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menuChicoC ul a:hover {
+    color: #999;
+}
+.cat1 {
+    display: none;
+    padding: 4px;
+}
+.cat1 ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.cat1 ul li {
+    display: inline;
+}
+.cat1 ul li img {
+    vertical-align: text-bottom;
+}
+.cat ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.cat1 ul a:hover {
+    color: white;
+}
+@media all and (max-width: 1000px) and (min-width: 633px) {
+    #menuChicoC {
+        display: none;
+    }
+    .cat1 {
+        display: block;
+    }
+    .cat1 ul li img {
+        display: none;
+    }
+}
+@media all and (min-width: 1001px) {
+    #menuChicoC {
+        display: none;
+    }
+    .cat1 {
+        display: block;
+    }
+    .cat1 ul li img {
+        display: inline;
+    }
+}
+
+
 /*MENU RESPONSIVE*/
 #menuChico label {
     display: block;
-    height: 20px;
+    height: 32px;
     cursor: pointer;
+    padding:3%;
+    background-color: #5a903f;
 }
 #menuChico input {
     display: none;
@@ -630,11 +740,15 @@ body{
     transition: 0.3s ease-in-out;
 }
 #menuChico input:checked ~ .menu {
-    height: 100px;
+    height: 200px;
 }
 #menuChico ul {
     list-style: none;
     text-align: center;
+	margin-left: -44px;
+}
+#menuChico ul li{
+	border-bottom: medium solid;
 }
 #menuChico ul a {
     text-transform: uppercase;
@@ -668,7 +782,7 @@ body{
 #menuGrande ul a:hover {
     color: white;
 }
-@media all and (max-width: 1000px) and (min-width: 635px) {
+@media all and (max-width: 1000px) and (min-width: 633px) {
     #menuChico {
         display: none;
     }
@@ -987,4 +1101,186 @@ opacity: 1;
 	.contacto{
 		padding-left:1%;
 	}
+}
+
+@media only screen and (min-width:634px) and (max-width: 768px){
+	
+	.follow_top {
+	    padding-left: 71%;
+	}
+	
+	.menu_p {
+	    padding: 1%;
+	}
+	#menuGrande {
+	    padding: 0px;
+	}
+
+	#menu_inicio {
+	    padding-right: 1%;
+	    padding-left:0px;
+	}
+
+	#menu_quienes {
+		padding-left: 0px;
+	    padding-right: 1%;
+	}
+
+	#menu_prod{
+		padding-left: 0px;
+		padding-right: 1%;
+	}
+
+	#menu_cont{
+		padding-left: 0px;
+		padding-right: 1%;
+	}
+
+	#menu_cond{
+		padding-left: 0px;
+		padding-right:1%;
+	}
+
+	#menu_pol {
+    	padding-left: 1%;
+	}
+
+	.menu_p ul li {
+    	font-size: 60%;
+	}
+
+	.ult_prods {
+		font-size: 38px;
+	    padding-top: 0;
+   		text-align: center;
+	}
+
+	.item_home_index {
+	    width: 203px;
+	}
+
+	.item_home_img {
+	    width: 100%;
+	}
+
+	.text_home img {
+	    width: 40%;
+	}
+	.logo_pie img {
+    	display: none;
+	}
+
+
+	.cont_pie {
+    	padding-bottom: 32%;
+	}
+}
+
+
+@media only screen and (min-width:480px) and (max-width: 633px){
+	.cat_1{
+		display:none;
+	}
+	.follow_top {
+	    display: none;
+	}
+	#menuChico ul li  {
+	    vertical-align: middle;
+	    display: block;
+	}
+
+	.ult_prods {
+	    padding-top: 1%;
+	    text-align: center;
+	    font-size:35.43px;
+	}	
+	.item_home_index {
+	    width: 234px;
+	}
+
+	.item_home_img {
+	    width: 234px;
+	}
+	.text_home img {
+	    width: 40%;
+	}
+
+	.logo_pie{
+		display:none;
+	}
+
+	.follow_pie{
+		display:none;
+	}
+
+	.soporte{
+		display:none;
+	}
+
+	.cont_pie{
+		padding-bottom:35%;
+	}
+	.contacto {
+	    padding-left: 35%;
+	    width: auto;
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width: 480px){
+	
+	body{
+		margin:0px;
+		padding:0px;
+	}
+
+	.follow_top{
+		display:none;
+	}
+	.menu_p ul li {
+	    display: block;
+	}	
+
+	.menu_p {
+  		padding: 2%;
+	}
+
+	.ult_prods {
+	    font-size: 26.43px;
+	    text-align: center;
+	}
+
+	.item_home_index {
+	    padding-left: 11.5%;
+	}
+
+	.logo_pie{
+		display:none;
+	}
+
+	.follow_pie{
+		display:none;
+	}
+
+	.soporte{
+		display:none;
+	}
+
+	.cont_pie{
+		padding-bottom: 169px;
+		padding-left: 25%;
+	}
+
+	.title_cont {
+	    font-size: 90%;
+	}
+	
+
+	.contacto {
+		width:auto;
+	}
+
+	.cat_1{
+		display: none;
+	}
+
 }

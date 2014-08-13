@@ -43,16 +43,16 @@
 
 <body>
         <header class="header">
-            <div class="redes_top">
-                <div class="red_top">
-                    <li id="follow">SÍGUENOS</li>
-                    <a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
-                    <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagran"></a>
-                    <a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+            <div class="cont_color_follow">
+                <div class="cont_follow_top">
+                    <div class="follow_top">
+                        <div class="sig_top">
+                            SÍGUENOS
+                        </div>
+                        <div class="redestop"><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></div>
+                    </div>
                 </div>
             </div>
-            
-            
             <div class="ul_menu">
                 <nav class="menu_p">
                     <div id="menuGrande">
@@ -72,12 +72,12 @@
                     </label>
                     <div class="menu">
                         <ul>
-                            <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
-                            <li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
-                            <li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
-                            <li ><a href="contacto.php"     id="menu_cont">CONTACTO</a></li>
-                            <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-                            <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+                            <li ><a href="index.php" >INICIO</a></li>
+                            <li ><a href="quienessomos.php" >QUIENES SOMOS</a></li>
+                            <li ><a href="nuestrosproductos.php" >NUESTROS PRODUCTOS</a></li>
+                            <li ><a href="contacto.php"     >CONTACTO</a></li>
+                            <li ><a href="condiciones.php" >CONDICIONES DE COMPRA</a></li>
+                            <li ><a href="politicas.php" >POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
                         </ul>
                     </div>
                     </div>
@@ -96,15 +96,35 @@
             </div>
         </header>
         <div class="wrapcenter">
+            
+            <div id="menuChicoC">
+                <input id="check2" type="checkbox" />
+                <label for="check2">
+                    MENÚ CATEGORÍAS
+                </label>
+                <div class="menu_1">
+                    <ul>
+                        <li ><a href="semillasfem.php" >SEMILLAS FEMINIZADAS</a></li>
+                        <li ><a href="semillasauto.php" >SEMILLAS AUTOMATICAS</a></li>
+                        <li ><a href="fertilizantez.php" >FERTILIZANTES</a></li>
+                        <li ><a href="vestuario.php"     >VESTUARIO Y ACCESORIOS</a></li>
+                        <li ><a href="cosmetica.php">COSMÉTICA</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
             <div class="cont_aside">
                 <aside class="cat">
-                    <nav>
+                    <nav class="cat_1">
                         <ul id="cat-nav">
                             <li class="title_cat">&nbsp;CATEGORÍAS</li>
-                            <li><a href="#">+&nbsp;SEMILLAS FEMINIZADAS</a></li>
-                            <li><a href="#">+&nbsp;SEMILLAS AUTOMATICAS</a></li>
-                            <li><a href="#">+&nbsp;FERTILIZANTES</a></li>
-                            <li><a href="#">+&nbsp;VESTUARIO Y ACCESORIOS</a></li>
+                            <li><a href="semillasfem.php">+&nbsp;SEMILLAS FEMINIZADAS</a></li>
+                            <li><a href="semillasauto.php">+&nbsp;SEMILLAS AUTOMATICAS</a></li>
+                            <li><a href="fertilizantes">+&nbsp;FERTILIZANTES</a></li>
+                            <li><a href="vestuario.php">+&nbsp;VESTUARIO Y ACCESORIOS</a></li>
                             <li class="li_cos"><a href="cosmetica.php">+&nbsp;COSMÉTICA</a></li>
                         </ul>
                     </nav>

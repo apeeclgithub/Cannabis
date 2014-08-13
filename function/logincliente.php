@@ -4,8 +4,8 @@
 	$mail = $_POST['mail'];
 	$pass = $_POST['pass'];
 
-	if(empty($mail)){echo 'esta wea del mail esta vacia'; return;}
-	if(empty($pass)){echo 'esta wea del pass esta vacia'; return;}
+	if(empty($mail)){echo 'Campo E-mail vacio.'; return;}
+	if(empty($pass)){echo 'Campo Password vacio'; return;}
 
 	$sql = "SELECT usu_id FROM usuario WHERE usu_mail = '$mail' AND usu_pass = '$pass'";
 	$consulta = mysql_query($sql);

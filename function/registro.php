@@ -80,7 +80,7 @@
 			$dato = mysql_fetch_array($con);
 
 			if($dato['usu_id']){
-				$sql2 = "INSERT INTO direccion (dir_id, usu_id, dir_direccion) VALUES (".$dato['usu_id'].", ".$dato['usu_id'].", 'Sin Definir')";
+				$sql2 = "INSERT INTO direccion (dir_id, usu_id, com_id, dir_direccion) VALUES (".$dato['usu_id'].", ".$dato['usu_id'].", 1, 'Sin Definir')";
 				mysql_query($sql2);
 			}else{
 			}

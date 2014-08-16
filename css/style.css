@@ -1089,6 +1089,11 @@ opacity: 1;
 	.item_home_cat{
 		font-size: 10px;
 	}
+
+	.text_home{
+		padding-right: 3px;
+		padding-left: 1px;
+	}
 }
 
 

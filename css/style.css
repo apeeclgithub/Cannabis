@@ -1170,13 +1170,18 @@ opacity: 1;
 	}
 
 	.cont_aside {
-	    width: 187px;
+	    width: 180px;
 	}
 	.item_home{
 		width: 251px;
 	}
 	#cat-nav{
 		font-size:16.45px;
+	}
+
+	.title_seccion{
+		padding-left:26%;
+		padding-bottom: 4%;
 	}
 }
 

@@ -969,6 +969,10 @@ opacity: 1;
 
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
+
+
+
+
 @media only screen  and (min-width:768px) and (max-width: 1023px) {
 	
 	.follow_top {
@@ -1072,7 +1076,7 @@ opacity: 1;
 	}
 
 	.title_seccion {
-	    padding-left: 31%;
+	    padding-left: 22%;
 	}
 
 	.cont_prod {
@@ -1394,4 +1398,38 @@ opacity: 1;
 	.item_home{
 		padding-left:10%;
 	}
+
+	.title_seccion{
+		padding-left: 17%;
+	}
+}
+
+@media only screen and (min-width: 980px) and (max-width:1023px){
+	.pie {
+
+	    margin: 25% auto 0;
+	}
+	
+	.logo_pie img {
+	    padding-left: 15%;
+	}
+	.title_seccion {
+	    padding-left: 17%;
+	}
+
+	.item_home {
+	    width: 210px;
+	}
+
+	.productos {
+	    margin-left: 8%;
+	}
+
+	.cont_aside {
+	    padding-left: 4%;
+	}
+	.text_home {
+	    padding-left: 8px;
+	}
+	
 }

@@ -1,13 +1,18 @@
-<h2>Ingrese a su cuenta para continuar.</h2>
 
-	<fieldset>
+	<fieldset id="logincliente">
+	<legend>Inicio sesión</legend>
+
 		<form id="logincliente" name="logincliente" method="post" action="function/logincliente.php">
 
-			<label id="mail_label" for="mail">Mail</label>
-	      	<input id="mail" class="text-input" name="mail" type="text" />
+			<label id="mail_label" for="mail"><span>E-mail</span>
+				<input id="mail" class="text-input" name="mail" type="text" />
+			</label>
+	      	
 	 
-	      	<label id="pass_label" for="pass">Pass</label>
-	     	<input id="pass" class="text-input" name="pass" type="password" />
+	      	<label id="pass_label" for="pass"><span>Contraseña</span>
+				<input id="pass" class="text-input" name="pass" type="password" />
+	      	</label>
+	     	
 
 	     	<input id="submit_login" class="button" name="submit" type="submit" value="Send" />
 

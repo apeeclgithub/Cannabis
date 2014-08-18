@@ -1,5 +1,49 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400|Oswald:400,700);
 
+/*login cliente*/
+.sec_cuenta {
+    margin-top: 8%;
+}
+
+#logincliente {
+	width: 300px;
+	padding: 20px;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin-right: auto;
+	margin-left: auto;
+	color: #5a903f;
+	padding-bottom: 4%;
+	max-width: 1280px;
+}
+
+#logincliente legend{
+	font-size: 23px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	padding-left: 30%;
+	padding-top: 20%;
+	color:#5a903f;
+}
+
+#logincliente label{
+	display: block;
+	margin-bottom: 5%;
+}
+
+#logincliente label span{float:left; width:100px; color:#5a903f;}
+#logincliente input{height: 25px; border: 1px solid #DBDBDB; border-radius: 3px; padding-left: 4px; color: #666; width: 180px; font-family: Arial, Helvetica, sans-serif;}
+#logincliente textarea{resize:none; border: 1px solid #DBDBDB; border-radius: 3px; padding-left: 4px;color: #666; height:100px; width: 180px; font-family: Arial, Helvetica, sans-serif;}
+#submit_login { border: 1px solid #D8D8D8; padding: 5px 15px 5px 15px; color: #8D8D8D; text-shadow: 1px 1px 1px #FFF; border-radius: 3px; background: #F8F8F8;}
+#submit_login:hover { background: #ECECEC;}
+
+#contact_form label span {
+	float: left;
+	width: 100px;
+	color: #5a903f;
+}
 /* form Contacto  */
 
 .sec_contacto{

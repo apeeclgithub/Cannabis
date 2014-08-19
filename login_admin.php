@@ -12,27 +12,7 @@ if(isset($_SESSION['admin'])){
 	<head>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/script.js" type="text/javascript"></script>
-	<script language="javascript">// <![CDATA[
-		$(document).ready(function() {
 
-		   // Interceptamos el evento submit
-		    $('#loginadmin').submit(function() {
-		  // Enviamos el formulario usando AJAX
-		        $.ajax({
-		            type: 'POST',
-		            url: $(this).attr('action'),
-		            data: $(this).serialize(),
-		            // Mostramos un mensaje con la respuesta de PHP
-		            success: function(data) {
-		         
-		                $('#data1').html(data);
-		            }
-		        })        
-		        return false;
-		    }); 
-		})
-// ]]></script>
-		
 	</head>
 	<body>
 		<h2>Ingrese a su cuenta para continuar.</h2>

@@ -2,6 +2,19 @@
     include 'function/conexion.php';
     session_start();
     $id = $_SESSION['usuario'];
+
+    if(isset($_SESSION['usuario'])){
+    $sql = "SELECT usu_id FROM usuario WHERE usu_id = ".$_SESSION['usuario'];
+    $dato = mysql_num_rows(mysql_query($sql));
+    if($dato > 0){
+
+    }else{
+        echo "<script>location.href='login_cliente.php';</script>";
+    }
+}
+if(empty($_SESSION['usuario'])){
+    echo "<script>location.href='login_cliente.php';</script>";
+}
 ?>
 
 <div class="tabs">

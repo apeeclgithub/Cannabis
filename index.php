@@ -108,7 +108,7 @@
 				<div id="colorNav">
 					<ul>
 						<li>
-							<a href="">Carro (<?php echo $carrito->articulos_total()?>)</a>
+							<a href="">CARRO (<?php echo $carrito->articulos_total()?>)</a>
 							<?php
 								echo '<ul>';
 								$carro = $carrito->get_content();

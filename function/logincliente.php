@@ -14,7 +14,7 @@
 
 	if($fila>0){
 		$_SESSION['usuario'] = $dato['usu_id'];
-		echo "<script>location.reload();</script>";
+		echo "<script>location.href='./cuenta.php';</script>";
 	}else{
 		echo 'Datos Incorrectos';
 	}

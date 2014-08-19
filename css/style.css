@@ -315,6 +315,7 @@ body{
 
 .logo img{
 	position:relative;
+	max-width: 100%;
 }
 
 .sesion a{
@@ -355,6 +356,9 @@ body{
 /*slider*/
 .news{
 	text-align: center;
+}
+.section{
+	margin-top: 6.5%;
 }
 
 .noticia{

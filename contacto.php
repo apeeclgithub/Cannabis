@@ -86,7 +86,7 @@
     
             
                 <div class="logo">
-                    <h1><img src="img/logo-500.png" alt="Espacio verde natural"></h1>
+                    <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
                 </div>
             <div class="sesion">
                 <a href="registro.php" id="menu_registro">REGISTRO</a>
@@ -144,10 +144,12 @@
 
                 </div>
                 <div class="contacto">
-                    <div class="title_cont">CONTÁCTANOS</div>
-                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;alo@espacioverdenatural.cl</div>
-                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;800 800 800</div>
-                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;+9 999 9999</div>                      
+                    <div itemscope itemtype="http://schema.org/LocalBusiness">
+                        <div class="title_cont">CONTÁCTANOS</div>
+                        <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;<span itemprop="email">alo@espacioverdenatural.cl</span></div>
+                        <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">800 800 800</span></div>
+                        <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">+9 999 9999</span></div>                      
+                    </div>
                 </div>
             </div>
         </footer>  

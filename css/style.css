@@ -277,16 +277,21 @@ body{
 	max-width: 100%;
 }
 
+.cont_sesion_top {
+margin: 0 auto;
+max-width: 1080px;
+}
+
 .sesion a{
 	color:#689851;
 
 }
 .sesion{
-	margin-left: 62%;
+	margin-left: 73%;
 	font-size: 16.61px;
 	font-family:'Oswald', sans-serif;
 	font-weight: 400;
-	margin-top: -13%;
+	margin-top: -24%;
 	max-width: 1280px;
 
 }
@@ -295,15 +300,15 @@ body{
 }
 
 #menu_registro{
-	padding-right: 13%
+	padding-right: 4%;
 }
 
 #menu_cuenta{
-	padding-right: 10%
+	padding-right: 3%;
 }
 
 #img_carro{
-	padding-right:2%;
+	padding-right:0%;
 }
 
 #img_carro img{
@@ -546,6 +551,11 @@ body{
 /*FIN QUIENES SOMOS*/
 /***********************CARRO************************************/
 
+#colorNav{
+	display: inline-block;
+	margin-left: -25px;
+}
+
 #colorNav > ul > li{ /* will style only the top level li */
  list-style: none;
  display: inline-block;
@@ -564,7 +574,7 @@ body{
  list-style:none;
  text-align:center;
  width:180px;
- left:50%;
+ left:0%;
  margin-left:-90px;
  top:10px;
 

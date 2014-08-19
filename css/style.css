@@ -1386,7 +1386,7 @@ opacity: 1;
 
 	.cont_pie{
 		padding-bottom: 169px;
-		padding-left: 25%;
+		
 	}
 
 	.title_cont {
@@ -1396,6 +1396,7 @@ opacity: 1;
 
 	.contacto {
 		width:auto;
+		padding-left: 26%;
 	}
 
 	.cat_1{

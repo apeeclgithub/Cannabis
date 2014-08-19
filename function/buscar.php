@@ -10,7 +10,6 @@
 
             $sql = mysql_query("SELECT usu_nombre FROM usuario WHERE usu_nombre LIKE '%".$b."%'");
             $contar = mysql_num_rows($sql);
-            echo $contar;
             if($contar == 0){
                   echo "No se han encontrado resultados para '<b>".$b."</b>'.";
             }else{

@@ -52,7 +52,7 @@ if(empty($_SESSION['admin'])){
                                                                                   
               $.ajax({
                     type: "POST",
-                    url: "buscar.php",
+                    url: "function/buscar.php",
                     data: "b="+consulta,
                     dataType: "html",
                     beforeSend: function(){

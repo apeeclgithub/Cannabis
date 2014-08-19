@@ -1,5 +1,5 @@
 <?php
- include 'function/conexion.php';
+ include 'conexion.php';
       $buscar = $_POST['b'];
        
       if(!empty($buscar)) {

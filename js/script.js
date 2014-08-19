@@ -1,5 +1,11 @@
 $(document).ready(function() {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                      MOSTRAR DETALLE DE LISTA
+$('li.dropdown').click(function() {
+    $(this).children('ul').toggle();
+});
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                    MODIFICA DATOS DEL CLIENTE
   $('#modifica').submit(function() {
       $.ajax({
@@ -137,6 +143,56 @@ $(document).ready(function() {
   };
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                            ALERTA BORRAR REGISTRO
+  function confirmar(){ 
+    return confirm("Si Borra este registro no se podra recuperar, ¿confirma el borrado del registro?");
+} 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                         MENU DESPLEGABLE CARRITO
+  $(function() {
+  
+      var menu_ul = $('.carro > li > ul'),
+             menu_a  = $('.carro > li > a'),
+             menu_ul_a = $('.carro > li > ul > li');
+      
+      menu_ul.hide();
+  
+      menu_a.mouseenter(function(e) {
+          e.preventDefault();
+          if(!$(this).hasClass('active')) {
+              menu_a.removeClass('active');
+              menu_ul.filter(':visible').slideUp('normal');
+              $(this).addClass('active').next().stop(true,true).slideDown('normal');
+          } else {
+
+          }
+
+      });
+      menu_ul.mouseleave(function(e) {
+          e.preventDefault();
+          if(!$(this).hasClass('active')) {
+            menu_ul.removeClass('active');
+        menu_a.removeClass('active');
+        menu_ul.filter(':visible').slideUp('normal');
+              $(this).next().stop(true,true).slideUp('normal');
+          } else {
+
+          }
+      });
+  });
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   MANTENER POSICION DEL SCROLL
+window.onload=function(){
+  var pos=window.name || 0;
+  window.scrollTo(0,pos);
+}
+window.onunload=function(){
+  window.name=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                            fORMULARIO DE REGISTRO
   function validarReg(){
 
@@ -220,59 +276,3 @@ $(document).ready(function() {
     });
   return false;
 }
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                            ALERTA BORRAR REGISTRO
-  function confirmar(){ 
-    return confirm("Si Borra este registro no se podra recuperar, ¿confirma el borrado del registro?");
-} 
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                         MENU DESPLEGABLE CARRITO
-  $(function() {
-  
-      var menu_ul = $('.carro > li > ul'),
-             menu_a  = $('.carro > li > a'),
-             menu_ul_a = $('.carro > li > ul > li');
-      
-      menu_ul.hide();
-  
-      menu_a.mouseenter(function(e) {
-          e.preventDefault();
-          if(!$(this).hasClass('active')) {
-              menu_a.removeClass('active');
-              menu_ul.filter(':visible').slideUp('normal');
-              $(this).addClass('active').next().stop(true,true).slideDown('normal');
-          } else {
-
-          }
-
-      });
-      menu_ul.mouseleave(function(e) {
-          e.preventDefault();
-          if(!$(this).hasClass('active')) {
-            menu_ul.removeClass('active');
-        menu_a.removeClass('active');
-        menu_ul.filter(':visible').slideUp('normal');
-              $(this).next().stop(true,true).slideUp('normal');
-          } else {
-
-          }
-      });
-  });
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                   MANTENER POSICION DEL SCROLL
-window.onload=function(){
-  var pos=window.name || 0;
-  window.scrollTo(0,pos);
-}
-window.onunload=function(){
-  window.name=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
-}
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                      MOSTRAR DETALLE DE LISTA
-$('li.dropdown').click(function() {
-    $(this).children('ul').toggle();
-});

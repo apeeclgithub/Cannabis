@@ -1,155 +1,144 @@
 $(document).ready(function() {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  //actualiza datos del cliente 
-         // Interceptamos el evento submit
-          $('#modifica').submit(function() {
-        // Enviamos el formulario usando AJAX
-              $.ajax({
-                  type: 'POST',
-                  url: $(this).attr('action'),
-                  data: $(this).serialize(),                                                                   ////////////////////////
-                  // Mostramos un mensaje con la respuesta de php                                              //     CUENTA.PHP     //
-                  success: function(data) {                                                                    ////////////////////////
-               
-                      $('#data').html(data);
-                  }
-              })        
-              return false;
-          }); 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                    MODIFICA DATOS DEL CLIENTE
+  $('#modifica').submit(function() {
+      $.ajax({
+          type: 'POST',
+          url: $(this).attr('action'),
+          data: $(this).serialize(),
+          success: function(data) {       
+              $('#data').html(data);
+          }
+      })        
+      return false;
+  }); 
 
-      // Interceptamos el evento submit
-        $('#logincliente').submit(function() {
-      // Enviamos el formulario usando AJAX
-            $.ajax({
-                type: 'POST',
-                url: $(this).attr('action'),
-                data: $(this).serialize(),
-                // Mostramos un mensaje con la respuesta de PHP
-                success: function(data) {
-             
-                    $('#data1').html(data);
-                }
-            })        
-            return false;
-        }); 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                      FORMULARIO LOGIN CLIENTE
+  $('#logincliente').submit(function() {
+      $.ajax({
+          type: 'POST',
+          url: $(this).attr('action'),
+          data: $(this).serialize(),
+          success: function(data) {    
+              $('#data1').html(data);
+          }
+      })        
+      return false;
+  }); 
         
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                          FORMULARIO DE CONTACTO
+  $("#submit_btn").click(function() { 
+      var user_name       = $('input[name=name]').val(); 
+      var user_email      = $('input[name=email]').val();
+      var user_phone      = $('input[name=phone]').val();
+      var user_message    = $('textarea[name=message]').val();
+      
+      //simple validation at client's end
+      //we simply change border color to red if empty field using .css()
+      var proceed = true;
+      if(user_name==""){ 
+          $('input[name=name]').css('border-color','red'); 
+          proceed = false;
+      }
+      if(user_email==""){ 
+          $('input[name=email]').css('border-color','red'); 
+          proceed = false;
+      }
+      if(user_phone=="") {    
+          $('input[name=phone]').css('border-color','red'); 
+          proceed = false;
+      }
+      if(user_message=="") {  
+          $('textarea[name=message]').css('border-color','red'); 
+          proceed = false;
+      }
 
+      //everything looks good! proceed...
+      if(proceed) 
+      {
+          //data to be sent to server
+          post_data = {'userName':user_name, 'userEmail':user_email, 'userPhone':user_phone, 'userMessage':user_message};
+          
+          //Ajax post data to server
+          $.post('function/contacto.php', post_data, function(response){  
 
-    /* INICIO SCRIPT CONTACT FORM*/
+              //load json data from server and output message     
+              if(response.type == 'error')
+              {
+                  output = '<div class="error">'+response.text+'</div>';
+              }else{
+                  output = '<div class="success">'+response.text+'</div>';
+                  
+                  //reset values in all input fields
+                  $('#contact_form input').val(''); 
+                  $('#contact_form textarea').val(''); 
+              }
+              
+              $("#result").hide().html(output).slideDown();
+          }, 'json');
+          
+      }
+  });
 
-    $("#submit_btn").click(function() { 
-        //get input field values
-        var user_name       = $('input[name=name]').val(); 
-        var user_email      = $('input[name=email]').val();
-        var user_phone      = $('input[name=phone]').val();
-        var user_message    = $('textarea[name=message]').val();
-        
-        //simple validation at client's end
-        //we simply change border color to red if empty field using .css()
-        var proceed = true;
-        if(user_name==""){ 
-            $('input[name=name]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(user_email==""){ 
-            $('input[name=email]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(user_phone=="") {    
-            $('input[name=phone]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(user_message=="") {  
-            $('textarea[name=message]').css('border-color','red'); 
-            proceed = false;
-        }
-
-        //everything looks good! proceed...
-        if(proceed) 
-        {
-            //data to be sent to server
-            post_data = {'userName':user_name, 'userEmail':user_email, 'userPhone':user_phone, 'userMessage':user_message};
-            
-            //Ajax post data to server
-            $.post('function/contacto.php', post_data, function(response){  
-
-                //load json data from server and output message     
-                if(response.type == 'error')
-                {
-                    output = '<div class="error">'+response.text+'</div>';
-                }else{
-                    output = '<div class="success">'+response.text+'</div>';
-                    
-                    //reset values in all input fields
-                    $('#contact_form input').val(''); 
-                    $('#contact_form textarea').val(''); 
-                }
-                
-                $("#result").hide().html(output).slideDown();
-            }, 'json');
-            
-        }
-    });
-    
-    //reset previously set border colors and hide all message on .keyup()
-    $("#contact_form input, #contact_form textarea").keyup(function() { 
-        $("#contact_form input, #contact_form textarea").css('border-color',''); 
-        $("#result").slideUp();
-    });
-    /* FIN SCRIPT CONTACT FORM*/
+  //reset previously set border colors and hide all message on .keyup()
+  $("#contact_form input, #contact_form textarea").keyup(function() { 
+      $("#contact_form input, #contact_form textarea").css('border-color',''); 
+      $("#result").slideUp();
+  });
+  /* FIN SCRIPT CONTACT FORM*/
     
 });
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                                CARRITO DE COMPRA
+  function add(id, cantidad, precio, nombre){
+      var parametro = {
+          "id"        : id,
+          "cantidad"  : cantidad,
+          "precio"    : precio,
+          "nombre"    : nombre
+      };
+      $.ajax({
+          data: parametro,
+          url: 'function/carrito.php',
+          type: 'post',
+          success: function(){
+              location.reload();
+          }
+      });
+  };
+  function del(id){
+      var dele = {
+          "delete": id
+      }
+      $.ajax({
+          data: dele,
+          url: 'function/carrito.php',
+          type: 'post',
+          success: function(){
+              location.reload();
+          }
+      });
+  };
+  function delall(del){
+      var delall = {
+          "delall" : del
+      }
+      $.ajax({
+          data: delall,
+          url: 'function/carrito.php',
+          type: 'post',
+          success: function(){
+              location.reload();
+          }
+      });
+  };
 
-/* INICIO SCRIPT CARRO*/
-            function add(id, cantidad, precio, nombre){
-                var parametro = {
-                    "id"        : id,
-                    "cantidad"  : cantidad,
-                    "precio"    : precio,
-                    "nombre"    : nombre
-                };
-                $.ajax({
-                    data: parametro,
-                    url: 'function/carrito.php',
-                    type: 'post',
-                    success: function(){
-                        location.reload();
-                    }
-                });
-            };
-            function del(id){
-                var dele = {
-                    "delete": id
-                }
-                $.ajax({
-                    data: dele,
-                    url: 'function/carrito.php',
-                    type: 'post',
-                    success: function(){
-                        location.reload();
-                    }
-                });
-            };
-            function delall(del){
-                var delall = {
-                    "delall" : del
-                }
-                $.ajax({
-                    data: delall,
-                    url: 'function/carrito.php',
-                    type: 'post',
-                    success: function(){
-                        location.reload();
-                    }
-                });
-            };
-    /* FIN SCRIPT CARRO */
-
- /* INICIO SCRIPT REGISTRO FORM*/
-function validarReg(){
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                            fORMULARIO DE REGISTRO
+  function validarReg(){
 
     var name1 = document.getElementById("name1").value;
     var email1 = document.getElementById("email1").value;
@@ -158,12 +147,12 @@ function validarReg(){
     var month = document.getElementById("month").value;
     var year = document.getElementById("year").value;
 
-if (name1 == '' && email1 == '' && pass1 == '' && day =='' && month =='' && year =='' ) {
-      $('.error_class').empty().html('Campos vacios').fadeIn(2000, function() {
-        $(this).fadeOut();
-      });
-      return false;
-    };
+    if (name1 == '' && email1 == '' && pass1 == '' && day =='' && month =='' && year =='' ) {
+        $('.error_class').empty().html('Campos vacios').fadeIn(2000, function() {
+          $(this).fadeOut();
+        });
+        return false;
+      };
 
 
     var namexp = /[A-Z a-z]{3}/;
@@ -229,89 +218,17 @@ if (name1 == '' && email1 == '' && pass1 == '' && day =='' && month =='' && year
         $("#result1").delay(1000).empty().html('<h1>' + results + '</h1>');
         $('#regform').trigger("reset");      }
     });
-    return false;
-
-
+  return false;
 }
 
-
- /* FIN SCRIPT REGISTRO FORM*/
- /* INICIO SCRIPT LOGIN ADMIN FORM*/
-
-function validarLogin(){
-  var useradmin = document.getElementById("useradmin").value;
-  var passadmin = document.getElementById("passadmin").value;
-    
-    if (useradmin == '' && passadmin == '' ) {
-      $('.error_class2').empty().html('Campos vacios').fadeIn(2000, function() {
-        $(this).fadeOut();
-      });
-      return false;
-    };
-
-    var useradminexp = /[A-Z a-z]{3}/;
-      if (useradminexp.test(useradmin)) {
-
-      }else{
-        $('.error_class2').empty().html('Error Usuario').fadeIn(2000, function() {
-          $(this).fadeOut();
-      });
-        return false;
-      }
-
-    var passadminexp = /[A-Z a-z 0-9]{3}/;
-      if (passadminexp.test(passadmin)){
-
-      }else{
-        $('.error_class2').empty().html('Error Contraseña').fadeIn(2000, function() {
-          $(this).fadeOut();
-      });
-        return false;
-      }
-
-    $.ajax({
-      url: "function/loginadmin.php",
-      type: "POST",
-      data: $("#loginadmin").serialize(),
-      dataType: 'json',
-      beforeSend: function() {
-        $("#result2").fadeOut(2000).empty().html('<h1>Procesando...</h1>');
-        $('#loginadmin').trigger("reset");
-      },
-      success: function(results) {
-        if (results.error === '') {
-          location.href = results.url;
-        } else{
-          $("#result2").delay(1000).empty().html('<h1>' + results.error + '</h1>');
-          $('#loginadmin').trigger("reset");
-        }
-      }
-    });
-    return false;
-}
- /* FIN SCRIPT LOGIN ADMIN FORM*/
- /* DATAGRID ADMIN*/
-
-
-function adminCargar()
-{
- //   $('#datagrid').load('function/consulta.php');
-}
-
-function confirmar(){ 
-      return confirm("Si Borra este registro no se podra recuperar, ¿confirma el borrado del registro?");
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                            ALERTA BORRAR REGISTRO
+  function confirmar(){ 
+    return confirm("Si Borra este registro no se podra recuperar, ¿confirma el borrado del registro?");
 } 
- /* fin ADMIN*/
 
- /* BUSCADOR ADMIN*/
-
-function buscarAdmin (){
-  
-}
-
- /* FIN BUSCADOR ADMIN*/
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                         MENU DESPLEGABLE CARRITO
   $(function() {
   
       var menu_ul = $('.carro > li > ul'),
@@ -344,42 +261,18 @@ function buscarAdmin (){
       });
   });
 
-////////////////////////////////////////////////////////////////////////CARRO
-  $(function() {
-  
-      var menu_ul = $('.carro > li > ul'),
-             menu_a  = $('.carro > li > a'),
-             menu_ul_a = $('.carro > li > ul > li');
-      
-      menu_ul.hide();
-  
-      menu_a.mouseenter(function(e) {
-          e.preventDefault();
-          if(!$(this).hasClass('active')) {
-              menu_a.removeClass('active');
-              menu_ul.filter(':visible').slideUp('normal');
-              $(this).addClass('active').next().stop(true,true).slideDown('normal');
-          } else {
-          }
-      });
-      menu_ul.mouseleave(function(e) {
-          e.preventDefault();
-          if(!$(this).hasClass('active')) {
-            menu_ul.removeClass('active');
-        menu_a.removeClass('active');
-        menu_ul.filter(':visible').slideUp('normal');
-              $(this).next().stop(true,true).slideUp('normal');
-          } else {
-          }
-      });
-  });
-  ////////////////////////////////////////////////////////////////////////////////
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   MANTENER POSICION DEL SCROLL
 window.onload=function(){
-var pos=window.name || 0;
-window.scrollTo(0,pos);
+  var pos=window.name || 0;
+  window.scrollTo(0,pos);
 }
 window.onunload=function(){
-window.name=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
+  window.name=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                      MOSTRAR DETALLE DE LISTA
+$('li.dropdown').click(function() {
+    $(this).children('ul').toggle();
+});

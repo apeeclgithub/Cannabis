@@ -1,21 +1,22 @@
-
 $(document).ready(function() {
-  //actualiza datos del cliente
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //actualiza datos del cliente 
          // Interceptamos el evento submit
           $('#modifica').submit(function() {
         // Enviamos el formulario usando AJAX
               $.ajax({
                   type: 'POST',
                   url: $(this).attr('action'),
-                  data: $(this).serialize(),
-                  // Mostramos un mensaje con la respuesta de PHP
-                  success: function(data) {
+                  data: $(this).serialize(),                                                                   ////////////////////////
+                  // Mostramos un mensaje con la respuesta de php                                              //     CUENTA.PHP     //
+                  success: function(data) {                                                                    ////////////////////////
                
                       $('#data').html(data);
                   }
               })        
               return false;
           }); 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     /* INICIO SCRIPT CONTACT FORM*/
 
@@ -79,8 +80,11 @@ $(document).ready(function() {
         $("#result").slideUp();
     });
     /* FIN SCRIPT CONTACT FORM*/
-    /* INICIO SCRIPT CARRO*/
+    
 });
+
+
+/* INICIO SCRIPT CARRO*/
             function add(id, cantidad, precio, nombre){
                 var parametro = {
                     "id"        : id,

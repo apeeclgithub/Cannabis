@@ -103,8 +103,12 @@ $(document).ready(function() {
 				echo $dato1["reg_nombre"];
 				echo '<br>';
 
-
-		    	echo '<a href="function/comprar.php">COMPRAR!!</a>';
+				if ($dato1['dir_direccion']=='Sin Definir'){
+					echo 'Debe registrar su dirección antes de comprar';
+					echo '<a href="#">Su cuenta</a>';
+				}else{
+					echo '<a href="function/comprar.php">COMPRAR!!</a>';
+				}
 		    }else{
 		    	echo '<a href="login_cliente.php">Login</a>';
 		    }

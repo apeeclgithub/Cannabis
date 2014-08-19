@@ -70,7 +70,7 @@ $(document).ready(function() {
 				
 			?>
 			
-		<a href="carro.php">Ver Catalogo</a>
+		<a href="nuestrosproductos.php">Ver Catalogo</a>
 
 		<hr />
 
@@ -83,7 +83,7 @@ $(document).ready(function() {
 				$consulta1 = mysql_query($sql1);
 				$dato1 = mysql_fetch_array($consulta1);
 
-				echo '<a href="modifica.php?id='.$dato1["usu_id"].'">Modifica tus datos</a>';
+				echo '<a href="cuenta.php">Modifica tus datos</a>';
 				echo '<br>';
 				echo 'Nombre: '.$dato1["usu_nombre"];
 				echo '<br>';
@@ -104,7 +104,7 @@ $(document).ready(function() {
 				echo '<br>';
 
 				if ($dato1['dir_direccion']=='Sin Definir'){
-					echo 'Debe registrar su dirección antes de comprar';
+					echo 'Debe registrar su dirección antes de comprar<br>';
 					echo '<a href="#">Su cuenta</a>';
 				}else{
 					echo '<a href="function/comprar.php">COMPRAR!!</a>';

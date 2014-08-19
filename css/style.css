@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400|Oswald:400,700);
-li.dropdown ul {
-    display : none;
-}/*login cliente*/
+
+/*login cliente*/
 .sec_cuenta {
     margin-top: 8%;
 }
@@ -171,6 +170,8 @@ li.dropdown ul {
     margin-bottom: 10px;
     padding: 10px;
 }
+
+
 /* form Registro  */
 #contact_form1{
 	width: 300px;
@@ -372,11 +373,14 @@ body{
 .logo img{
 	position:relative;
 	max-width: 100%;
+	margin-top: -3%;
+	
 }
 
 .cont_sesion_top {
 	margin: 0 auto;
 	max-width: 1080px;
+	margin-top: 1%;
 }
 
 .sesion a{
@@ -388,7 +392,6 @@ body{
 	font-size: 16.61px;
 	font-family:'Oswald', sans-serif;
 	font-weight: 400;
-	margin-top: -24%;
 	max-width: 1280px;
 }
 
@@ -419,7 +422,7 @@ body{
 	text-align: center;
 }
 .section{
-	margin-top: 6.5%;
+	margin-top: -4.5%;
 }
 
 .noticia{
@@ -660,6 +663,7 @@ body{
 	margin: 1px;
 	border-radius: 3px;
 	position:relative;
+	z-index: 9999;
 }
 #colorNav > ul > li > a{
 	text-decoration:none !important;
@@ -1569,7 +1573,7 @@ opacity: 1;
 	.logo_pie img {
 	    padding-left: 15%;
 	}
-	
+
 	.title_seccion {
 	    padding-left: 17%;
 	}

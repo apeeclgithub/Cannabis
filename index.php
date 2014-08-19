@@ -96,11 +96,6 @@
 					</div>
 				</nav>
 			</div>
-	
-			
-				<div class="logo">
-					<h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
-				</div>
 			<div class="cont_sesion_top">
 				<div class="sesion">
 					<a href="registro.php" id="menu_registro">REGISTRO</a>
@@ -129,7 +124,12 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			</div>	
+			
+				<div class="logo">
+					<h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+				</div>
+
 		</header>
 		<section class="section">
 			<article class="news">

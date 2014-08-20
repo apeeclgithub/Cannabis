@@ -6,7 +6,7 @@
 	echo '<br>';
 	echo 'su id: '.$_SESSION['usuario'];
 
-	$sql1 = 'INSERT INTO pedido (ped_id, usu_id, ped_valor, ped_estado) VALUES ('.$pedido.', '.$_SESSION['usuario'].', '.$carrito->precio_total().', \'pendiente\')';
+	$sql1 = 'INSERT INTO pedido (ped_id, usu_id, ped_valor, ped_estado, ped_fecha) VALUES ('.$pedido.', '.$_SESSION['usuario'].', '.$carrito->precio_total().', \'pendiente\', \''.date("y-m-d").'\')';
 	$con1 = mysql_query($sql1);
 
 	$carro = $carrito->get_content();

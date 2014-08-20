@@ -117,11 +117,12 @@ if(empty($_SESSION['usuario'])){
 
         <div>
             <?php
-            $sql1 = "SELECT usu_nombre FROM usuario WHERE usu_id = $id";
+            $sql1 = "SELECT usu_nombre, usu_fecha FROM usuario WHERE usu_id = $id";
             $con1 = mysql_query($sql1);
             $dato1 = mysql_fetch_array($con1);
             echo "Bienvenido ".$dato1["usu_nombre"];
             echo "<br>";
+            echo "usuario registrado en: ".$dato1['usu_fecha']."<br>";
             $sql2 = "SELECT * FROM pedido WHERE usu_id = $id AND ped_estado = 'pendiente'";
             $con2 = mysql_query($sql2);
             $dato2 = mysql_num_rows($con2);
@@ -170,7 +171,7 @@ if(empty($_SESSION['usuario'])){
 
 
 
-    
+    <a href="tusdatos.php">Modifica tus datos</a><br>
     <a href="function/logout.php">Salir</a>
 
 

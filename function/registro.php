@@ -70,7 +70,7 @@
 			if ($filas>0){
 				echo "Correo ya registrado";
 			}else{
-				$SQL = "INSERT INTO usuario (usu_nombre, usu_mail, usu_pass, usu_edad)  Values ('".$name1."','".$email1."','".$pass1."','".$fecha."')";
+				$SQL = "INSERT INTO usuario (usu_nombre, usu_mail, usu_pass, usu_edad, usu_fecha)  Values ('".$name1."','".$email1."','".$pass1."','".$fecha."', '".date("y-m-d")."')";
 				mysql_query($SQL);
 				echo "Usuario registrado Correctamente";
 			}

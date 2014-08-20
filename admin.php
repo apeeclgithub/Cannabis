@@ -94,11 +94,11 @@ if(empty($_SESSION['admin'])){
         <legend class="widgettitulo">Listado de Clientes con todos los datos</legend> 
         
             <table border="1">
-            <thead><tr><th>ID usuario</th><th>Nombre</th><th>Fono</th><th>Mail</th><th>Edad</th><th>Dirección</th><th>Comuna</th><th>Región</th></tr></thead>
+            <thead><tr><th>ID usuario</th><th>Nombre</th><th>Fono</th><th>Mail</th><th>Edad</th><th>Dirección</th><th>Comuna</th><th>Región</th><th>Fecha Ingreso</th></tr></thead>
             <tbody>
                 <?php
                     include 'function/conexion.php';
-                    $consulta = mysql_query("SELECT usuario.usu_id, usu_nombre, usu_fono, usu_mail, usu_edad, dir_direccion, com_nombre, reg_nombre FROM usuario INNER JOIN direccion ON usuario.usu_id = direccion.usu_id INNER JOIN comuna ON direccion.com_id = comuna.com_id INNER JOIN region ON comuna.reg_id = region.reg_id where usuario.usu_id = direccion.usu_id");
+                    $consulta = mysql_query("SELECT usuario.usu_id, usu_nombre, usu_fecha, usu_fono, usu_mail, usu_edad, dir_direccion, com_nombre, reg_nombre FROM usuario INNER JOIN direccion ON usuario.usu_id = direccion.usu_id INNER JOIN comuna ON direccion.com_id = comuna.com_id INNER JOIN region ON comuna.reg_id = region.reg_id where usuario.usu_id = direccion.usu_id");
                     while ($fila = mysql_fetch_array($consulta)) { 
                     echo "<tr>";
                     echo "<td>".$fila['usu_id']."</td>";
@@ -110,6 +110,7 @@ if(empty($_SESSION['admin'])){
                     echo "<td>".$fila['dir_direccion']."</td>";
                     echo "<td>".$fila['com_nombre']."</td>";
                     echo "<td>".$fila['reg_nombre']."</td>";
+                    echo "<td>".$fila['usu_fecha']."</td>";
 
                     echo '<td><a onClick="return confirmar();" href="function/deleteuser.php?id='.trim($fila['usu_id']).'" >Eliminar</a></td>';
                     echo "</tr>";
@@ -125,12 +126,13 @@ if(empty($_SESSION['admin'])){
 
             <?php
 
-            $sql = "SELECT ped_id, usu_nombre, ped_valor FROM pedido INNER JOIN usuario ON usuario.usu_id = pedido.usu_id WHERE ped_estado = 'pendiente'";
+            $sql = "SELECT ped_id, usu_nombre, ped_valor,ped_fecha FROM pedido INNER JOIN usuario ON usuario.usu_id = pedido.usu_id WHERE ped_estado = 'pendiente'";
             $con = mysql_query($sql);
             while($dato = mysql_fetch_array($con)){
-                echo $dato['ped_id'];
-                echo $dato['usu_nombre'];
-                echo $dato['ped_valor'];
+                echo "id:".$dato['ped_id'];
+                echo " ".$dato['usu_nombre'];
+                echo " $".$dato['ped_valor'];
+                echo " Fecha:".$dato['ped_fecha']."<br>";
 
             }
 

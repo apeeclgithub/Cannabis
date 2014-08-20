@@ -83,7 +83,7 @@ $(document).ready(function() {
 				$consulta1 = mysql_query($sql1);
 				$dato1 = mysql_fetch_array($consulta1);
 
-				echo '<a href="cuenta.php">Modifica tus datos</a>';
+				echo '<a href="tusdatos.php">Modifica tus datos</a>';
 				echo '<br>';
 				echo 'Nombre: '.$dato1["usu_nombre"];
 				echo '<br>';

@@ -532,7 +532,7 @@ body{
 	max-width:1080px;
 	width:100%;
 	margin: 0 auto;
-	padding-bottom: 17%;
+	padding-bottom: 15%;
     padding-top: 3%;
 }
 
@@ -1168,11 +1168,11 @@ opacity: 1;
 	.sesion {
 	    font-size: 10.61px;
 	    font-weight: 400;
-	    margin-left: 71%;
+		margin-left: 64%;
 	}
 
 	#img_carro img {
-	    width: 10%;
+	    width: 7%;
 	}
 	
 	#colorNav li ul li a {
@@ -1180,9 +1180,14 @@ opacity: 1;
 	    padding: 3%;
 	}
 	
+	#colorNav li ul{
+		margin-left: -111px;
+
+	}
+
 	.comprar{
 		font-size: 10px;
-		width:69%;
+		width:26%;
 	}
 	.ult_prods {
 	    text-align: center;
@@ -1208,7 +1213,7 @@ opacity: 1;
 		padding-right: 1%;
 	}
 	.cont_pie {
-		padding-bottom: 24%;
+		padding-bottom: 37%;
 	}
 
 	.logo_pie img {
@@ -1319,6 +1324,19 @@ opacity: 1;
 		padding-left: 1%;
 	}
 
+	.sesion{
+		margin-left: 67%;
+		font-size:13.61px;
+	}
+
+	#img_carro img{
+		width:8%;
+	}
+
+	.section{
+		margin-top: -6.5%;
+	}
+
 	.ult_prods {
 	    text-align: center;
 	}
@@ -1336,7 +1354,7 @@ opacity: 1;
 	}
 	
 	.cont_pie {
-		padding-bottom: 24%;
+		padding-bottom: 20%;
 	}
 	
 	.logo_pie{
@@ -1434,6 +1452,33 @@ opacity: 1;
     	font-size: 60%;
 	}
 
+	.sesion{
+		font-size: 10.61px;
+		margin-left: 65%;
+	}
+
+	#img_carro img {
+	    width: 8%;
+	}
+
+	#colorNav li ul li a {
+	    font-size: 10px;
+	    padding: 7px;
+	}
+
+	#colorNav {
+	    margin-left: -33px;
+	}
+
+	#colorNav li ul {
+	    top: 0;
+	    width: 128px;
+	}
+
+	.section {
+	    margin-top: -8.5%;
+	}
+
 	.ult_prods {
 		font-size: 38px;
 	    padding-top: 0;
@@ -1474,6 +1519,41 @@ opacity: 1;
 	#menuChico ul li  {
 	    vertical-align: middle;
 	    display: block;
+	}
+
+	.sesion{
+		text-align: center;
+		margin-left:0px;
+		font-size: 88%;
+	}
+
+	#img_carro img {
+	    width: 5%;
+	}
+
+	#menu_registro {
+	    padding-right: 10%;
+	}
+
+	#menu_cuenta {
+	    padding-right: 6%;
+	}
+
+	#colorNav {
+	    margin-left: -37px;
+	}
+
+	#colorNav li ul li a {
+	    font-size: 12px;
+	}
+
+
+	#colorNav li ul {
+	    width: 175px;
+	}
+
+	.section {
+	    margin-top: -9%;
 	}
 
 	.ult_prods {
@@ -1536,6 +1616,30 @@ opacity: 1;
   		padding: 2%;
 	}
 
+	.sesion {
+	    font-size: 80%;
+	    margin-left: 0px;
+	    text-align: center;
+	}
+
+	#img_carro img {
+	    width: 6%;
+	}
+
+	#colorNav li ul li a {
+	    font-size: 10px;
+	    padding: 5px;
+	}
+
+	#colorNav li ul {
+		top:0px;
+	    width: 140px;
+	}
+
+	.section{
+		margin-top: -10.5%;
+	}
+
 	.ult_prods {
 	    font-size: 26.43px;
 	    text-align: center;
@@ -1585,12 +1689,35 @@ opacity: 1;
 
 @media only screen and (min-width: 980px) and (max-width:1023px){
 	
+	.sesion {
+	    font-size: 76%;
+	    margin-left: 71%;
+	}
+
+	#colorNav li ul li a {
+    	font-size: 12px;
+    	padding: 5%;
+	}
+
+	.section {
+	    margin-top: -7.5%;
+	}
+
+	.wrapcenter {
+	    margin: 0 auto 0;
+	}
+
 	.pie {
 	    margin: 25% auto 0;
 	}
 	
 	.logo_pie img {
-	    padding-left: 15%;
+	    padding-left: 22%;
+	}
+
+	.follow_pie {
+	    padding-left: 7%;
+	    padding-right: 4%;
 	}
 
 	.title_seccion {

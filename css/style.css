@@ -81,7 +81,7 @@
 /* form Contacto  */
 
 .sec_contacto{
-	 margin-top: 8%;
+	 margin-top: 0 auto;
 }
 
 
@@ -185,10 +185,11 @@
 	color:#5a903f;
 	padding-bottom: 4%;
 	max-width: 1280px;
-	margin-top: 8%;
+	margin-top: 0 auto;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 #contact_form1 legend{
 	font-size: 23px;
 	font-family: 'Roboto', sans-serif;
@@ -959,7 +960,7 @@ body{
 .wrapcenter{       
 	margin: 0 auto;
     max-width: 1080px;
-    margin: 12% auto 0;
+    margin: 0 auto;
 }
 
 /*CSS GENERAL CATEGORIAS*/

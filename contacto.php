@@ -1,3 +1,4 @@
+<?php include 'function/carrito.php';?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
@@ -83,16 +84,37 @@
                     </div>
                 </nav>
             </div>
-    
-            
-                <div class="logo">
-                    <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+            <div class="cont_sesion_top">
+                <div class="sesion">
+                    <a href="registro.php" id="menu_registro">REGISTRO</a>
+                    <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
+                    <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
+                    <div id="colorNav">
+                        <ul>
+                            <li>
+                                <a href="">CARRO (<?php echo $carrito->articulos_total()?>)</a>
+                                <?php
+                                    echo '<ul>';
+                                    $carro = $carrito->get_content();
+                                    if($carro){
+                                        foreach($carro as $producto){
+                                            
+                                            echo '<li><a href="#">'.$producto["cantidad"].' x '.$producto["nombre"].'</a></li>';
+                                        }
+                                        
+                                        echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
+                                        echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
+                                        echo "<li><a href=\"venta.php\"><button class=\"comprar\">Modificar y Compra</button></a></li>";
+                                    }
+                                    echo '</ul>';
+                                ?>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            <div class="sesion">
-                <a href="registro.php" id="menu_registro">REGISTRO</a>
-                <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
-                <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
-                <a href="#" id="menu_carro">CARRO (2)</a>
+            </div>
+            <div class="logo">
+                <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
             </div>
         </header>
 

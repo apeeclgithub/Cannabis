@@ -1,4 +1,5 @@
-<?php include 'function/carrito.php';?><!DOCTYPE html>
+<?php include 'function/carrito.php';?>
+<!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
@@ -124,12 +125,10 @@
 						</ul>
 					</div>
 				</div>
-			</div>	
-			
-				<div class="logo">
-					<h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
-				</div>
-
+			</div>
+			<div class="logo">
+				<h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+			</div>
 		</header>
 		<section class="section">
 			<article class="news">

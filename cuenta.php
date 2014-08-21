@@ -191,7 +191,7 @@ if(empty($_SESSION['usuario'])){
 
 
 
-    <a href="tusdatos.php">Modifica tus datos</a><br>
+    <a href="tus-datos.php">Modifica tus datos</a><br>
     <a href="function/logout.php">Salir</a>
 
 

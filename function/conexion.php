@@ -1,7 +1,7 @@
 <?php
 
 $con= mysql_connect("localhost","root","");
-//$con= mysql_connect("apeecl_evnprueba","apeecl_evnprueba","C{ig+7zSyieT");
+//$con= mysql_connect("apeecl_evnprueba","apeecl_evnprueba","ZGpBfd-8e&*k");
 mysql_query("SET NAMES 'utf8'");
 if($con) 
 {   

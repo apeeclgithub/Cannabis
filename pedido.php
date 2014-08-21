@@ -90,7 +90,7 @@
 					echo '<a href="function/comprar.php">COMPRAR!!</a>';
 				}
 		    }else{
-		    	echo '<a href="login_cliente.php">Login</a>';
+		    	echo '<a href="inicio-sesion.php">Login</a>';
 		    }
 	    ?>
 

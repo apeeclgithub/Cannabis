@@ -9,11 +9,11 @@
     if($dato > 0){
 
     }else{
-        echo "<script>location.href='login_cliente.php';</script>";
+        echo "<script>location.href='inicio-sesion.php';</script>";
     }
 }
 if(empty($_SESSION['usuario'])){
-    echo "<script>location.href='login_cliente.php';</script>";
+    echo "<script>location.href='inicio-sesion.php';</script>";
 }
 ?>
 

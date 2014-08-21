@@ -1,7 +1,6 @@
 <?php
     include 'function/carrito.php';
     include 'function/conexion.php';
-    session_start();
     $id = $_SESSION['usuario'];
 
     if(isset($_SESSION['usuario'])){

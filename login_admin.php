@@ -20,10 +20,10 @@ if(isset($_SESSION['admin'])){
 	<fieldset>
 		<form id="loginadmin" name="loginadmin" method="post" action="function/loginadmin.php">
 
-			<label id="user_label" for="user">Mail</label>
+			<label id="user_label" for="user">Usuario</label>
 	      	<input id="user" class="text-input" name="user" type="text" />
 	 
-	      	<label id="pass_label" for="pass">Pass</label>
+	      	<label id="pass_label" for="pass">Contraseña</label>
 	     	<input id="pass" class="text-input" name="pass" type="password" />
 
 	     	<input id="submit_admin" class="button" name="submit" type="submit" value="Send" />

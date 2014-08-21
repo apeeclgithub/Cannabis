@@ -113,7 +113,7 @@ if(isset($_SESSION['usuario'])){
                                         
                                         echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
                                         echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
-                                        echo "<li><a href=\"venta.php\"><button class=\"comprar\">Comprar</button></a></li>";
+                                        echo "<li><a href=\"pedido.php\"><button class=\"comprar\">Comprar</button></a></li>";
                                     }
                                     echo '</ul>';
                                 ?>

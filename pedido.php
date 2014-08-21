@@ -50,7 +50,7 @@
 				
 			?>
 			
-		<a href="nuestrosproductos.php">Ver Catalogo</a>
+		<a href="nuestros-productos.php">Ver Catalogo</a>
 
 		<hr />
 

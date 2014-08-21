@@ -120,7 +120,7 @@
     <fieldset id="contact_form1">
         <legend>Registro</legend>        
         <div id="result1"></div>
-        <div class="error_class" style="color:red; display:none;"></div>
+        <div class="error_class" style="color:red; display:none; text-align: center;"></div>
             <form action="function/registro.php" name="regform" id="regform" method="post" onsubmit="return validarReg();"><br>
             <label for="name1"><span>Nombre</span>
                 <input type="text" name="name1" id="name1"  />

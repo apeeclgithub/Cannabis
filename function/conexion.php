@@ -5,7 +5,7 @@ $con= mysql_connect("localhost","root","");
 mysql_query("SET NAMES 'utf8'");
 if($con) 
 {   
-	$db = mysql_select_db("cannabis",$con);
+	$db = mysql_select_db("apeecl_cannabis",$con);//conexion mario
 	if(!$db)
 	{ 
        		echo "Problemas para conectar a la BD";

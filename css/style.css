@@ -5,7 +5,14 @@
     margin-top: 8%;
 }
 
-#logincliente {
+#data1{
+	color: red;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#login_cliente{
 	width: 300px;
 	padding: 20px;
 	border: 0;
@@ -19,24 +26,38 @@
 	max-width: 1280px;
 }
 
-#logincliente legend{
+#login_cliente legend {
 	font-size: 23px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	padding-left: 30%;
-	padding-top: 20%;
+	color: #5a903f;
+	padding-bottom: 3%;
+	padding-top: 2%;
+}
+
+#logincliente {
+	width: 300px;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin-right: auto;
+	margin-left: auto;
+	color: #5a903f;
+	padding-bottom: 4%;
+	max-width: 1280px;
+}
+
+#logincliente label span{
+	float:left;
+	width:100px;
 	color:#5a903f;
 }
 
 #logincliente label{
 	display: block;
-	margin-bottom: 5%;
-}
-
-#logincliente label span{
-	float:left; 
-	width:100px;
-	color:#5a903f;
+	margin-bottom: 12%;
 }
 
 #logincliente input{
@@ -49,35 +70,20 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-#logincliente textarea{
-	resize:none;
-	border: 1px solid #DBDBDB;
-	border-radius: 3px;
-	padding-left: 4px;
-	color: #666;
-	height:100px;
-	width: 180px;
-	font-family: Arial, Helvetica, sans-serif;
+#submit_cliente { 
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    color: #8d8d8d;
+    padding: 0px;
+    text-shadow: 1px 1px 1px #fff;
+    margin-left: 34%;
 }
 
-#submit_login{
-	border: 1px solid #D8D8D8;
-	padding: 5px 15px 5px 15px;
-	color: #8D8D8D;
-	text-shadow: 1px 1px 1px #FFF;
-	border-radius: 3px;
-	background: #F8F8F8;
-}
-
-#submit_login:hover{
+#submit_cliente:hover{
 	background: #ECECEC;
 }
 
-#contact_form label span {
-	float: left;
-	width: 100px;
-	color: #5a903f;
-}
 /* form Contacto  */
 
 .sec_contacto{
@@ -147,6 +153,7 @@
 	text-shadow: 1px 1px 1px #FFF;
 	border-radius: 3px;
 	background: #F8F8F8;
+	width: 63%;
 }
 
 .submit_btn:hover{
@@ -729,6 +736,11 @@ body{
 	margin-left:-5px;
 }
 
+.comprar{
+	background-color: white;
+    color: green;
+}
+
 #colorNav li ul li:last-child{
 	border-bottom-left-radius:3px;
 	border-bottom-right-radius:3px;
@@ -1187,7 +1199,9 @@ opacity: 1;
 
 	.comprar{
 		font-size: 10px;
-		width:26%;
+		width:32%;
+		background-color: white;
+    	color: green;
 	}
 	.ult_prods {
 	    text-align: center;

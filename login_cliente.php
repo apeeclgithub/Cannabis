@@ -1,4 +1,6 @@
 <?php
+include 'function/carrito.php';
+
 include 'function/conexion.php';
 
 if(isset($_SESSION['usuario'])){
@@ -91,35 +93,58 @@ if(isset($_SESSION['usuario'])){
                     </div>
                 </nav>
             </div>
-    
-            
-                <div class="logo">
-                    <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+            <div class="cont_sesion_top">
+                <div class="sesion">
+                    <a href="registro.php" id="menu_registro">REGISTRO</a>
+                    <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
+                    <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
+                    <div id="colorNav">
+                        <ul>
+                            <li>
+                                <a href="">CARRO (<?php echo $carrito->articulos_total()?>)</a>
+                                <?php
+                                    echo '<ul>';
+                                    $carro = $carrito->get_content();
+                                    if($carro){
+                                        foreach($carro as $producto){
+                                            
+                                            echo '<li><a href="#">'.$producto["cantidad"].' x '.$producto["nombre"].'</a></li>';
+                                        }
+                                        
+                                        echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
+                                        echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
+                                        echo "<li><a href=\"venta.php\"><button class=\"comprar\">Comprar</button></a></li>";
+                                    }
+                                    echo '</ul>';
+                                ?>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            <div class="sesion">
-                <a href="registro.php" id="menu_registro">REGISTRO</a>
-                <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
-                <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
-                <a href="#" id="menu_carro">CARRO (2)</a>
+            </div>
+            <div class="logo">
+                <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
             </div>
         </header>
-		<h2>Ingrese a su cuenta para continuar.</h2>
-
-	<fieldset>
+	<fieldset id="login_cliente">
+        <div id="data1"></div>
+        <legend>Iniciar sesión</legend>
 		<form id="logincliente" name="logincliente" method="post" action="function/logincliente.php">
 
-			<label id="mail_label" for="mail">Mail</label>
-	      	<input id="mail" class="text-input" name="mail" type="text" />
+			<label id="mail_label" for="mail"><span>E-mail</span>
+                <input id="mail" class="text-input" name="mail" type="text" />
+            </label>
+	      	
 	 
-	      	<label id="pass_label" for="pass">Pass</label>
-	     	<input id="pass" class="text-input" name="pass" type="password" />
+	      	<label id="pass_label" for="pass"><span>Contraseña</span>
+                <input id="pass" class="text-input" name="pass" type="password" />
+            </label>
+	     	
 
-	     	<input id="submit_cliente" class="button" name="submit" type="submit" value="Send" />
+	     	<input id="submit_cliente" class="button" name="submit" type="submit" value="Ingresar" />
 
 		</form>			
 	</fieldset>
-		
-		<div id="data1"></div>
     <footer class="pie">
         <div class="cont_pie">
             <div class="logo_pie">

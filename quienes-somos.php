@@ -12,7 +12,7 @@
     <link href="img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quienes somos - EVN</title>
+    <title>Quiénes somos - EVN</title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modernizr.js"></script>
@@ -59,8 +59,8 @@
                     <div id="menuGrande">
                         <ul>
                             <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
-                            <li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
-                            <li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+                            <li ><a href="quienes-somos.php" id="menu_quienes">QUIÉNES SOMOS</a></li>
+                            <li ><a href="nuestros-productos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
                             <li ><a href="contacto.php"     id="menu_cont">CONTACTO</a></li>
                             <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
                             <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
@@ -74,8 +74,8 @@
                     <div class="menu">
                         <ul>
                             <li ><a href="index.php" >INICIO</a></li>
-                            <li ><a href="quienessomos.php" >QUIENES SOMOS</a></li>
-                            <li ><a href="nuestrosproductos.php" >NUESTROS PRODUCTOS</a></li>
+                            <li ><a href="quienes-somos.php" >QUIÉNES SOMOS</a></li>
+                            <li ><a href="nuestros-productos.php" >NUESTROS PRODUCTOS</a></li>
                             <li ><a href="contacto.php"     >CONTACTO</a></li>
                             <li ><a href="condiciones.php" >CONDICIONES DE COMPRA</a></li>
                             <li ><a href="politicas.php" >POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
@@ -104,7 +104,7 @@
                                         
                                         echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
                                         echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
-                                        echo "<li><a href=\"venta.php\"><button class=\"comprar\">Comprar</button></a></li>";
+                                        echo "<li><a href=\"pedido.php\"><button class=\"comprar\">Comprar</button></a></li>";
                                     }
                                     echo '</ul>';
                                 ?>

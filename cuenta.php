@@ -1,7 +1,7 @@
 <?php
     include 'function/carrito.php';
     include 'function/conexion.php';
-    $id = $_SESSION['usuario'];
+    $id = @$_SESSION['usuario'];
 
     if(isset($_SESSION['usuario'])){
     $sql = "SELECT usu_id FROM usuario WHERE usu_id = ".$_SESSION['usuario'];

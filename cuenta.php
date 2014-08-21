@@ -1,4 +1,5 @@
 <?php
+    include 'function/carrito.php';
     include 'function/conexion.php';
     session_start();
     $id = $_SESSION['usuario'];
@@ -30,7 +31,7 @@ if(empty($_SESSION['usuario'])){
     <link href="img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Condiciones de compra - EVN</title>
+    <title>Mi Cuenta - EVN</title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modernizr.js"></script>
@@ -102,19 +103,39 @@ if(empty($_SESSION['usuario'])){
                     </div>
                 </nav>
             </div>
-    
-            
-                <div class="logo">
-                    <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+            <div class="cont_sesion_top">
+                <div class="sesion">
+                    <a href="registro.php" id="menu_registro">REGISTRO</a>
+                    <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
+                    <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
+                    <div id="colorNav">
+                        <ul>
+                            <li>
+                                <a href="">CARRO (<?php echo $carrito->articulos_total()?>)</a>
+                                <?php
+                                    echo '<ul>';
+                                    $carro = $carrito->get_content();
+                                    if($carro){
+                                        foreach($carro as $producto){
+                                            
+                                            echo '<li><a href="#">'.$producto["cantidad"].' x '.$producto["nombre"].'</a></li>';
+                                        }
+                                        
+                                        echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
+                                        echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
+                                        echo "<li><a href=\"venta.php\"><button class=\"comprar\">Comprar</button></a></li>";
+                                    }
+                                    echo '</ul>';
+                                ?>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            <div class="sesion">
-                <a href="registro.php" id="menu_registro">REGISTRO</a>
-                <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
-                <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
-                <a href="#" id="menu_carro">CARRO (2)</a>
+            </div>
+            <div class="logo">
+                <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
             </div>
         </header>
-
         <div>
             <?php
             $sql1 = "SELECT usu_nombre, usu_fecha FROM usuario WHERE usu_id = $id";

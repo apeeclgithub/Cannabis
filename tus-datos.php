@@ -1,3 +1,24 @@
+<?php
+    include 'function/carrito.php';
+    include 'function/conexion.php';
+    $id = @$_SESSION['usuario'];
+
+    if(isset($_SESSION['usuario'])){
+    $sql = "SELECT usu_id FROM usuario WHERE usu_id = ".$_SESSION['usuario'];
+    $dato = mysql_num_rows(mysql_query($sql));
+    if($dato > 0){
+
+    }else{
+        echo "<script>location.href='inicio-sesion.php';</script>";
+    }
+}
+if(empty($_SESSION['usuario'])){
+    echo "<script>location.href='inicio-sesion.php';</script>";
+}
+?>
+<!--COLOCAR PHP ANTES QUE EL HTML-->
+
+
 <label for="tab-2">Modifique sus datos</label>
            <div class="content">
             

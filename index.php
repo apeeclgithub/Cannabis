@@ -57,6 +57,9 @@
 </head>
 <body>
 		<header class="header">
+			<div class="logo">
+				<h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+			</div>
 			<div class="cont_color_follow">
 				<div class="cont_follow_top">
 					<div class="follow_top">
@@ -125,9 +128,6 @@
 						</ul>
 					</div>
 				</div>
-			</div>
-			<div class="logo">
-				<h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
 			</div>
 		</header>
 		<section class="section">

@@ -135,66 +135,60 @@ if(empty($_SESSION['usuario'])){
                 <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
             </div>
         </header>
-        <div>
-            <?php
-            $sql1 = "SELECT usu_nombre, usu_fecha FROM usuario WHERE usu_id = $id";
-            $con1 = mysql_query($sql1);
-            $dato1 = mysql_fetch_array($con1);
-            echo "Bienvenido ".$dato1["usu_nombre"];
-            echo "<br>";
-            echo "usuario registrado en: ".$dato1['usu_fecha']."<br>";
-            $sql2 = "SELECT * FROM pedido WHERE usu_id = $id AND ped_estado = 'pendiente'";
-            $con2 = mysql_query($sql2);
-            $dato2 = mysql_num_rows($con2);
-            if($dato2>0){
-                echo "Actualmente tienes ".$dato2." compras pendientes de aprobación ";
-            }else{
-                echo "No tienes compras pendientes";
-            }
-            echo "<br>";
-            $sql3 = "SELECT * FROM pedido WHERE usu_id = $id AND ped_estado = 'finalizado'";
-            $con3 = mysql_query($sql3);
-            $dato3 = mysql_num_rows($con3);
-            echo "Compras finalizadas hasta la fecha: ".$dato3;
-            ?>
-            </div>
-
-
-           <div> 
-        <h2>tus compras</h2>
-            <?php
-                $sql = "SELECT ped_id, ped_valor, ped_estado FROM pedido WHERE usu_id = $id";
-                $con = mysql_query($sql);
-                $dato = mysql_fetch_array($con);
-                if(empty($dato)){
-                    echo "Usted no cuenta con ninguna compra realizada.";
-                }else{
-                do {
-                    echo "<ul>";
-                    echo "<li class=\"dropdown\">Número de pedido: ".$dato['ped_id']." Valor: ".$dato['ped_valor']." Estado Actual: ".$dato['ped_estado']."<br>";
-                    $sql2 = "SELECT pro_nombre, det_cantidad, pro_valor FROM detalle INNER JOIN producto ON detalle.pro_id = producto.pro_id WHERE ped_id = ".$dato['ped_id'];
+        <section>
+            <div>
+                <?php
+                    $sql1 = "SELECT usu_nombre, usu_fecha FROM usuario WHERE usu_id = $id";
+                    $con1 = mysql_query($sql1);
+                    $dato1 = mysql_fetch_array($con1);
+                    echo "<div class=\"cont_cuenta\">Bienvenido ".$dato1["usu_nombre"];
+                    echo "<br>";
+                    $sql2 = "SELECT * FROM pedido WHERE usu_id = $id AND ped_estado = 'pendiente'";
                     $con2 = mysql_query($sql2);
-                    $dato2 = mysql_fetch_array($con2);
-                    do {
-                        echo "<ul>";
-                        echo "<li>".$dato2['pro_nombre'];
-                        echo $dato2['det_cantidad'];
-                        echo $dato2['pro_valor']."</li>";
-                        echo "</ul>";
-                    } while ($dato2 = mysql_fetch_array($con2));
-                    echo "</li>";
-                    echo "</ul>";
-                } while ($dato = mysql_fetch_array($con));
-            }
-            ?>
+                    $dato2 = mysql_num_rows($con2);
+                    if($dato2>0){
+                        echo "Actualmente tienes ".$dato2." compras pendientes de aprobación ";
+                    }else{
+                        echo "No tienes compras pendientes";
+                    }
+                    echo "<br>";
+                    $sql3 = "SELECT * FROM pedido WHERE usu_id = $id AND ped_estado = 'finalizado'";
+                    $con3 = mysql_query($sql3);
+                    $dato3 = mysql_num_rows($con3);
+                    echo "Compras finalizadas hasta la fecha: ".$dato3."</div";
+                ?>
             </div>
-
-
-
-    <a href="tus-datos.php">Modifica tus datos</a><br>
-    <a href="function/logout.php">Salir</a>
-
-
+            <div> 
+                <h2>tus compras</h2>
+                <?php
+                    $sql = "SELECT ped_id, ped_valor, ped_estado FROM pedido WHERE usu_id = $id";
+                    $con = mysql_query($sql);
+                    $dato = mysql_fetch_array($con);
+                    if(empty($dato)){
+                        echo "Usted no cuenta con ninguna compra realizada.";
+                    }else{
+                    do  {
+                        echo "<ul>";
+                        echo "<li class=\"dropdown\">Número de pedido: ".$dato['ped_id']." Valor: ".$dato['ped_valor']." Estado Actual: ".$dato['ped_estado']."<br>";
+                        $sql2 = "SELECT pro_nombre, det_cantidad, pro_valor FROM detalle INNER JOIN producto ON detalle.pro_id = producto.pro_id WHERE ped_id = ".$dato['ped_id'];
+                        $con2 = mysql_query($sql2);
+                        $dato2 = mysql_fetch_array($con2);
+                        do {
+                            echo "<ul>";
+                            echo "<li>".$dato2['pro_nombre'];
+                            echo $dato2['det_cantidad'];
+                            echo $dato2['pro_valor']."</li>";
+                            echo "</ul>";
+                        } while ($dato2 = mysql_fetch_array($con2));
+                        echo "</li>";
+                        echo "</ul>";
+                        } while ($dato = mysql_fetch_array($con));
+                    }
+                ?>
+            </div>
+            <a href="tus-datos.php">Modifica tus datos</a><br>
+            <a href="function/logout.php">Salir</a>
+        </section>
     <footer class="pie">
         <div class="cont_pie">
             <div class="logo_pie">

@@ -155,7 +155,7 @@ if(empty($_SESSION['usuario'])){
                     $sql3 = "SELECT * FROM pedido WHERE usu_id = $id AND ped_estado = 'finalizado'";
                     $con3 = mysql_query($sql3);
                     $dato3 = mysql_num_rows($con3);
-                    echo "Compras finalizadas hasta la fecha: ".$dato3."</div";
+                    echo "Compras finalizadas hasta la fecha: ".$dato3."</div>";
                 ?>
             </div>
             <div> 

@@ -1136,7 +1136,6 @@ opacity: 1;
 	padding-top: 1%;
 	color: #5a903f;
 	text-align: center;
-	padding-bottom: 1%;
 	text-transform: uppercase;
 }
 
@@ -1154,7 +1153,6 @@ opacity: 1;
 
 .cuenta_ped{
 	width: 300px;
-	padding: 20px;
 	border: 0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;

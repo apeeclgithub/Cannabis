@@ -1137,23 +1137,55 @@ opacity: 1;
 	color: #5a903f;
 	text-align: center;
 	padding-bottom: 1%;
-
+	text-transform: uppercase;
 }
 
 .cont_dato{
 	font-size: 80%;
 	font-weight: 400;
+	text-transform: none;
 }
 
 .cont_dato_compra{
 	font-size: 80%;
 	font-weight: 400;
+	text-transform: none;
 }
 
 .cuenta_ped{
-
+	width: 300px;
+	padding: 20px;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin-right: auto;
+	margin-left: auto;
+	color: #5a903f;
+	padding-bottom: 4%;
+	max-width: 1280px;
+	cursor:pointer; cursor: hand;
 }
 
+.cuenta_ped ul li ul li{
+	list-style: none;
+	cursor:default;
+	font-weight: 400;
+}
+
+.cuenta_ped ul li{
+	list-style: none;
+}
+
+.cuenta_ped h2{
+	text-align: center;
+	text-transform: uppercase;
+	cursor: default;
+}
+
+.cont_dato_nocompra{
+	text-align: center;
+}
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
 

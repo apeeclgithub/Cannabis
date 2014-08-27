@@ -165,19 +165,19 @@ if(empty($_SESSION['usuario'])){
                         $con = mysql_query($sql);
                         $dato = mysql_fetch_array($con);
                         if(empty($dato)){
-                            echo "Usted no cuenta con ninguna compra realizada.";
+                            echo "<div class=\"cont_dato_nocompra\">No ha realizado compras</div>";
                         }else{
                         do  {
-                            echo "<ul>";
-                            echo "<li class=\"dropdown\">Número de pedido: ".$dato['ped_id']." Valor: ".$dato['ped_valor']." Estado Actual: ".$dato['ped_estado']."<br>";
+                            echo "<ul><br>";
+                            echo "<li class=\"dropdown\">Número de pedido: ".$dato['ped_id']."<br> Valor: ".$dato['ped_valor']."<br> Estado Actual: ".$dato['ped_estado']."<br>";
                             $sql2 = "SELECT pro_nombre, det_cantidad, pro_valor FROM detalle INNER JOIN producto ON detalle.pro_id = producto.pro_id WHERE ped_id = ".$dato['ped_id'];
                             $con2 = mysql_query($sql2);
                             $dato2 = mysql_fetch_array($con2);
                             do {
                                 echo "<ul>";
-                                echo "<li>".$dato2['pro_nombre'];
+                                echo "<li><br>".$dato2['pro_nombre'];
                                 echo $dato2['det_cantidad'];
-                                echo $dato2['pro_valor']."</li>";
+                                echo $dato2['pro_valor']."<br></li>";
                                 echo "</ul>";
                             } while ($dato2 = mysql_fetch_array($con2));
                             echo "</li>";

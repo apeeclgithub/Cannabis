@@ -68,8 +68,8 @@ if(isset($_SESSION['usuario'])){
                     <div id="menuGrande">
                         <ul>
                             <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
-                            <li ><a href="quienessomos.php" id="menu_quienes">QUIENES SOMOS</a></li>
-                            <li ><a href="nuestrosproductos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+                            <li ><a href="quienes-somos.php" id="menu_quienes">QUIÉNES SOMOS</a></li>
+                            <li ><a href="nuestros-productos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
                             <li ><a href="contacto.php"     id="menu_cont">CONTACTO</a></li>
                             <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
                             <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
@@ -83,8 +83,8 @@ if(isset($_SESSION['usuario'])){
                     <div class="menu">
                         <ul>
                             <li ><a href="index.php" >INICIO</a></li>
-                            <li ><a href="quienessomos.php" >QUIENES SOMOS</a></li>
-                            <li ><a href="nuestrosproductos.php" >NUESTROS PRODUCTOS</a></li>
+                            <li ><a href="quienes-somos.php" >QUIÉNES SOMOS</a></li>
+                            <li ><a href="nuestros-productos.php" >NUESTROS PRODUCTOS</a></li>
                             <li ><a href="contacto.php"     >CONTACTO</a></li>
                             <li ><a href="condiciones.php" >CONDICIONES DE COMPRA</a></li>
                             <li ><a href="politicas.php" >POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>

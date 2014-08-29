@@ -83,7 +83,7 @@
 				echo $dato1["reg_nombre"];
 				echo '<br>';
 
-				if ($dato1['dir_direccion']=='Sin Definir'){
+				if ($dato1['dir_direccion']=='Sin definir'){
 					echo 'Debe registrar su dirección antes de comprar<br>';
 					echo '<a href="#">Su cuenta</a>';
 				}else{

@@ -245,6 +245,20 @@ window.onunload=function(){
   window.name=self.pageYOffset || (document.documentElement.scrollTop+document.body.scrollTop);
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   CARGA ASINCRONICA COMUNAS
+function CargarRegiones(val)
+{
+    $.ajax({ 
+        type: "POST",
+        url: 'function/consulta.php',
+        data: 'reg_id='+val, 
+        success: function(resp){ 
+            $('#comuna').html(resp);
+        } 
+    }); 
+}
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                            fORMULARIO DE REGISTRO
   function validarReg(){

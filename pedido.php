@@ -85,7 +85,8 @@
 
 				if ($dato1['dir_direccion']=='Sin definir'){
 					echo 'Debe registrar su dirección antes de comprar<br>';
-					echo '<a href="#">Su cuenta</a>';
+					echo '<a href="agregar-direccion.php">Agregar dirección</a>';
+					echo "<script>if (window.confirm('Necesita Agregar una dirección para continuar con la compra')) {window.location.href='agregar-direccion.php';}</script>";
 				}else{
 					echo '<a href="function/comprar.php">COMPRAR!!</a>';
 				}
@@ -94,5 +95,8 @@
 		    }
 	    ?>
 
+
+
 	</body>	
+
 </html>

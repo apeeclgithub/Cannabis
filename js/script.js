@@ -195,6 +195,50 @@ $('li.dropdown').click(function() {
       });
   };
 
+
+    function add0(id, cantidad, precio, nombre){
+      var parametro = {
+          "id"        : id,
+          "cantidad"  : cantidad,
+          "precio"    : precio,
+          "nombre"    : nombre
+      };
+      $.ajax({
+          data: parametro,
+          url: '../../function/carrito.php',
+          type: 'post',
+          success: function(){
+              $('.cont_sesion_top').html("asd");
+
+          }
+      });
+  };
+  function del0(id){
+      var dele = {
+          "delete": id
+      }
+      $.ajax({
+          data: dele,
+          url: '../../function/carrito.php',
+          type: 'post',
+          success: function(){
+              location.reload();
+          }
+      });
+  };
+  function delall0(del){
+      var delall = {
+          "delall" : del
+      }
+      $.ajax({
+          data: delall,
+          url: '../../function/carrito.php',
+          type: 'post',
+          success: function(){
+              location.reload();
+          }
+      });
+  };
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                            ALERTA BORRAR REGISTRO
   function confirmar(){ 

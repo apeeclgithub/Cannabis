@@ -141,12 +141,12 @@ if(empty($_SESSION['usuario'])){
                     <?php
                         $sql1 = "SELECT usu_nombre, usu_fecha FROM usuario WHERE usu_id = $id";
                         $con1 = mysql_query($sql1);
-                        $dato1 = mysql_fetch_array($con1);
+                        @$dato1 = mysql_fetch_array($con1);
                         echo "<div class=\"cont_cuenta\">Bienvenido ".$dato1["usu_nombre"];
                         echo "<br><br>";
                         $sql2 = "SELECT * FROM pedido WHERE usu_id = $id AND ped_estado = 'pendiente'";
                         $con2 = mysql_query($sql2);
-                        $dato2 = mysql_num_rows($con2);
+                        @$dato2 = mysql_num_rows($con2);
                         if($dato2>0){
                             echo "<div class=\"cont_dato\">Actualmente tienes ".$dato2." compras pendientes de aprobación </div>";
                         }else{

@@ -188,7 +188,6 @@ if(empty($_SESSION['usuario'])){
                     ?>
                     <br>
                     <div class="btn_mod">
-
                         <a href="tus-datos.php">Modifica tus datos</a><br><br>
                         <a href="function/logout.php">Salir</a>
                     </div>

@@ -1187,13 +1187,17 @@ opacity: 1;
 	font-family: 'Oswald',sans-serif;
 	font-size: 20px;
 	font-weight: bold;
+	color:#939c07;
 }
 
 .btn_mod a:link{
 	color:#939c07;
 	text-decoration: none;
 }
-
+.btn_mod a:visited{
+	color:#939c07;
+	text-decoration: none;
+}
 /**tus-datos**/
 
 .art_datos{
@@ -1208,18 +1212,46 @@ opacity: 1;
 	color: #5a903f;
 }
 
-#submit_login{
-	border: 1px solid #D8D8D8;
+#submit_modifica{
 	padding: 5px 15px 5px 15px;
-	color: #8D8D8D;
 	text-shadow: 1px 1px 1px #FFF;
-	border-radius: 3px;
 	background: #F8F8F8;
-	width: 63%;
+	margin-left: 34%;
 }
 
-#submit_login:hover{
+#submit_modifica:hover{
 	background: #ECECEC;
+}
+
+.btn_mod1 a{
+	text-decoration: none;
+}
+/*direccion*/
+.datos_d{
+	font-size: 23px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	padding-left: 42%;
+	padding-top: 20%;
+	color: #5a903f;
+}
+#region{
+	height: 28px;
+	border: 1px solid #DBDBDB;
+	border-radius: 3px;
+	padding-left: 4px;
+	color: #666;
+	width: 186px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#comuna{
+	height: 28px;
+	border: 1px solid #DBDBDB;
+	border-radius: 3px;
+	padding-left: 4px;
+	color: #666;
+	width: 186px;
+	font-family: Arial, Helvetica, sans-serif;	
 }
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
@@ -1386,8 +1418,14 @@ opacity: 1;
 	.contacto {
 		width:25%;
 	}
-}
 
+	.datos_p{
+		padding-left: 39%;
+	}
+	.datos_d {
+	    padding-left: 30.5%;
+	}
+}
 
 @media only screen and (min-width:1023px) and (max-width: 1154px){
 	
@@ -1491,6 +1529,9 @@ opacity: 1;
 	.title_seccion{
 		padding-left:26%;
 		padding-bottom: 4%;
+	}
+	.datos_d {
+    padding-left: 35.5%;
 	}
 }
 
@@ -1617,6 +1658,13 @@ opacity: 1;
 	.contacto {
 		width: 30%;
 	}
+
+	.datos_p{
+		padding-left: 35%;
+	}
+	.datos_d {
+	    padding-left: 26%;
+	}
 }
 
 
@@ -1701,6 +1749,15 @@ opacity: 1;
 	.contacto {
 	    padding-left: 35%;
 	    width: auto;
+	}
+
+	.datos_p {
+	    padding-left: 30%;
+	}
+
+	.datos_d {
+	font-size: 22px;
+	padding-left: 20%;
 	}
 }
 
@@ -1789,6 +1846,15 @@ opacity: 1;
 	.title_seccion{
 		padding-left: 17%;
 	}
+
+	.datos_p{
+		padding-left: 21%;
+	}
+
+	.datos_d{
+		padding-left: 14%;
+		font-size: 18px;
+	}
 }
 
 @media only screen and (min-width: 980px) and (max-width:1023px){
@@ -1839,4 +1905,15 @@ opacity: 1;
 	    padding-left: 8px;
 	}
 	
+	.datos_p{
+		padding-left: 40%;
+	}
+
+	.art_datos {
+	    padding-top: 10%;
+	}
+
+	.datos_d{
+		padding-left: 35%;
+	}
 }

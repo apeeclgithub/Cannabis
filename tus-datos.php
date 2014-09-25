@@ -29,7 +29,7 @@ if(empty($_SESSION['usuario'])){
     <link href="img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro - EVN</title>
+    <title>Tus datos - EVN</title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modernizr.js"></script>
@@ -58,7 +58,6 @@ if(empty($_SESSION['usuario'])){
     <meta name="author" content="Espacio verde natural">
     <meta name="keywords" content="venta cremas, venta semillas, semillas, cremas, ropa, vestuario, venta vestuario,  venta ropa, venta fertilizante, fertilizante, cosmetica, semillas feminizadas, feminizadas, semillas automaticas, automaticas, accesorios, vestuario y accesorios, marihuana, cannabis">
 </head>
-
 <body>
  <header class="header">
             <div class="logo">
@@ -162,9 +161,9 @@ if(empty($_SESSION['usuario'])){
                             </label>
                             <input id="submit_modifica" class="button" name="submit" type="submit" value="Actualizar" />
                         </form>         
-                    </fieldset>
-                    <label>Datos de entrega</label>
-                        <fieldset>
+                    </fieldset >
+                    <label class="datos_p">Datos de entrega</label>
+                        <fieldset id="contact_form">
                         <?php
                             if ($dato1['dir_direccion']=='Sin definir'){
                                 echo 'No se ha definifido la dirección de entrega para este cliente<br>';
@@ -173,7 +172,7 @@ if(empty($_SESSION['usuario'])){
                                 echo '<label>Dirección: '.$dato1['dir_direccion'].'</label><br>';
                                 echo '<label>Comuna: '.$dato1['com_nombre'].'</label><br>';
                                 echo '<label>Región: '.$dato1['reg_nombre'].'</label><br>';
-                                echo '<a href="agregar-direccion.php">Modificar</a>';
+                                echo '<div class="btn_mod"><a href="agregar-direccion.php">Modifica tus datos de entrega</a></div>';
                                 }
                         ?>                
                         </fieldset>
@@ -201,9 +200,10 @@ if(empty($_SESSION['usuario'])){
                     <div class="contacto">
                         <div itemscope itemtype="http://schema.org/LocalBusiness">
                             <div class="title_cont">CONTÁCTANOS</div>
-                            <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;<span itemprop="email">alo@espacioverdenatural.cl</span></div>
-                            <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">800 800 800</span></div>
-                            <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">+9 999 9999</span></div>                      
+                            <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;<span itemprop="email">ventas@espacioverdenatural.cl</span></div>
+                            <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">02/26995942</span></div>
+                            <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">6-1400225 / 6-8358062</span></div>                      
+                            <div class="cont_mail"><span itemprop="streetAddress">Huérfanos 1044</span>, oficina 905, <span itemprop="addressLocality">Santiago Centro.</span></div>                      
                         </div>
                     </div>
                 </div>

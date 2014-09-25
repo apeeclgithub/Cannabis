@@ -53,6 +53,9 @@ if(isset($_SESSION['usuario'])){
 
 <body>
         <header class="header">
+            <div class="logo">
+                <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+            </div>
             <div class="cont_color_follow">
                 <div class="cont_follow_top">
                     <div class="follow_top">
@@ -122,9 +125,6 @@ if(isset($_SESSION['usuario'])){
                     </div>
                 </div>
             </div>
-            <div class="logo">
-                <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
-            </div>
         </header>
 	<fieldset id="login_cliente">
         <div id="data1"></div>
@@ -168,9 +168,10 @@ if(isset($_SESSION['usuario'])){
             <div class="contacto">
                 <div itemscope itemtype="http://schema.org/LocalBusiness">
                     <div class="title_cont">CONTÁCTANOS</div>
-                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;<span itemprop="email">alo@espacioverdenatural.cl</span></div>
-                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">800 800 800</span></div>
-                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">+9 999 9999</span></div>                      
+                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;<span itemprop="email">ventas@espacioverdenatural.cl</span></div>
+                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">02/26995942</span></div>
+                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">6-1400225 / 6-8358062</span></div>                      
+                    <div class="cont_mail"><span itemprop="streetAddress">Huérfanos 1044</span>, oficina 905, <span itemprop="addressLocality">Santiago Centro.</span></div>                      
                 </div>
             </div>
         </div>

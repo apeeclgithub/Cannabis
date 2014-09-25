@@ -139,7 +139,7 @@ if(empty($_SESSION['usuario'])){
             <article>
                 <div>
                     <?php
-                        try{
+                       
                         $sql1 = "SELECT usu_nombre, usu_fecha FROM usuario WHERE usu_id = $id";
                         $con1 = mysql_query($sql1);
                         $dato1 = mysql_fetch_array($con1);
@@ -157,9 +157,6 @@ if(empty($_SESSION['usuario'])){
                         $con3 = mysql_query($sql3);
                         $dato3 = mysql_num_rows($con3);
                         echo "<div class=\"cont_dato_compra\">Compras finalizadas hasta la fecha: ".$dato3."</div></div>";
-                    }catch(Exception $e){
-                        
-                    }
                     ?>
                 </div>
                 <div class="cuenta_ped"> 

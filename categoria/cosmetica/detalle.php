@@ -89,7 +89,7 @@
                 </nav>
             </div>
             <div class="cont_sesion_top">
-                <div class="sesion">
+                            <div class="sesion">
                     <a href="../../registro.php" id="menu_registro">REGISTRO</a>
                     <a href="../../cuenta.php" id="menu_cuenta">MI CUENTA</a>
                     <a href="#" id="img_carro" ><img src="../../img/carro.png" alt="carro"></a>
@@ -107,7 +107,7 @@
                                         }
                                         
                                         echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
-                                        echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
+                                        echo "<li><a><span onclick=\"delall0('si')\">Borrar Todo</span></a></li>";
                                         echo "<li><a href=\"../../pedido.php\"><button class=\"comprar\">Comprar</button></a></li>";
                                     }
                                     echo '</ul>';
@@ -116,6 +116,7 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
             <div class="logo">
                 <h1><img src="../../img/evn-gif.gif" alt="Espacio verde natural"></h1>

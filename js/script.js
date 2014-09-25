@@ -208,7 +208,7 @@ $('li.dropdown').click(function() {
           url: '../../function/carrito.php',
           type: 'post',
           success: function(){
-              $('.cont_sesion_top').html(this);
+              $('.cont_sesion_top').reload();
 
           }
       });

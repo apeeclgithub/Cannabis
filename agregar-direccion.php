@@ -29,7 +29,7 @@ if(empty($_SESSION['usuario'])){
     <link href="img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro - EVN</title>
+    <title>Tu Dirección - EVN</title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modernizr.js"></script>
@@ -58,121 +58,114 @@ if(empty($_SESSION['usuario'])){
     <meta name="author" content="Espacio verde natural">
     <meta name="keywords" content="venta cremas, venta semillas, semillas, cremas, ropa, vestuario, venta vestuario,  venta ropa, venta fertilizante, fertilizante, cosmetica, semillas feminizadas, feminizadas, semillas automaticas, automaticas, accesorios, vestuario y accesorios, marihuana, cannabis">
 </head>
-
 <body>
- <header class="header">
-            <div class="cont_color_follow">
-                <div class="cont_follow_top">
-                    <div class="follow_top">
-                        <div class="sig_top">
-                            SÍGUENOS
-                        </div>
-                        <div class="redestop"><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></div>
+    <header class="header">
+         <div class="logo">
+            <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+        </div>
+        <div class="cont_color_follow">
+            <div class="cont_follow_top">
+                <div class="follow_top">
+                    <div class="sig_top">
+                        SÍGUENOS
                     </div>
+                    <div class="redestop"><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></div>
                 </div>
             </div>
-            <div class="ul_menu">
-                <nav class="menu_p">
-                    <div id="menuGrande">
-                        <ul>
-                            <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
-                            <li ><a href="quienes-somos.php" id="menu_quienes">QUIÉNES SOMOS</a></li>
-                            <li ><a href="nuestros-productos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
-                            <li ><a href="contacto.php"     id="menu_cont">CONTACTO</a></li>
-                            <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
-                            <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
-                        </ul>
-                    </div>
-                    <div id="menuChico">
-                    <input id="check1" type="checkbox" />
-                    <label for="check1">
-                        <img src="img/menu.png" alt="icono">
-                    </label>
-                    <div class="menu">
-                        <ul>
-                            <li ><a href="index.php" >INICIO</a></li>
-                            <li ><a href="quienes-somos.php" >QUIÉNES SOMOS</a></li>
-                            <li ><a href="nuestros-productos.php" >NUESTROS PRODUCTOS</a></li>
-                            <li ><a href="contacto.php"     >CONTACTO</a></li>
-                            <li ><a href="condiciones.php" >CONDICIONES DE COMPRA</a></li>
-                            <li ><a href="politicas.php" >POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </nav>
-            </div>
-            <div class="cont_sesion_top">
-                <div class="sesion">
-                    <a href="registro.php" id="menu_registro">REGISTRO</a>
-                    <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
-                    <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
-                    <div id="colorNav">
-                        <ul>
-                            <li>
-                                <a href="">CARRO (<?php echo $carrito->articulos_total()?>)</a>
-                                <?php
-                                    echo '<ul>';
-                                    $carro = $carrito->get_content();
-                                    if($carro){
-                                        foreach($carro as $producto){
-                                            
-                                            echo '<li><a href="#">'.$producto["cantidad"].' x '.$producto["nombre"].'</a></li>';
-                                        }
+        </div>
+        <div class="ul_menu">
+            <nav class="menu_p">
+                <div id="menuGrande">
+                    <ul>
+                        <li ><a href="index.php" id="menu_inicio">INICIO</a></li>
+                        <li ><a href="quienes-somos.php" id="menu_quienes">QUIÉNES SOMOS</a></li>
+                        <li ><a href="nuestros-productos.php" id="menu_prod">NUESTROS PRODUCTOS</a></li>
+                        <li ><a href="contacto.php"     id="menu_cont">CONTACTO</a></li>
+                        <li ><a href="condiciones.php" id="menu_cond">CONDICIONES DE COMPRA</a></li>
+                        <li ><a href="politicas.php" id="menu_pol">POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+                    </ul>
+                </div>
+                <div id="menuChico">
+                <input id="check1" type="checkbox" />
+                <label for="check1">
+                    <img src="img/menu.png" alt="icono">
+                </label>
+                <div class="menu">
+                    <ul>
+                        <li ><a href="index.php" >INICIO</a></li>
+                        <li ><a href="quienes-somos.php" >QUIÉNES SOMOS</a></li>
+                        <li ><a href="nuestros-productos.php" >NUESTROS PRODUCTOS</a></li>
+                        <li ><a href="contacto.php"     >CONTACTO</a></li>
+                        <li ><a href="condiciones.php" >CONDICIONES DE COMPRA</a></li>
+                        <li ><a href="politicas.php" >POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</a></li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+        <div class="cont_sesion_top">
+            <div class="sesion">
+                <a href="registro.php" id="menu_registro">REGISTRO</a>
+                <a href="cuenta.php" id="menu_cuenta">MI CUENTA</a>
+                <a href="#" id="img_carro" ><img src="img/carro.png" alt="carro"></a>
+                <div id="colorNav">
+                    <ul>
+                        <li>
+                            <a href="">CARRO (<?php echo $carrito->articulos_total()?>)</a>
+                            <?php
+                                echo '<ul>';
+                                $carro = $carrito->get_content();
+                                if($carro){
+                                    foreach($carro as $producto){
                                         
-                                        echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
-                                        echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
-                                        echo "<li><a href=\"pedido.php\"><button class=\"comprar\">Comprar</button></a></li>";
+                                        echo '<li><a href="#">'.$producto["cantidad"].' x '.$producto["nombre"].'</a></li>';
                                     }
-                                    echo '</ul>';
-                                ?>
-                            </li>
-                        </ul>
-                    </div>
+                                    
+                                    echo "<li><a>Valor Total: CLP ".number_format($carrito->precio_total(),0,',','.')."</a></li>";
+                                    echo "<li><a><span onclick=\"delall('si')\">Borrar Todo</span></a></li>";
+                                    echo "<li><a href=\"pedido.php\"><button class=\"comprar\">Comprar</button></a></li>";
+                                }
+                                echo '</ul>';
+                            ?>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="logo">
-                <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
-            </div>
-        </header>
-
-
-<label>Ingrese una nueva dirección</label>
-
-<fieldset>
-
-
-<form method="post" action="function/modifica-direccion.php">
-        <label id="direccion_label" for="direccion">Dirección</label>
-        <input id="direccion" class="text-input" name="direccion" type="text" />
-        <label id="region_label" for="region">Región</label>
-        <select id="region" name="region" onchange="CargarRegiones(this.value);">
-            <option>-Seleccione una región-</option>
-            <?php
-            require('function/conexion.php');
-            $query = 'SELECT reg_id, reg_nombre FROM region'; 
-            $result = mysql_query($query);
-            while($row = mysql_fetch_array($result))
-            {
-                echo '<option value="' .$row["reg_id"]. '">' .$row["reg_nombre"]. '</option>'; 
-            }
-            ?>
-        </select>
-        <label id="comuna_label" for="comuna">Comuna</label>
-        <select id="comuna" name="comuna">
-            <option>-Seleccione una comuna-</option>
-        </select>
-        <input id="submit_modifica" class="button" name="submit" type="submit" value="Ingresar">
-    </form>
-
-
-
-
-</fieldset>
-
-
-
-
-<footer class="pie">
+        </div>
+    </header>
+    <section class="sec_contacto">
+        <article class="art_datos">
+            <label class="datos_d">Ingrese una nueva dirección</label>
+            <fieldset id="contact_form">
+                <form method="post" action="function/modifica-direccion.php">
+                        <label id="direccion_label" for="direccion"><span>Dirección</span>
+                            <input id="direccion" class="text-input" name="direccion" type="text" />
+                        </label>
+                        <label id="region_label" for="region"><span>Región</span>
+                            <select id="region" name="region" onchange="CargarRegiones(this.value);">
+                                <option>-Seleccione una región-</option>
+                                <?php
+                                require('function/conexion.php');
+                                $query = 'SELECT reg_id, reg_nombre FROM region'; 
+                                $result = mysql_query($query);
+                                while($row = mysql_fetch_array($result))
+                                {
+                                    echo '<option value="' .$row["reg_id"]. '">' .$row["reg_nombre"]. '</option>'; 
+                                }
+                                ?>
+                            </select>
+                        </label>
+                        <label id="comuna_label" for="comuna"><span>Comuna</span>
+                        <select id="comuna" name="comuna">
+                            <option>-Seleccione una comuna-</option>
+                        </select>
+                        </label>
+                        <input id="submit_modifica" class="button" name="submit" type="submit" value="Ingresar">
+                </form>
+            </fieldset>
+        </article>
+    </section>
+    <footer class="pie">
         <div class="cont_pie">
             <div class="logo_pie">
                 <img src="img/logo-footer.png" alt="Espacio verde natural">
@@ -195,9 +188,10 @@ if(empty($_SESSION['usuario'])){
             <div class="contacto">
                 <div itemscope itemtype="http://schema.org/LocalBusiness">
                     <div class="title_cont">CONTÁCTANOS</div>
-                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;<span itemprop="email">alo@espacioverdenatural.cl</span></div>
-                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">800 800 800</span></div>
-                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">+9 999 9999</span></div>                      
+                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;<span itemprop="email">ventas@espacioverdenatural.cl</span></div>
+                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">02/26995942</span></div>
+                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">6-1400225 / 6-8358062</span></div>                      
+                    <div class="cont_mail"><span itemprop="streetAddress">Huérfanos 1044</span>, oficina 905, <span itemprop="addressLocality">Santiago Centro.</span></div>                      
                 </div>
             </div>
         </div>

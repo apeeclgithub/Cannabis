@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<link href="css/style.css" rel="stylesheet" type="text/css" />
-		<script src="js/jquery-1.11.1.min.js"></script>
-		<script src="js/script.js" type="text/javascript"></script>
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <link href="img/logo-250.png" rel="icon" type="image/x-icon" /><!--faltafavicon -->
+    <link href="img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu pedido - EVN</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/modernizr.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 9 ]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/html5shiv-printshiv.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!--Facebook Tags-->
+    <meta property="og:title" content="Espacio verde natural"/>
+    <meta property="og:image" content="img/logo-250.png"/>
+    <meta property="og:site_name" content="Espacio verde natural"/>
+    <meta property="og:description" content="Espacio verde natural, venta de variados productos"/>  
+    <!--Twitter Cards Tags-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@PONER TWITTER">
+    <meta name="twitter:title" content="Espacio verde natural">
+    <meta name="twitter:description" content="Espacio verde natural, venta de variados productos">
+    <meta name="twitter:creator" content="@PONER TWITTER">
+    <meta name="twitter:image:src" content="img/logo-250.png">
+
+    <meta name="description" content="Espacio verde natural, venta de variados productos">
+    <meta name="author" content="Espacio verde natural">
+    <meta name="keywords" content="venta cremas, venta semillas, semillas, cremas, ropa, vestuario, venta vestuario,  venta ropa, venta fertilizante, fertilizante, cosmetica, semillas feminizadas, feminizadas, semillas automaticas, automaticas, accesorios, vestuario y accesorios, marihuana, cannabis">
+</head>
 	<body>
 
 			<?php

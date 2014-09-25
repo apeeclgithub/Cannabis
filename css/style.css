@@ -1181,6 +1181,42 @@ opacity: 1;
 .cont_dato_nocompra{
 	text-align: center;
 }
+
+.btn_mod {
+	text-align: center;
+	font-family: 'Oswald',sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn_mod a:link{
+	color:#939c07;
+	text-decoration: none;
+}
+
+/**tus-datos**/
+
+.art_datos{
+	padding-top: 2%;
+}
+.datos_p {
+	font-size: 23px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	padding-left: 46%;
+	padding-top: 20%;
+	color: #5a903f;
+}
+
+#submit_login{
+	border: 1px solid #D8D8D8;
+	padding: 5px 15px 5px 15px;
+	color: #8D8D8D;
+	text-shadow: 1px 1px 1px #FFF;
+	border-radius: 3px;
+	background: #F8F8F8;
+	width: 63%;
+}
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
 
@@ -1442,6 +1478,10 @@ opacity: 1;
 	}
 	#cat-nav{
 		font-size:16.45px;
+	}
+
+	.text_home {
+		font-size: 11.88px;
 	}
 
 	.title_seccion{

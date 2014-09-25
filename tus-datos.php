@@ -61,6 +61,9 @@ if(empty($_SESSION['usuario'])){
 
 <body>
  <header class="header">
+            <div class="logo">
+                <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
+            </div>
             <div class="cont_color_follow">
                 <div class="cont_follow_top">
                     <div class="follow_top">
@@ -130,86 +133,80 @@ if(empty($_SESSION['usuario'])){
                     </div>
                 </div>
             </div>
-            <div class="logo">
-                <h1><img src="img/evn-gif.gif" alt="Espacio verde natural"></h1>
-            </div>
         </header>
-
-
-<label>Datos Personales</label>
-            
-    <?php
-        $id = $_SESSION['usuario'];
-        include 'function/conexion.php';
-        $sql1 = "SELECT usuario.usu_id, usu_nombre, usu_fono, usu_mail, usu_edad, usu_pass, dir_direccion, comuna.com_id, com_nombre, region.reg_id, reg_nombre FROM usuario INNER JOIN direccion ON usuario.usu_id = direccion.usu_id INNER JOIN comuna ON direccion.com_id = comuna.com_id INNER JOIN region ON comuna.reg_id = region.reg_id WHERE usuario.usu_id = $id";
-        $consulta1 = mysql_query($sql1);
-        $dato1 = mysql_fetch_array($consulta1);
-    ?>
-    <fieldset>
-        <form id="modifica" name="modifica" method="post" action="function/modifica.php">
-            <input id="id" class="text-input" name="id" type="hidden" value="<?php echo $dato1["usu_id"]?>">
-            <label id="nombre_label" for="nombre">Nombre</label>
-            <input id="nombre" class="text-input" name="nombre" type="text" value="<?php echo $dato1["usu_nombre"]?>" />
-            <label id="fono_label" for="fono">Fono</label>
-            <input id="fono" class="text-input" name="fono" type="text" value="<?php echo $dato1["usu_fono"]?>" />
-            <label id="mail_label" for="mail">E-mail</label>
-            <input id="mail" class="text-input" name="mail" type="text" value="<?php echo $dato1["usu_mail"]?>" />
-            <label id="pass_label" for="pass">Pass</label>
-            <input id="pass" class="text-input" name="pass" type="password" value="<?php echo $dato1["usu_pass"]?>"/>
-            <input id="submit_login" class="button" name="submit" type="submit" value="Send" />
-        </form>         
-    </fieldset>
-
-
-<label>Datos de entrega</label>
-
-    <fieldset>
-
-    <?php
-        if ($dato1['dir_direccion']=='Sin definir'){
-            echo 'No se ha definifido la dirección de entrega para este cliente<br>';
-            echo '<a href="agregar-direccion.php">Modificar</a>';
-            }else{
-            echo '<label>Dirección: '.$dato1['dir_direccion'].'</label><br>';
-            echo '<label>Comuna: '.$dato1['com_nombre'].'</label><br>';
-            echo '<label>Región: '.$dato1['reg_nombre'].'</label><br>';
-            echo '<a href="agregar-direccion.php">Modificar</a>';
-            }
-    ?>
-        
-    </fieldset>
-
-
-
-<footer class="pie">
-        <div class="cont_pie">
-            <div class="logo_pie">
-                <img src="img/logo-footer.png" alt="Espacio verde natural">
-            </div>
-            <div class="follow_pie">
-                <div class="follow_text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias</div>
-                <div class="sig_foot">
-                    SÍGUENOS
+        <section class="sec_contacto">
+            <article class="art_datos">
+                <label class="datos_p">Datos Personales</label>
+                            
+                    <?php
+                        $id = $_SESSION['usuario'];
+                        include 'function/conexion.php';
+                        $sql1 = "SELECT usuario.usu_id, usu_nombre, usu_fono, usu_mail, usu_edad, usu_pass, dir_direccion, comuna.com_id, com_nombre, region.reg_id, reg_nombre FROM usuario INNER JOIN direccion ON usuario.usu_id = direccion.usu_id INNER JOIN comuna ON direccion.com_id = comuna.com_id INNER JOIN region ON comuna.reg_id = region.reg_id WHERE usuario.usu_id = $id";
+                        $consulta1 = mysql_query($sql1);
+                        $dato1 = mysql_fetch_array($consulta1);
+                    ?>
+                    <fieldset id="contact_form">
+                        <form id="modifica" name="modifica" method="post" action="function/modifica.php">
+                            <input id="id" class="text-input" name="id" type="hidden" value="<?php echo $dato1["usu_id"]?>">
+                            <label id="nombre_label" for="nombre"><span>Nombre</span>
+                                <input id="nombre" class="text-input" name="nombre" type="text" value="<?php echo $dato1["usu_nombre"]?>" />
+                            </label>
+                            <label id="fono_label" for="fono"><span>Fono</span>
+                                <input id="fono" class="text-input" name="fono" type="text" value="<?php echo $dato1["usu_fono"]?>" />
+                            </label>
+                            <label id="mail_label" for="mail"><span>E-mail</span>
+                                <input id="mail" class="text-input" name="mail" type="text" value="<?php echo $dato1["usu_mail"]?>" />
+                            </label>
+                            <label id="pass_label" for="pass"><span>Pass</span>
+                                <input id="pass" class="text-input" name="pass" type="password" value="<?php echo $dato1["usu_pass"]?>"/>
+                            </label>
+                            <input id="submit_login" class="button" name="submit" type="submit" value="Actualizar" />
+                        </form>         
+                    </fieldset>
+                    <label>Datos de entrega</label>
+                        <fieldset>
+                        <?php
+                            if ($dato1['dir_direccion']=='Sin definir'){
+                                echo 'No se ha definifido la dirección de entrega para este cliente<br>';
+                                echo '<a href="agregar-direccion.php">Modificar</a>';
+                                }else{
+                                echo '<label>Dirección: '.$dato1['dir_direccion'].'</label><br>';
+                                echo '<label>Comuna: '.$dato1['com_nombre'].'</label><br>';
+                                echo '<label>Región: '.$dato1['reg_nombre'].'</label><br>';
+                                echo '<a href="agregar-direccion.php">Modificar</a>';
+                                }
+                        ?>                
+                        </fieldset>
+            </article>
+        </section>
+        <footer class="pie">
+                <div class="cont_pie">
+                    <div class="logo_pie">
+                        <img src="img/logo-footer.png" alt="Espacio verde natural">
+                    </div>
+                    <div class="follow_pie">
+                        <div class="follow_text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias</div>
+                        <div class="sig_foot">
+                            SÍGUENOS
+                        </div>
+                        <div class="tw_pie"><a href=""><img src="img/twitter.png" alt="Twitter"></a><a href=""><img src="img/instagram.png" alt="Instagram"></a><a href=""><img src="img/facebook.png" alt="Facebook"></a></div>
+                    </div>
+                    <div class="soporte">
+                        <div class="title_sop">SOPORTE</div>
+                        <div class="cond_sop">Condiciones de compra</div>
+                        <div class="cond_sop">Políticas de privacidad</div>
+                        <div class="cond_sop">Términos de uso</div>
+                        <div class="cond_sop_1">Preguntas frecuentes</div>
+                    </div>
+                    <div class="contacto">
+                        <div itemscope itemtype="http://schema.org/LocalBusiness">
+                            <div class="title_cont">CONTÁCTANOS</div>
+                            <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;<span itemprop="email">alo@espacioverdenatural.cl</span></div>
+                            <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">800 800 800</span></div>
+                            <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">+9 999 9999</span></div>                      
+                        </div>
+                    </div>
                 </div>
-                <div class="tw_pie"><a href=""><img src="img/twitter.png" alt="Twitter"></a><a href=""><img src="img/instagram.png" alt="Instagram"></a><a href=""><img src="img/facebook.png" alt="Facebook"></a></div>
-            </div>
-            <div class="soporte">
-                <div class="title_sop">SOPORTE</div>
-                <div class="cond_sop">Condiciones de compra</div>
-                <div class="cond_sop">Políticas de privacidad</div>
-                <div class="cond_sop">Términos de uso</div>
-                <div class="cond_sop_1">Preguntas frecuentes</div>
-
-            </div>
-            <div class="contacto">
-                <div itemscope itemtype="http://schema.org/LocalBusiness">
-                    <div class="title_cont">CONTÁCTANOS</div>
-                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;&nbsp;<span itemprop="email">alo@espacioverdenatural.cl</span></div>
-                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">800 800 800</span></div>
-                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">+9 999 9999</span></div>                      
-                </div>
-            </div>
-        </div>
-    </footer>  
+        </footer>  
 </body>
 </html>

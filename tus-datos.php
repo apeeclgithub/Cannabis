@@ -160,7 +160,7 @@ if(empty($_SESSION['usuario'])){
                             <label id="pass_label" for="pass"><span>Pass</span>
                                 <input id="pass" class="text-input" name="pass" type="password" value="<?php echo $dato1["usu_pass"]?>"/>
                             </label>
-                            <input id="submit_login" class="button" name="submit" type="submit" value="Actualizar" />
+                            <input id="submit_modifica" class="button" name="submit" type="submit" value="Actualizar" />
                         </form>         
                     </fieldset>
                     <label>Datos de entrega</label>

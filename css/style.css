@@ -527,6 +527,7 @@ body{
     padding-right: 10px;;
     font-weight: 400;
 	padding-bottom: 10%;
+	text-align: justify;
 }
 
 /*INICIO FOOTER*/
@@ -583,6 +584,7 @@ body{
 	color:white;
 	font-size: 11.4px;
 	padding: 11% 11px 11px;
+	text-align: justify;
 }
 
 .tw_pie{

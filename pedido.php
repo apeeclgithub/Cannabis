@@ -138,7 +138,7 @@
 							        echo '<td>'.$producto["nombre"].'</td>';
 							        echo '<td>'.$producto["cantidad"].'<br>';
 							       if($producto["cantidad"]>1){
-                                        echo '<a href="#"><span onclick="restar('.$producto["id"].')">-</span></a> / ';
+                                        echo '<a href="#"><span onclick="add('.$producto["id"].', -1, -'.$producto["precio"].', \''.$producto["nombre"].'\')")">-</span></a> / ';
                                    }
                                     echo '<a href="#"><span onclick="add('.$producto["id"].', 1, '.$producto["precio"].', \''.$producto["nombre"].'\')">+</span></a>';
 

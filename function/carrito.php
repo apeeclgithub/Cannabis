@@ -11,7 +11,6 @@ $articulo = array(
 if(empty($_POST["id"])){}		else{$carrito->add($articulo);}
 if(empty($_POST["delete"])){}	else{$carrito->remove_producto($_POST["delete"]);}
 if(empty($_POST["delall"])){}	else{$carrito->destroy();}
-if(empty($_POST["restar"])){}   else{$carrito->restar_producto($_POST["restar"]);}
 
 class Carrito
 {
@@ -30,7 +29,6 @@ class Carrito
         }
         $this->carrito = $_SESSION['carrito'];
     }
- 
     //añadimos un producto al carrito
     public function add($articulo = array())
     {

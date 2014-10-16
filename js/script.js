@@ -168,6 +168,19 @@ $('li.dropdown').click(function() {
           }
       });
   };
+  function restar(id){
+    var restar = {
+      "restar": restar
+    }
+    $.ajax({
+      data: restar,
+      url: 'function/carrito.php',
+      type: 'post',
+      success: function(){
+        location.reload();
+      }
+    });
+  }
   function del(id){
       var dele = {
           "delete": id

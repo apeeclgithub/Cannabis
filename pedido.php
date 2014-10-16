@@ -136,18 +136,13 @@
 						        echo '<tr>';
 							        echo '<td><img width="70px" height="70px" src="img/prod'.$producto["id"].'.jpg"></td>';
 							        echo '<td>'.$producto["nombre"].'</td>';
-							        echo '<td><select><option value="'.$producto["cantidad"].'">'.$producto["cantidad"].'</option>';
-							        echo '<option value="1">1</option>';
-							        echo '<option value="2">2</option>';
-							        echo '<option value="3">3</option>';
-							        echo '<option value="4">4</option>';
-							        echo '<option value="5">5</option>';
-							        echo '<option value="6">6</option>';
-							        echo '<option value="7">7</option>';
-							        echo '<option value="8">8</option>';
-							        echo '<option value="9">9</option>';
-							        echo '<option value="10">10</option>';
-							        echo '</select></td>';
+							        echo '<td>'.$producto["cantidad"].'<br>';
+							       if($producto["cantidad"]>1){
+                                        echo '<a href="#"><span onclick="restar('.$producto["id"].')">-</span></a> / ';
+                                   }
+                                    echo '<a href="#"><span onclick="add('.$producto["id"].', 1, '.$producto["precio"].', \''.$producto["nombre"].'\')">+</span></a>';
+
+							        echo '</td>';
 							        echo '<td>'.number_format($producto["precio"],0,',','.').'</td>';
 							        echo '<td>'.number_format($producto["cantidad"]*$producto["precio"],0,',','.').'</td>';
 							        echo '<td><a href="#"><span onclick="del(\''.$producto["unique_id"].'\')">x</span></a></td>';

@@ -12,7 +12,7 @@
     <link href="img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmética - EVN</title>
+    <title>Semillas automáticas - EVN</title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modernizr.js"></script>
@@ -150,14 +150,14 @@
             </div>
             <div class="cont_prod">
                 <section class="productos">
-                    <div class="title_seccion">COSMÉTICA</div>
+                    <div class="title_seccion_sem">SEMILLAS AUTOMÁTICAS</div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">CREMA FACIAL DE CANNABIS</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/crema de cannabis.png" alt="crema de cannabis">
+                            <span itemprop="name"><h3 class="item_home_cat">AUTO WHITE WUIDOW</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/auto white wuidow.png" alt="auto white wuidow">
                             <div class="text_home">
                             <span itemprop="description">
-                                <h4 class="text_home">Crema Facial Hidratante y Nutritiva , con Aceite de Cannabis Sativa 100 % puro, rico en Ácidos Grasos esenciales, Omega 3, Omega 6 y Acido Linoleico que previenen el envejecimiento prema...</h4>
+                                <h4 class="text_home_sem">AutoWhite Widow pertenece al banco Dutch Passion. Es una planta de cannabis potente y robusta que proporciona un increíble subidón. Su genética ha ganado incontables premios y ha satisfe...</h4>
                             </span>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -166,11 +166,11 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">SERUM CONTORNO DE OJOS</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/serum contorno de ojos.png" alt="serum contorno de ojos">
+                            <span itemprop="name"><h3 class="item_home_cat">AUTO BLUEBERRY</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/auto blueberry.png" alt="auto blueberry">
                             <div class="text_home">
                                 <span itemprop="description">
-                                    <h4 class="text_home">Actúa en forma Antiedematosa, restaurando los signos propios del envejecimiento y micro agresiones del área del ojo, ayudando a la flacidez, descongestionando bolsas y ojeras, reforzando...</h4>
+                                    <h4 class="text_home_sem">Auto Blueberry  pertenece al banco Dutch Passion. Esta variedad es mundialmente conocida y reconocida como una de las mejores variedades de la familia Blue. La Autoblueberry reúne estas ...</h4>
                                 </span>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -179,11 +179,11 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">CREMA MANOS Y CUERPO DE CANNABIS</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/crema manos y cuerpo de cannabis.png" alt="crema manos y cuerpo de cannabis">
+                            <span itemprop="name"><h3 class="item_home_cat">BLUE AUTO MAZAR</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/blue auto mazar.png" alt="blue auto mazar">
                             <div class="text_home">
                                 <span itemprop="description">
-                                    <h4 class="text_home">Especialmente formulada para proteger su piel otorgando suavidad, humectación e hidratación dada la presencia de Ácidos Grasos esenciales contenidos en el Aceite de Cannabis Sativa OMEGA...</h4>
+                                    <h4 class="text_home_sem">Blue Auto Mazar: combina lo mejor de dos legendarias automáticas de Dutch Passion en una nueva y sorprendente híbrida muy potente. Es un cruce entre AutoBlueberry y AutoMazar, dos de nue...</h4>
                                 </span>    
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -192,11 +192,11 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">ACEITE PARA MASAJES DE CANNABIS</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/aceite para masajes de cannabis.png" alt="aceite para masajes de cannabis">
+                            <span itemprop="name"><h3 class="item_home_cat">BIG DEVIL XL</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/big devil xl.png" alt="big devil xl">
                             <div class="text_home">
                             <span itemprop="description">
-                                <h4 class="text_home">Aceite corporal para Masajes con las propiedades del Aceite de Cannabis Sativa, los cuales regeneran y aumentan la resistencia de la piel, otorgando elasticidad y suavidad al tacto, devo...</h4>
+                                <h4 class="text_home_sem">Big Devil XL es una autofloreciente de 3ª generación, híbrido resultante del cruce de nuestra Big Devil #2 con una Jack Herer  autofloreciente del departamento I +D de Sweet Seeds. Produc...</h4>
                             </span>    
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -205,11 +205,11 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">ACEITE DE CANNABIS</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/aceite de cannabis.png" alt="aceite de cannabis">
+                            <span itemprop="name"><h3 class="item_home_cat">CREAM CARAMEL AUTO</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/cream caramel auto.png" alt="cream caramel auto">
                             <div class="text_home">
                             <span itemprop="description">    
-                                <h4 class="text_home">Aceite de cáñamo especialmente indicado para pieles secas y/o agrietadas, mantiene hidratada la piel de cutis, manos y cuerpo, restaura los aceites naturales de la piel, rico en aceites ...</h4>
+                                <h4 class="text_home_sem">Cream Caramel: es una verdadera joya, muchas variedades han surgido posteriormente a esta magistral variedad de Sweet Seeds, pero superarla aún sigue siendo arduo propósito. Es una autof...</h4>
                             </span>    
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -218,11 +218,11 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">SHAMPOO Y ACONDICIONADOR</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/shampoo y acondicionador de cannabis.png" alt=" shampoo y acondicionador de cannabis">
+                            <span itemprop="name"><h3 class="item_home_cat">DARK DEVIL</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/dark devil.png" alt="dark devil">
                             <div class="text_home">
                             <span itemprop="description">
-                                <h4 class="text_home">Shampoo Hidratante del cabello, con Aceite de Cannabis Sativa 100% puro, rico en Omega 3 y 6, previene el resecamiento del cuero cabelludo, ayuda a prevenir la caspa. Por su PH neutro es...</h4>
+                                <h4 class="text_home_sem">Dark Devil es una variedad 100% autofloreciente. Resultado de la hibridación entre una de nuestras más apreciadas genéticas autoflorecientes, la Big Devil XL y una exótica genética autof...</h4>
                             </span>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -231,11 +231,11 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">GEL DE BAÑO DE CANNABIS</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/gel de bano.png" alt="gel de bano">
+                            <span itemprop="name"><h3 class="item_home_cat">JACK 47 AUTO</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/jack 47 auto.png" alt="jack 47 auto">
                             <div class="text_home">
                             <span itemprop="description">
-                                <h4 class="text_home">Producto enriquecido con Aceite 100% puro de Cannabis Sativa, el cual provoca en su piel hidratación y nutrición dejándola suave y confortable durante todo el día. PH neutro para uso fam...</h4>
+                                <h4 class="text_home_sem">Jack 47 Auto de Sweet Seeds es un potente híbrido con un sorprendente sabor dulce. El matrimonio entre la Jack Herer Auto y la AK-47 ha creado una cepa épica de productos extraordinarios...</h4>
                             </span>    
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -244,11 +244,11 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">JABÓN DE CANNABIS</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/jabon de cannabis.png" alt="jabon de cannabis">
+                            <span itemprop="name"><h3 class="item_home_cat">BLUE AMNESIA XXL AUTO</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/blue amnesia xxl auto.png" alt="blue amnesia xxl auto">
                             <div class="text_home">
                             <span itemprop="description">
-                                <h4 class="text_home">Jabón de Cannabis elaborado a base de aceite de semilla de cáñamo 100% puro, cuyos componentes naturales como Omega 3 y Omega 6 regeneran y aumentan la resistencia y elasticidad de la pi...</h4>
+                                <h4 class="text_home_sem">Blue Amnesia XXL Auto de Dinafem Seeds es una variedad de semilla autofloreciente feminizada Sativa/Indica/Ruderalis, fruto de la unión entre una Original Amnesia Autoflowering y una Aut...</h4>
                             </span>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -257,11 +257,11 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">EXFOLIANTE DE CANNABIS</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/exfoliante de cannabis.png" alt="exfoliante de cannabis">
+                            <span itemprop="name"><h3 class="item_home_cat">CHEESE</h3></span>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/cheese.png" alt="cheese">
                             <div class="text_home">
                             <span itemprop="description">
-                                <h4 class="text_home">Exfoliante de cáñamo limpia y suaviza profundamente la piel, impidiendo la acomulación de toxinas, acelera la circulación sanguínea, aumenta la oxigenación de la piel, mejora la absorció...</h4>
+                                <h4 class="text_home_sem">Cheese es una variedad con sabor muy intenso, duradero, aromático, índico, a queso fuerte, más bien curado. El efecto es muy equilibrado, completamente mixto, físico y mental. Tiene un c...</h4>
                             </span>    
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -270,11 +270,89 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat">ACEITE DE CÁÑAMO GOURMET</h3>
-                            <img itemprop="image" class="img_productos" src="img/cosmetica/aceite de canamo.png" alt="aceite de canamo">
+                            <h3 class="item_home_cat">CRITICAL CHEESE</h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/critical cheese.png" alt="critical cheese">
                             <div class="text_home">
                             <span itemprop="description">
-                                <h4 class="text_home">Aceite Gourmet 100% puro Semilla de cáñamo. Rico en Omegas 3 - 6 y 9. Ingredientes Aceite de semilla de cáñamo (cannabis sativa, orgánico), menor al 0.4% de acidez. Contenido Neto: 250 ...</h4>
+                                <h4 class="text_home_sem">Critical Cheese Auto es el cruce de la línea autofloreciente más productiva con la de sabor más fuerte. Tanto la Critical como la Cheese deben su origen a la genética Skunk, que es sinón...</h4>
+                            </span>    
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat">CRITICAL JACK</h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/critical jack.png" alt="critical jack">
+                            <div class="text_home">
+                            <span itemprop="description">
+                                <h4 class="text_home_sem">Critical Jack  Automática: Esta variedad es la versión express de la Critical Jack. Necesita 70 días desde que nace de la semilla para completar su ciclo vital y sorprender con sólidos c...</h4>
+                            </span>    
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat">HAZE 2.0</h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/haze 2.0.png" alt="haze 2.0">
+                            <div class="text_home">
+                            <span itemprop="description">
+                                <h4 class="text_home_sem">Haze 2.0 Autoflowering: es la versión mejorada de la ya famosa Haze Autoflowering de Dinafem. Para desarrollar esta variedad la han cruzado con la excelente Jack Herer consiguiendo una n...</h4>
+                            </span>    
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat">HAZE XXL</h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/haze xxl.png" alt="haze xxl">
+                            <div class="text_home">
+                            <span itemprop="description">
+                                <h4 class="text_home_sem">Haze XXL Auto de Dinafem son una variedad autofloreciente feminizada con dominancia Sativa fruto de la unión entre una Jack Herer y una Haze 2.0 Autoflowering. Se trata de una semilla de...</h4>
+                            </span>    
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat">BIG BANG</h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/big bang.png" alt="big bang">
+                            <div class="text_home">
+                            <span itemprop="description">
+                                <h4 class="text_home_sem">Big bang autofloewering: fuerte, corta y ancha, de alto rendimiento. Es una estupenda opción para cultivadores novatos. Su corto ciclo de vida y su gran resistencia a bajas temperaturas ...</h4>
+                            </span>    
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat">NORTHERN LIGHTS</h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/northern lights.png" alt="northern lights">
+                            <div class="text_home">
+                            <span itemprop="description">
+                                <h4 class="text_home_sem">La Northern Lights Autofloreciente es el remedio perfecto cuando las perspectivas no son buenas y que necesitas una luz en la oscuridad. Esta potente hierba te alegrará el día y aliviará...</h4>
+                            </span>    
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat">SUPER CRITICAL</h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/super critical.png" alt="super critical">
+                            <div class="text_home">
+                            <span itemprop="description">
+                                <h4 class="text_home_sem">Super Critical: es una extraordinaria variedad, mejor que la suma de sus antepasados. Uniendo los genes de la Big Bud, Skunk y White Widow, se ha creado una variedad increíblemente produ...</h4>
                             </span>    
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>

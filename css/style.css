@@ -509,7 +509,7 @@ body{
 
 
 .btn_vermas{
-	padding-left: 5%;
+	padding-left: 2%;
 }
 
 .item_home img:hover{
@@ -524,10 +524,18 @@ body{
     padding-top: 23px;
     padding-left: 10px;
     font-size:12.88px;
-    padding-right: 10px;;
+    padding-right: 10px;
     font-weight: 400;
 	padding-bottom: 10%;
 	text-align: justify;
+}
+.text_home_sem{
+    margin-top: -5px;
+    padding-top: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+	padding-bottom: 10%;
 }
 
 /*INICIO FOOTER*/
@@ -1060,7 +1068,14 @@ body{
 	padding-left: 22%;
 	padding-bottom: 6%;
 }
-
+.title_seccion_sem{
+	font-size: 46.43px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #939c07;
+	padding-left: 6%;
+	padding-bottom: 6%;	
+}
 
 /***************************************************************************CUENTA*******************/
 
@@ -1405,7 +1420,7 @@ opacity: 1;
 	}
 
 	.text_home img{
-		width:43%;
+		width:40%;
 	}
 
 	.item_home_cat{
@@ -1426,6 +1441,10 @@ opacity: 1;
 	}
 	.datos_d {
 	    padding-left: 30.5%;
+	}
+
+	.text_home_sem{
+		font-size:78%;
 	}
 }
 
@@ -1491,7 +1510,8 @@ opacity: 1;
 	}
 
 	.item_home_index {
-		width: 24%;	
+		width: 22%;
+		margin-left:1.4%;	
 	}
 
 	.item_home_img {
@@ -1501,7 +1521,16 @@ opacity: 1;
 	.btn_vermas {
     	padding-left: 0%;
 	}
+	.btn_vermas img{
+		width:40%;
+		margin:3%;
+	}
 	
+	#colorNav li ul{
+		width:130px;
+		left:-6%;
+	}
+
 	.cont_pie {
 		padding-bottom: 22%;
 	}
@@ -1518,22 +1547,38 @@ opacity: 1;
 	    width: 180px;
 	}
 	.item_home{
-		width: 251px;
+		width: 27%;
+		margin-left: 4%;
 	}
+
+	.item_home_cat{
+		font-size: 88%;
+	}
+
 	#cat-nav{
-		font-size:16.45px;
+		font-size:93%;
+		margin-left: 7%;
 	}
 
 	.text_home {
-		font-size: 11.88px;
+		font-size: 90%;
 	}
 
 	.title_seccion{
 		padding-left:26%;
 		padding-bottom: 4%;
 	}
+
+	.title_seccion_sem{
+		padding-left: 13%;
+	}
+	
+	.text_home_sem{
+		font-size: 78%;
+	}
+
 	.datos_d {
-    padding-left: 35.5%;
+    	padding-left: 35.5%;
 	}
 }
 
@@ -1915,6 +1960,10 @@ opacity: 1;
 	    padding-top: 10%;
 	}
 
+	.text_home_sem{
+		font-size: 79%;
+	}
+	
 	.datos_d{
 		padding-left: 35%;
 	}

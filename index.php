@@ -149,7 +149,7 @@
 									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-		                        <a href="#" onclick="add(1, 1, 19990, 'Producto destacado 1')"><img src="img/agregar.jpg" alt="Agregar"></a>
+		                        <a href="#" class="btn_vermas" onclick="add(1, 1, 19990, 'Producto destacado 1')"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>
@@ -162,7 +162,7 @@
 									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-		                        <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
+		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>
@@ -175,7 +175,7 @@
 									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-		                        <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
+		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>
@@ -188,7 +188,7 @@
 									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-		                        <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
+		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>
@@ -201,7 +201,7 @@
 									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-		                        <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
+		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>
@@ -214,7 +214,7 @@
 									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-		                        <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
+		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>
@@ -227,7 +227,7 @@
 									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-		                        <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
+		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>
@@ -240,7 +240,7 @@
 									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-		                        <a href="#"><img src="img/agregar.jpg" alt="Agregar"></a>
+		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>												

@@ -16,6 +16,7 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/script.js"></script>
 	<script src="js/modernizr.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9 ]>
     <script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -132,9 +133,13 @@
 		</header>
 		<section class="section">
 			<article class="news">
-				<div class="noticia">
-					<img src="img/noticia.png" alt="news">
-				</div>
+				
+					<div class="noticia" id="slides">
+				      <img src="img/noticia.png" alt="">
+				      <img src="img/noticia.png" alt="">
+				      <img src="img/noticia.png" alt="">
+			    	</div>
+				
 			</article>
 			<article class="ult_prod">
 				<div class="ult_prods">

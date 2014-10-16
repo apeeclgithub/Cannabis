@@ -40,7 +40,24 @@ $(document).ready(function() {
 $('li.dropdown').click(function() {
     $(this).children('ul').toggle();
 });
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+$(function() {
 
+          $('#slides').slidesjs({
+            width: 1190,
+            height: 500,
+            start: 1,
+            navigation: false,
+            play: {
+              auto: true,
+              interval:5000
+            },
+            pagination:{
+              active: false
+            }
+          });
+        });
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                    MODIFICA DATOS DEL CLIENTE
   $('#modifica').submit(function() {

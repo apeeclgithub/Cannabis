@@ -430,19 +430,11 @@ body{
 .news{
 	text-align: center;
 }
-.section{
-}
-
-.noticia{
-	font-size: 19.56px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
-	color: #939c07;
-}
 
 .noticia img{
 	width:100%;
 	max-width: 980px;	
+	text-align: center;
 }
 
 /*ultimos productos*/

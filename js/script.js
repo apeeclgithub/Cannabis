@@ -51,7 +51,7 @@ $(function() {
             navigation: false,
             play: {
               auto: true,
-              interval:5000
+              interval:6000
             },
             pagination:{
               active: false

@@ -436,13 +436,18 @@ body{
 	max-width: 980px;	
 	text-align: center;
 }
-
+.slidesjs-container{
+max-width: 980px;
+margin-left: auto;
+margin-right: auto;
+}
 /*ultimos productos*/
 
 
 .ult_prod{
 	margin: 0 auto;
 	max-width: 980px;
+	margin-top: -4%;
 }
 
 .ult_prods{
@@ -450,7 +455,6 @@ body{
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	color: #939c07;
-	padding-top: 45px;
 }
 
 .productos{

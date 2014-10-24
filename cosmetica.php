@@ -159,7 +159,7 @@
                             <span itemprop="description">
                                 <h4 class="text_home">Crema Facial Hidratante y Nutritiva , con Aceite de Cannabis Sativa 100 % puro, rico en Ácidos Grasos esenciales, Omega 3, Omega 6 y Acido Linoleico que previenen el envejecimiento prema...</h4>
                             </span>
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="categoria/cosmetica/crema-facial-de-cannabis.php" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas" onclick="add(1, 1, 12900, 'CREMA FACIAL DE CANNABIS')"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                 <span itemprop="description">
                                     <h4 class="text_home">Actúa en forma Antiedematosa, restaurando los signos propios del envejecimiento y micro agresiones del área del ojo, ayudando a la flacidez, descongestionando bolsas y ojeras, reforzando...</h4>
                                 </span>
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="categoria/cosmetica/serum-contorno-de-ojos.php" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas" onclick="add(2, 1, 12500, 'SERUM CONTORNO DE OJOS')"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
                         </div>

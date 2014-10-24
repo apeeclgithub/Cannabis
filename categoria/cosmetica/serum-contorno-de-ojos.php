@@ -132,9 +132,9 @@
                     </select>
                     <br><br><a href="#" onclick="add(1, 1, 19990, 'Producto destacado 1')"><img src="../../img/agregar.jpg" alt="Agregar"></a>
                     <h3 class="text_descrip">Precio: $12.500</h3>
-                    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.espacioverdenatural.cl%2Fcategoria%2Fcosmetica%2Fcrema-facial-de-cannabis.php&amp;width=118px&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=622330997838752" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:118px; height:21px;" allowTransparency="true"></iframe>
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.espacioverdenatural.cl/categoria/cosmetica/crema-facial-de-cannabis.php">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.espacioverdenatural.cl%2Fcategoria%2Fcosmetica%2Fserum-contorno-de-ojos.php&amp;width=118&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=622330997838752" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:118px; height:21px;" allowTransparency="true"></iframe>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.espacioverdenatural.cl/categoria/cosmetica/serum-contorno-de-ojos.php">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                     <p class="text_descrip">Descripción:<br><br>Actúa en forma Antiedematosa, restaurando los signos propios del envejecimiento y micro agresiones del área del ojo, ayudando a la flacidez, descongestionando bolsas y ojeras, reforzando y suavizando la piel.<br><br>Contenido Neto: 15 ml.</p>
                 </div>
             </article>

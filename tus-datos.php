@@ -146,7 +146,7 @@ if(empty($_SESSION['usuario'])){
                     ?>
                     <fieldset id="contact_form">
                         <form id="modifica" name="modifica" method="post" action="function/modifica.php">
-                            <input id="id" class="text-input" name="id" type="hidden" value="<?php echo $dato1["usu_id"]?>">
+                            <input id="id" class="text-input" name="id" type="hidden" value="<?php echo $dato1["usu_id"]?>" />
                             <label id="nombre_label" for="nombre"><span>Nombre</span>
                                 <input id="nombre" class="text-input" name="nombre" type="text" value="<?php echo $dato1["usu_nombre"]?>" />
                             </label>

@@ -119,41 +119,41 @@
 						if($carro){
 							echo "<h3>Lista de productos</h3>";
 
-							echo "<table border=\"1\">";
-								echo "<thead>";
-									echo "<tr>";
-										echo "<td></td>";
-										echo "<td>Nombre</td>";
-										echo "<td>Cantidad</td>";
-										echo "<td>Valor</td>";
-										echo "<td>Total</td>";
-										echo "<td>Borrar</td>";
-										echo "</tr>";
-										echo "</thead>";
+							echo "<div id='tabla'>";
+					
+									echo "<div id='tr'>";
+										echo "<div id='td'></div>";#td espacio vacio
+										echo "<div id='td'>Nombre</div>";
+										echo "<div id='td'>Cantidad</div>";
+										echo "<div id='td'>Valor</div>";
+										echo "<div id='td'>Total</div>";
+										echo "<div id='td'>Borrar</div>";
+										echo "</div>";#tr
+										
 						    foreach($carro as $producto)
 						    {
 						    	
-						        echo '<tr>';
-							        echo '<td><img width="70px" height="70px" src="img/'.$producto["id"].'.png"></td>';
-							        echo '<td>'.$producto["nombre"].'</td>';
-							        echo '<td>'.$producto["cantidad"].'<br>';
+						        echo "<div id='tr'>";
+							        echo '<div id="td"><img width="70px" height="70px" src="img/'.$producto["id"].'.png"></div>';
+							        echo '<div id="td">'.$producto["nombre"].'</div>';
+							        echo '<div id="td">'.$producto["cantidad"].'<br>';
 							       if($producto["cantidad"]>1){
                                         echo '<a href="#"><span onclick="add('.$producto["id"].', -1, -'.$producto["precio"].', \''.$producto["nombre"].'\')")">-</span></a> / ';
                                    }
                                     echo '<a href="#"><span onclick="add('.$producto["id"].', 1, '.$producto["precio"].', \''.$producto["nombre"].'\')">+</span></a>';
 
-							        echo '</td>';
-							        echo '<td>'.number_format($producto["precio"],0,',','.').'</td>';
-							        echo '<td>'.number_format($producto["cantidad"]*$producto["precio"],0,',','.').'</td>';
-							        echo '<td><a href="#"><span onclick="del(\''.$producto["unique_id"].'\')">x</span></a></td>';
-						        echo '</tr>';
+							        echo '</div>';
+							        echo '<div id="td">'.number_format($producto["precio"],0,',','.').'</div>';
+							        echo '<div id="td">'.number_format($producto["cantidad"]*$producto["precio"],0,',','.').'</div>';
+							        echo '<div id="td"><a href="#"><span onclick="del(\''.$producto["unique_id"].'\')">x</span></a></div>';
+						        echo '</div>';#tr
 
 						    }
-				echo "<tr>";
-				echo "<td colspan=\"4\">Total</td>";
-				echo "<td colspan=\"2\">".number_format($carrito->precio_total(),0,',','.')."</td>";
-				echo "</tr>";
-				echo "</table>";
+				echo "<div id='tr'>";
+				echo "<div id='td'>Total</div>";
+				echo "<div id='td'>".number_format($carrito->precio_total(),0,',','.')."</div>";
+				echo "</div>";#tr
+				echo "</div>";#tabla
 						}else{
 							echo "<h2>No tiene productos en su carro.</h2>";
 						}

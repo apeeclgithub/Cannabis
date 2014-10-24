@@ -12,7 +12,7 @@
     <link href="../../img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DETALLE - EVN</title>
+    <title>Crema facial de cannabis - EVN</title>
     <script src="../../js/jquery-1.11.1.min.js"></script>
     <script src="../../js/script.js"></script>
     <script src="../../js/modernizr.js"></script>
@@ -121,7 +121,7 @@
 
         <section>
             <article class="detalle">
-                <div class="img_detalle"><img src="../../img/1.png"></div>
+                <div class="img_detalle"><img src="../../img/1.png" alt="crema facial de cannabis"></div>
                 <div class="det_producto">
                     <div class="nombre_item">CREMA FACIAL DE CANNABIS</div>
                     <select id="region">

@@ -12,7 +12,7 @@
     <link href="../../img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crema facial de cannabis - EVN</title>
+    <title>DETALLE - EVN</title>
     <script src="../../js/jquery-1.11.1.min.js"></script>
     <script src="../../js/script.js"></script>
     <script src="../../js/modernizr.js"></script>
@@ -121,7 +121,7 @@
 
         <section>
             <article class="detalle">
-                <div class="img_detalle"><img src="../../img/cosmetica/crema de cannabis.png"></div>
+                <div class="img_detalle"><img src="../../img/1.png"></div>
                 <div class="det_producto">
                     <div class="nombre_item">CREMA FACIAL DE CANNABIS</div>
                     <select id="region">
@@ -131,10 +131,10 @@
                         <option value="audi">Audi</option>
                     </select>
                     <br><br><a href="#" onclick="add(1, 1, 19990, 'Producto destacado 1')"><img src="../../img/agregar.jpg" alt="Agregar"></a>
-                    <br><br><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.espacioverdenatural.cl%2Fcategoria%2Fcosmetica%2Fdetalle.php&amp;width=118px&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=622330997838752" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:118px; height:21px;" allowTransparency="true"></iframe>
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.espacioverdenatural.cl/categoria/cosmetica/detalle.php">Tweet</a>
+                    <h3 class="text_descrip">Precio: $12.900</h3>
+                    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.espacioverdenatural.cl%2Fcategoria%2Fcosmetica%2Fcrema-facial-de-cannabis.php&amp;width=118px&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=622330997838752" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:118px; height:21px;" allowTransparency="true"></iframe>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.espacioverdenatural.cl/categoria/cosmetica/crema-facial-de-cannabis.php">Tweet</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    <div class="img_detalle"></div>
                     <p class="text_descrip">Descripción:<br><br>Crema Facial Hidratante y Nutritiva , con Aceite de Cannabis Sativa 100 % puro, rico en Ácidos Grasos esenciales, Omega 3, Omega 6 y Acido Linoleico que previenen el envejecimiento prematuro de la piel. Recomendado para pieles Secas y Sensibles. Atenúa líneas de expresión producto ANTI-AGE.<br><br>Contenido Neto: 50 gramos.</p>
                 </div>
             </article>

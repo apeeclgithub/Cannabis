@@ -198,7 +198,7 @@
                             <span itemprop="description">
                                 <h4 class="text_home">Aceite corporal para Masajes con las propiedades del Aceite de Cannabis Sativa, los cuales regeneran y aumentan la resistencia de la piel, otorgando elasticidad y suavidad al tacto, devo...</h4>
                             </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="categoria/cosmetica/aceite-para-masajes-de-cannabis.php" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas" onclick="add(4, 1, 8500, 'ACEITE PARA MASAJES DE CANNABIS')"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
                         </div>

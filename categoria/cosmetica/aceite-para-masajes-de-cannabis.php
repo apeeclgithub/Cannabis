@@ -12,7 +12,7 @@
     <link href="../../img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crema de manos y cuerpo de cannabis - EVN</title>
+    <title>Aceite para masajes de cannabis - EVN</title>
     <script src="../../js/jquery-1.11.1.min.js"></script>
     <script src="../../js/script.js"></script>
     <script src="../../js/modernizr.js"></script>
@@ -121,9 +121,9 @@
 
         <section>
             <article class="detalle">
-                <div class="img_detalle"><img src="../../img/3.png" alt="crema manos y cuerpo de cannabis"></div>
+                <div class="img_detalle"><img src="../../img/4.png" alt="aceite para masajes de cannabis"></div>
                 <div class="det_producto">
-                    <div class="nombre_item">CREMA MANOS Y CUERPO DE CANNABIS</div>
+                    <div class="nombre_item">ACEITE PARA MASAJES DE CANNABIS</div>
                     <select id="region">
                         <option value="volvo">Volvo</option>
                         <option value="saab">Saab</option>
@@ -132,10 +132,10 @@
                     </select>
                     <br><br><a href="#" onclick="add(1, 1, 19990, 'Producto destacado 1')"><img src="../../img/agregar.jpg" alt="Agregar"></a>
                     <h3 class="text_descrip">Precio: $8.500</h3>
-                    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.espacioverdenatural.cl%2Fcategoria%2Fcosmetica%2Fcrema-manos-y-cuerpo-de-cannabis.php&amp;width=118&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=622330997838752" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:118px; height:21px;" allowTransparency="true"></iframe>
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.espacioverdenatural.cl/categoria/cosmetica/crema-manos-y-cuerpo-de-cannabis.php">Tweet</a>
+                    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.espacioverdenatural.cl%2Fcategoria%2Fcosmetica%2Faceite-para-masajes-de-cannabis.php&amp;width=118&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=622330997838752" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:118px; height:21px;" allowTransparency="true"></iframe>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.espacioverdenatural.cl/categoria/cosmetica/aceite-para-masajes-de-cannabis.php">Tweet</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    <p class="text_descrip">Descripción:<br><br>Especialmente formulada para proteger su piel otorgando suavidad, humectación e hidratación dada la presencia de Ácidos Grasos esenciales contenidos en el Aceite de Cannabis Sativa OMEGA 3, 6 Y 9. Producto ANTI-AGE, con Pantalla solar.<br><br>Contenido Neto: 150 gramos.</p>
+                    <p class="text_descrip">Descripción:<br><br>Aceite corporal para Masajes con las propiedades del Aceite de Cannabis Sativa, los cuales regeneran y aumentan la resistencia de la piel, otorgando elasticidad y suavidad al tacto, devolviendo humedad y tersura a su piel.<br><br>Contenido Neto: 60 ml.</p>
                 </div>
             </article>
         </section>

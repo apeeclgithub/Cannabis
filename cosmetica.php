@@ -185,7 +185,7 @@
                                 <span itemprop="description">
                                     <h4 class="text_home">Especialmente formulada para proteger su piel otorgando suavidad, humectación e hidratación dada la presencia de Ácidos Grasos esenciales contenidos en el Aceite de Cannabis Sativa OMEGA...</h4>
                                 </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="categoria/cosmetica/crema-manos-y-cuerpo-de-cannabis.php" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas" onclick="add(3, 1, 8500, 'CREMA MANOS Y CUERPO DE CANNABIS')"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
                         </div>

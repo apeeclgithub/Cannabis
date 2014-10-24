@@ -169,7 +169,7 @@
 		    	echo "<h2>Sus Datos</h2>";
 				echo '<a href="function/logout.php">salir</a>';
 				echo '<br>';
-				$sql1 = "SELECT usuario.usu_id, usu_nombre, usu_fono, usu_mail, usu_edad, dir_direccion, com_nombre, reg_nombre FROM usuario INNER JOIN direccion ON usuario.usu_id = direccion.usu_id INNER JOIN comuna ON direccion.com_id = comuna.com_id INNER JOIN region ON comuna.reg_id = region.reg_id WHERE usuario.usu_id = ".$_SESSION["usuario"];
+				$sql1 = "SELECT usuario.usu_id, usu_nombre, usu_fono, usu_mail, usu_edad FROM usuario WHERE usuario.usu_id = ".$_SESSION["usuario"];
 				$consulta1 = mysql_query($sql1);
 				$dato1 = mysql_fetch_array($consulta1);
 
@@ -184,16 +184,9 @@
 				echo 'Edad: '.$dato1["usu_edad"];
 				echo '<br>';
 
-				
-				echo '<h2>Datos de entrega</h2>';	
-				echo $dato1["dir_direccion"];
-				echo '<br>';
-				echo $dato1["com_nombre"];
-				echo '<br>';
-				echo $dato1["reg_nombre"];
-				echo '<br>';
+				$dato2 = mysql_fetch_array(mysql_query("SELECT dir_id, usu_id, dir_direccion, com_id FROM direccion WHERE usu_id = ".$dato1["usu_id"]));
 
-				if ($dato1['dir_direccion']=='Sin definir'){
+				if ($dato2['dir_direccion']=='Sin definir'){
 					echo 'Debe registrar su dirección antes de comprar<br>';
 					echo '<a href="agregar-direccion.php">Agregar dirección</a>';
 					echo "<script>if (window.confirm('Necesita Agregar una dirección para continuar con la compra')) {window.location.href='agregar-direccion.php';}</script>";

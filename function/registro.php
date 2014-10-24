@@ -82,7 +82,6 @@
 			if($dato['usu_id']){
 				$sql2 = "INSERT INTO direccion (dir_id, usu_id, com_id, dir_direccion) VALUES (".$dato['usu_id'].", ".$dato['usu_id'].", 0, 'Sin definir')";
 				mysql_query($sql2);
-			}else{
 			}
 	}
 

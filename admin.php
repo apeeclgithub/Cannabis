@@ -58,11 +58,11 @@ if(empty($_SESSION['admin'])){
             $sql = "SELECT ped_id, usu_nombre, ped_valor,ped_fecha, ped_id FROM pedido INNER JOIN usuario ON usuario.usu_id = pedido.usu_id WHERE ped_estado = 'pendiente'";
             $con = mysql_query($sql);
             while($dato = mysql_fetch_array($con)){
-                echo "Número de pedido: ".$dato['ped_id']."<br>";
+                echo "Número de pedido: ".$dato['ped_id']." <a href='ver_detalle.php?id=".$dato['ped_id']."'>Ver Detalle</a><br>";
                 echo " ".$dato['usu_nombre'];
                 echo " $".$dato['ped_valor'];
                 echo " Fecha:".$dato['ped_fecha'];
-                echo "<a href='function/aprobar.php?id=".$dato['ped_id']."'>APROBAR</a><br><br>";
+                echo "<a href='function/aprobar.php?id=".$dato['ped_id']."'>APROBAR</a> / <a href='function/rechazar.php?id=".$dato['ped_id']."'>RECHAZAR</a><br><br>";
                             }
 
         

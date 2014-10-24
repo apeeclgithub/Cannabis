@@ -117,13 +117,21 @@
                 </div>
             </div>
         </header>
-    <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-        <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-            <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-                <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
+        <section class="condic">
+            <article >
+                <div class="title_condic">CONDICIONES DE COMPRA</div>
+                <div class="texto_condic">
+                    Puedes depositar y avisar por mail o teléfono el detalle de tu compra. Para enviar tu pedido, sólo sigue los siguientes pasos:<br><br>
+                    1. Identifícate con tu nombre completo, destino completo (calle con número, cuidad y región) y contacto como celular o mail. Escoge los productos agregándolos al carro de compras.<br><br>
+                    2. Normalmente las encomiendas tienen un recargo por gastos de empaque y envío. Tu pedido será despachado por Turbus o Chilexpress. El precio y fecha de entrega de la encomienda dependerá de lo que hayas pedido y de la ciudad de destino, esto lo sabremos y te lo comunicaremos en cuanto hayamos despachado el paquete enviándote la orden respectiva.<br><br>
+                    3. Para pagar su pedido debe hacer el depósito en nuestra cuenta corriente del Banco Estado transfiriendo por internet, o directamente en una caja del banco.<br><br>
+                    4. Confirma tu pedido. Envíanos copia del comprobante de pago a ventas@espacioverdenatural.cl<br><br>
+                    5. El tiempo de entrega varía según lo que hayas llenado en los pasos anteriores, tu pedido comienza a correr en cuanto comprobemos tu depósito.<br><br>
+                    6. En cuanto el paquete esté listo y sea despachado, te enviaremos un mensaje con los datos del transporte.<br><br>
+                    <div class="condic_thx">MUCHAS GRACIAS POR TU COMPRA<br><br>STAFF ESPACIO VERDE NATURAL<br><br></div>
+                </div>
+            </article>
+        </section>
     <footer class="pie">
         <div class="cont_pie">
             <div class="logo_pie">

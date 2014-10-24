@@ -126,25 +126,23 @@ if(isset($_SESSION['usuario'])){
                 </div>
             </div>
         </header>
-	<fieldset id="login_cliente">
-        <div id="data1"></div>
-        <legend>Iniciar sesión</legend>
-		<form id="logincliente" name="logincliente" method="post" action="function/logincliente.php">
-
-			<label id="mail_label" for="mail"><span>E-mail</span>
-                <input id="mail" class="text-input" name="mail" type="text" />
-            </label>
-	      	
-	 
-	      	<label id="pass_label" for="pass"><span>Contraseña</span>
-                <input id="pass" class="text-input" name="pass" type="password" />
-            </label>
-	     	
-
-	     	<input id="submit_cliente" class="button" name="submit" type="submit" value="Ingresar" />
-
-		</form>			
-	</fieldset>
+        <section>
+        <article>
+    	   <fieldset id="login_cliente">
+            <div id="data1"></div>
+            <legend>Iniciar sesión</legend>
+    		<form id="logincliente" name="logincliente" method="post" action="function/logincliente.php">
+    			<label id="mail_label" for="mail"><span>E-mail</span>
+                    <input id="mail" class="text-input" name="mail" type="text" />
+                </label> 	 
+    	      	<label id="pass_label" for="pass"><span>Contraseña</span>
+                    <input id="pass" class="text-input" name="pass" type="password" />
+                </label>
+    	     	<input id="submit_cliente" class="button" name="submit" type="submit" value="Ingresar" />
+    		</form>			
+    	   </fieldset>
+        </article> 
+    </section>
     <footer class="pie">
         <div class="cont_pie">
             <div class="logo_pie">

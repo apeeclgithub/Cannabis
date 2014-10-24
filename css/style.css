@@ -1267,6 +1267,53 @@ opacity: 1;
 	width: 186px;
 	font-family: Arial, Helvetica, sans-serif;	
 }
+
+#loginadmin label {
+	display: block;
+	margin-bottom: 12%;
+}
+#loginadmin label span {
+	float: left;
+	width: 100px;
+}
+
+#loginadmin input {
+	height: 25px;
+	border: 1px solid #DBDBDB;
+	border-radius: 3px;
+	padding-left: 4px;
+	color: #666;
+	width: 180px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*page condiciones*/
+.condic{
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.title_condic{
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #5a903f;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+.texto_condic{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+text-transform: none;
+color: #5a903f;
+padding: 10%;
+text-align: justify;
+}
+.condic_thx{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 2%;
+}
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
 

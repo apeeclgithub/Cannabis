@@ -4,8 +4,8 @@
 	$user = $_POST['user'];
 	$pass = $_POST['pass'];
 
-	if(empty($user)){echo 'esta wea del user esta vacia'; return;}
-	if(empty($pass)){echo 'esta wea del pass esta vacia'; return;}
+	if(empty($user)){echo 'Usuario vacío'; return;}
+	if(empty($pass)){echo 'Contraseña vacía'; return;}
 
 	$sql = "SELECT user FROM admin WHERE user = '$user' AND pass = '$pass'";
 	$consulta = mysql_query($sql); 

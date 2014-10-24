@@ -139,10 +139,10 @@ if(empty($_SESSION['usuario'])){
             <fieldset id="contact_form">
                 <form method="post" action="function/modifica-direccion.php">
                         <label id="direccion_label" for="direccion"><span>Dirección</span>
-                            <input id="direccion" class="text-input" name="direccion" type="text" />
+                            <input id="direccion" class="text-input" name="direccion" type="text" required/>
                         </label>
                         <label id="region_label" for="region"><span>Región</span>
-                            <select id="region" name="region" onchange="CargarRegiones(this.value);">
+                            <select id="region" name="region" onchange="CargarRegiones(this.value);" required>
                                 <option>-Seleccione una región-</option>
                                 <?php
                                 require('function/conexion.php');
@@ -156,7 +156,7 @@ if(empty($_SESSION['usuario'])){
                             </select>
                         </label>
                         <label id="comuna_label" for="comuna"><span>Comuna</span>
-                        <select id="comuna" name="comuna">
+                        <select id="comuna" name="comuna" required>
                             <option>-Seleccione una comuna-</option>
                         </select>
                         </label>

@@ -124,13 +124,15 @@
                 <div class="img_detalle"><img src="../../img/2.png" alt="serum contorno de ojos"></div>
                 <div class="det_producto">
                     <div class="nombre_item">SERUM CONTORNO DE OJOS</div>
-                    <select id="region">
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
+                    <select id="cantidad" name="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
                     </select>
-                    <br><br><a href="#" onclick="add(1, 1, 19990, 'Producto destacado 1')"><img src="../../img/agregar.jpg" alt="Agregar"></a>
+                    <br><br><a href="#" onclick="add(1,1, 19990, 'Producto destacado 1')"><img src="../../img/agregar.jpg" alt="Agregar"></a>
                     <h3 class="text_descrip">Precio: $12.500</h3>
 <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.espacioverdenatural.cl%2Fcategoria%2Fcosmetica%2Fserum-contorno-de-ojos.php&amp;width=118&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=622330997838752" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:118px; height:21px;" allowTransparency="true"></iframe>
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.espacioverdenatural.cl/categoria/cosmetica/serum-contorno-de-ojos.php">Tweet</a>

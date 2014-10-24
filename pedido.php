@@ -134,7 +134,7 @@
 						    {
 						    	
 						        echo '<tr>';
-							        echo '<td><img width="70px" height="70px" src="img/prod'.$producto["id"].'.jpg"></td>';
+							        echo '<td><img width="70px" height="70px" src="img/'.$producto["id"].'.png"></td>';
 							        echo '<td>'.$producto["nombre"].'</td>';
 							        echo '<td>'.$producto["cantidad"].'<br>';
 							       if($producto["cantidad"]>1){

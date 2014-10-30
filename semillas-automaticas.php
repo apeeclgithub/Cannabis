@@ -381,7 +381,7 @@
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
                             <h3 class="item_home_cat"><span itemprop="name">SUPER CRITICAL</span></h3>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/super critical.png" alt="super critical">
+                            <img itemprop="image" class="img_productos" src="img/automaticas/super critical.png" alt="super critical" title="Super critical">
                             <div class="text_home">
                             <h4 class="text_home_sem">
                                 <span itemprop="description">

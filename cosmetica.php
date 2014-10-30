@@ -183,7 +183,7 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat"><span itemprop="name">CREMA MANOS Y CUERPO DE <strong class="seo">CANNABIS</strong></span></h3>
+                            <h3 class="item_home_cat"><span itemprop="name">CREMA MANOS Y CUERPO DE CANNABIS</span></h3>
                             <img itemprop="image" class="img_productos" src="img/3.png" alt="crema manos y cuerpo de cannabis" title="Crema manos y cuerpo de cannabis">
                             <div class="text_home">
                                 <h4 class="text_home">
@@ -198,7 +198,7 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat"><span itemprop="name">ACEITE PARA MASAJES DE <strong class="seo">CANNABIS</strong></span></h3>
+                            <h3 class="item_home_cat"><span itemprop="name">ACEITE PARA MASAJES DE CANNABIS</span></h3>
                             <img itemprop="image" class="img_productos" src="img/4.png" alt="aceite para masajes de cannabis" title="Aceite para masajes de cannabis">
                             <div class="text_home">
                             <h4 class="text_home">
@@ -213,12 +213,12 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat"><span itemprop="name">ACEITE DE <strong class="seo">CANNABIS</strong></span></h3>
+                            <h3 class="item_home_cat"><span itemprop="name">ACEITE DE CANNABIS</span></h3>
                             <img itemprop="image" class="img_productos" src="img/5.png" alt="aceite de cannabis" title="Aceite de cannabis">
                             <div class="text_home">
                             <h4 class="text_home">
                             <span itemprop="description">    
-                                Aceite de <strong class="seo">cáñamo</strong> especialmente indicado para pieles secas y/o agrietadas, mantiene hidratada la piel de cutis, manos y cuerpo, restaura los aceites naturales de la piel, rico en aceites ...
+                                Aceite de cáñamo especialmente indicado para pieles secas y/o agrietadas, mantiene hidratada la piel de cutis, manos y cuerpo, restaura los aceites naturales de la piel, rico en aceites ...
                             </span>    
                             </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
@@ -243,7 +243,7 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat"><span itemprop="name">GEL DE BAÑO DE <strong class="seo">CANNABIS</strong></span></h3>
+                            <h3 class="item_home_cat"><span itemprop="name">GEL DE BAÑO DE CANNABIS</span></h3>
                             <img itemprop="image" class="img_productos" src="img/7.png" alt="gel de bano" title="Gel de baño de cannabis">
                             <div class="text_home">
                             <h4 class="text_home">
@@ -258,12 +258,12 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat"><span itemprop="name">JABÓN DE <strong class="seo">CANNABIS</strong></span></h3>
+                            <h3 class="item_home_cat"><span itemprop="name">JABÓN DE CANNABIS</span></h3>
                             <img itemprop="image" class="img_productos" src="img/8.png" alt="jabon de cannabis" title="Jabón de cannabis">
                             <div class="text_home">
                             <h4 class="text_home">
                             <span itemprop="description">
-                                Jabón de Cannabis elaborado a base de aceite de <strong class="seo">semilla</strong> de <strong class="seo">cáñamo</strong> 100% puro, cuyos componentes naturales como Omega 3 y Omega 6 regeneran y aumentan la resistencia y elasticidad de la pi...
+                                Jabón de Cannabis elaborado a base de aceite de semilla de cáñamo 100% puro, cuyos componentes naturales como Omega 3 y Omega 6 regeneran y aumentan la resistencia y elasticidad de la pi...
                             </span>
                             </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
@@ -273,12 +273,12 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat"><span itemprop="name">EXFOLIANTE DE <strong class="seo">CANNABIS</strong></span></h3>
+                            <h3 class="item_home_cat"><span itemprop="name">EXFOLIANTE DE CANNABIS</span></h3>
                             <img itemprop="image" class="img_productos" src="img/9.png" alt="exfoliante de cannabis" title="Exfoliante de cannabis">
                             <div class="text_home">
                             <h4 class="text_home">
                             <span itemprop="description">
-                                Exfoliante de <strong class="seo">cáñamo</strong> limpia y suaviza profundamente la piel, impidiendo la acomulación de toxinas, acelera la circulación sanguínea, aumenta la oxigenación de la piel, mejora la absorció...
+                                Exfoliante de cáñamo limpia y suaviza profundamente la piel, impidiendo la acomulación de toxinas, acelera la circulación sanguínea, aumenta la oxigenación de la piel, mejora la absorció...
                             </span>
                             </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
@@ -293,7 +293,7 @@
                             <div class="text_home">
                             <h4 class="text_home">
                             <span itemprop="description">
-                                Aceite Gourmet 100% puro <strong class="seo">Semilla</strong> de <strong class="seo">cáñamo</strong>. Rico en Omegas 3 - 6 y 9. Ingredientes Aceite de <strong class="seo">semilla</strong> de <strong class="seo">cáñamo</strong> (cannabis sativa, orgánico), menor al 0.4% de acidez. Contenido Neto: 250 ...
+                                Aceite Gourmet 100% puro Semilla de cáñamo. Rico en Omegas 3 - 6 y 9. Ingredientes Aceite de semilla de cáñamo (cannabis sativa, orgánico), menor al 0.4% de acidez. Contenido Neto: 250 ...
                             </span>
                             </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;

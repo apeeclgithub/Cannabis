@@ -1347,6 +1347,11 @@ padding-bottom: 2%;
 	text-align: justify;
 	padding-right:5%;
 }
+
+.seo{
+	font-weight: inherit;
+	font-style: normal; 
+}
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
 

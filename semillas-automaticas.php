@@ -126,11 +126,11 @@
                 </label>
                 <div class="menu_1">
                     <ul>
-                        <li ><a href="semillas-feminizadas.php" >SEMILLAS FEMINIZADAS</a></li>
-                        <li ><a href="semillas-automaticas.php" >SEMILLAS AUTOMÁTICAS</a></li>
-                        <li ><a href="fertilizantez.php" >FERTILIZANTES</a></li>
-                        <li ><a href="vestuario.php"     >VESTUARIO Y ACCESORIOS</a></li>
-                        <li ><a href="cosmetica.php">COSMÉTICA</a></li>
+                        <li ><a href="semillas-feminizadas.php" ><em class="seo">SEMILLAS FEMINIZADAS</em></a></li>
+                        <li ><a href="semillas-automaticas.php" ><em class="seo">SEMILLAS AUTOMÁTICAS</em></a></li>
+                        <li ><a href="fertilizantez.php" ><strong class="seo">FERTILIZANTES</strong></a></li>
+                        <li ><a href="vestuario.php"     ><em class="seo">VESTUARIO Y ACCESORIOS</em></a></li>
+                        <li ><a href="cosmetica.php"><strong class="seo">COSMÉTICA</strong></a></li>
                     </ul>
                 </div>
             </div>
@@ -139,39 +139,30 @@
                     <nav class="cat_1">
                         <ul id="cat-nav">
                             <li class="title_cat">&nbsp;CATEGORÍAS</li>
-                            <li><a href="semillas-feminizadas.php">+&nbsp;SEMILLAS FEMINIZADAS</a></li>
-                            <li><a href="semillas-automaticas.php">+&nbsp;SEMILLAS AUTOMÁTICAS</a></li>
-                            <li><a href="fertilizantes">+&nbsp;FERTILIZANTES</a></li>
-                            <li><a href="vestuario.php">+&nbsp;VESTUARIO Y ACCESORIOS</a></li>
-                            <li class="li_cos"><a href="cosmetica.php">+&nbsp;COSMÉTICA</a></li>
+                            <li><a href="semillas-feminizadas.php">+&nbsp;<em class="seo">SEMILLAS FEMINIZADAS</em></a></li>
+                            <li><a href="semillas-automaticas.php">+&nbsp;<em class="seo">SEMILLAS AUTOMÁTICAS</em></a></li>
+                            <li><a href="fertilizantes">+&nbsp;<strong class="seo">FERTILIZANTES</strong></a></li>
+                            <li><a href="vestuario.php">+&nbsp;<em class="seo">VESTUARIO Y ACCESORIOS</em></a></li>
+                            <li class="li_cos"><a href="cosmetica.php">+&nbsp;<strong class="seo">COSMÉTICA</strong></a></li>
                         </ul>
                     </nav>
                 </aside>
             </div>
             <div class="cont_prod">
                 <section class="productos">
-                    <div class="title_seccion_sem">SEMILLAS AUTOMÁTICAS</div>
+                    <div class="title_seccion_sem"><em class="seo">SEMILLAS AUTOMÁTICAS</em></div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">AUTO WHITE WUIDOW</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/auto white wuidow.png" alt="auto white wuidow">
+                            <h3 class="item_home_cat">
+                            <span itemprop="name">AUTO WHITE WUIDOW</span>
+                            </h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/auto white wuidow.png" alt="auto white wuidow" title="Auto white Wuidow">
                             <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">AutoWhite Widow pertenece al banco Dutch Passion. Es una planta de cannabis potente y robusta que proporciona un increíble subidón. Su genética ha ganado incontables premios y ha satisfe...</h4>
-                            </span>
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_home">
-                        <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">AUTO BLUEBERRY</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/auto blueberry.png" alt="auto blueberry">
-                            <div class="text_home">
+                            <h4 class="text_home_sem">
                                 <span itemprop="description">
-                                    <h4 class="text_home_sem">Auto Blueberry  pertenece al banco Dutch Passion. Esta variedad es mundialmente conocida y reconocida como una de las mejores variedades de la familia Blue. La Autoblueberry reúne estas ...</h4>
+                                    AutoWhite Widow pertenece al banco Dutch Passion. Es una planta de <strong class="seo">cannabis</strong> potente y robusta que proporciona un increíble subidón. Su genética ha ganado incontables premios y ha satisfe...
                                 </span>
+                            </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
@@ -179,12 +170,134 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">BLUE AUTO MAZAR</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/blue auto mazar.png" alt="blue auto mazar">
+                            <h3 class="item_home_cat"><span itemprop="name">AUTO BLUEBERRY</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/auto blueberry.png" alt="auto blueberry" title="Auto blueberry">
                             <div class="text_home">
+                                <h4 class="text_home_sem">
+                                    <span itemprop="description">
+                                        Auto Blueberry pertenece al banco Dutch Passion. Esta variedad es mundialmente conocida y reconocida como una de las mejores variedades de la familia Blue. La Autoblueberry reúne estas ...
+                                    </span>
+                                </h4>
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat"><span itemprop="name">BLUE AUTO MAZAR</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/blue auto mazar.png" alt="blue auto mazar" title="Blue auto mazar">
+                            <div class="text_home">
+                                <h4 class="text_home_sem">
+                                    <span itemprop="description">
+                                        Blue Auto Mazar: combina lo mejor de dos legendarias automáticas de Dutch Passion en una nueva y sorprendente híbrida muy potente. Es un cruce entre AutoBlueberry y AutoMazar, dos de nue...
+                                    </span>
+                                </h4>
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat"><span itemprop="name">BIG DEVIL XL</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/big devil xl.png" alt="big devil xl" title="Big devil XL">
+                            <div class="text_home">
+                            <h4 class="text_home_sem">
                                 <span itemprop="description">
-                                    <h4 class="text_home_sem">Blue Auto Mazar: combina lo mejor de dos legendarias automáticas de Dutch Passion en una nueva y sorprendente híbrida muy potente. Es un cruce entre AutoBlueberry y AutoMazar, dos de nue...</h4>
+                                    Big Devil XL es una autofloreciente de 3ª generación, híbrido resultante del cruce de nuestra Big Devil #2 con una Jack Herer  autofloreciente del departamento I +D de Sweet Seeds. Produc...
+                                </span>
+                            </h4>
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat"><span itemprop="name">CREAM CARAMEL AUTO</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/cream caramel auto.png" alt="cream caramel auto" title="Cream caramel auto">
+                            <div class="text_home">
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">    
+                                    Cream Caramel: es una verdadera joya, muchas variedades han surgido posteriormente a esta magistral variedad de Sweet Seeds, pero superarla aún sigue siendo arduo propósito. Es una autof...
+                                </span>
+                            </h4>
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat"><span itemprop="name">DARK DEVIL</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/dark devil.png" alt="dark devil" title="Dark devil">
+                            <div class="text_home">
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Dark Devil es una variedad 100% autofloreciente. Resultado de la hibridación entre una de nuestras más apreciadas genéticas autoflorecientes, la Big Devil XL y una exótica genética autof...
+                                </span>
+                            </h4>
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat"><span itemprop="name">JACK 47 AUTO</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/jack 47 auto.png" alt="jack 47 auto" title="Jack 47 auto">
+                            <div class="text_home">
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Jack 47 Auto de Sweet Seeds es un potente híbrido con un sorprendente sabor dulce. El matrimonio entre la Jack Herer Auto y la AK-47 ha creado una cepa épica de productos extraordinarios...
+                                </span>
+                            </h4>
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat"><span itemprop="name">BLUE AMNESIA XXL AUTO</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/blue amnesia xxl auto.png" alt="blue amnesia xxl auto" title="Blue amnesia xxl auto">
+                            <div class="text_home">
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Blue Amnesia XXL Auto de Dinafem Seeds es una variedad de <strong class="seo">semilla</strong> autofloreciente feminizada Sativa/Indica/Ruderalis, fruto de la unión entre una Original Amnesia Autoflowering y una Aut...
+                                </span>
+                            </h4>
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat"><span itemprop="name">CHEESE</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/cheese.png" alt="cheese" title="Cheese">
+                            <div class="text_home">
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Cheese es una variedad con sabor muy intenso, duradero, aromático, índico, a queso fuerte, más bien curado. El efecto es muy equilibrado, completamente mixto, físico y mental. Tiene un c...
+                                </span>
+                            </h4>
+                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_home">
+                        <div itemscope itemtype="http://schema.org/Product">
+                            <h3 class="item_home_cat"><span itemprop="name">CRITICAL CHEESE</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/critical cheese.png" alt="critical cheese" title="Critical cheese">
+                            <div class="text_home">
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Critical Cheese Auto es el cruce de la línea autofloreciente más productiva con la de sabor más fuerte. Tanto la Critical como la Cheese deben su origen a la genética Skunk, que es sinón...
                                 </span>    
+                            </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
@@ -192,12 +305,14 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">BIG DEVIL XL</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/big devil xl.png" alt="big devil xl">
+                            <h3 class="item_home_cat"><span itemprop="name">CRITICAL JACK</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/critical jack.png" alt="critical jack" title="Critical jack">
                             <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Big Devil XL es una autofloreciente de 3ª generación, híbrido resultante del cruce de nuestra Big Devil #2 con una Jack Herer  autofloreciente del departamento I +D de Sweet Seeds. Produc...</h4>
-                            </span>    
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Critical Jack  Automática: Esta variedad es la versión express de la Critical Jack. Necesita 70 días desde que nace de la <strong class="seo">semilla</strong> para completar su ciclo vital y sorprender con sólidos c...
+                                </span>
+                            </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
@@ -205,12 +320,14 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">CREAM CARAMEL AUTO</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/cream caramel auto.png" alt="cream caramel auto">
+                            <h3 class="item_home_cat"><span itemprop="name">HAZE 2.0</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/haze 2.0.png" alt="haze 2.0" title="Haze 2.0">
                             <div class="text_home">
-                            <span itemprop="description">    
-                                <h4 class="text_home_sem">Cream Caramel: es una verdadera joya, muchas variedades han surgido posteriormente a esta magistral variedad de Sweet Seeds, pero superarla aún sigue siendo arduo propósito. Es una autof...</h4>
-                            </span>    
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Haze 2.0 Autoflowering: es la versión mejorada de la ya famosa Haze Autoflowering de Dinafem. Para desarrollar esta variedad la han cruzado con la excelente Jack Herer consiguiendo una n...
+                                </span>
+                            </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
@@ -218,12 +335,14 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">DARK DEVIL</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/dark devil.png" alt="dark devil">
+                            <h3 class="item_home_cat"><span itemprop="name">HAZE XXL</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/haze xxl.png" alt="haze xxl" title="Haze xxl">
                             <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Dark Devil es una variedad 100% autofloreciente. Resultado de la hibridación entre una de nuestras más apreciadas genéticas autoflorecientes, la Big Devil XL y una exótica genética autof...</h4>
-                            </span>
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Haze XXL Auto de Dinafem son una variedad autofloreciente feminizada con dominancia Sativa fruto de la unión entre una Jack Herer y una Haze 2.0 Autoflowering. Se trata de una <strong class="seo">semilla</strong> de...
+                                </span>
+                            </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
@@ -231,12 +350,14 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">JACK 47 AUTO</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/jack 47 auto.png" alt="jack 47 auto">
+                            <h3 class="item_home_cat"><span itemprop="name">BIG BANG</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/big bang.png" alt="big bang" title="Big bang">
                             <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Jack 47 Auto de Sweet Seeds es un potente híbrido con un sorprendente sabor dulce. El matrimonio entre la Jack Herer Auto y la AK-47 ha creado una cepa épica de productos extraordinarios...</h4>
-                            </span>    
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Big bang autofloewering: fuerte, corta y ancha, de alto rendimiento. Es una estupenda opción para cultivadores novatos. Su corto ciclo de vida y su gran resistencia a bajas temperaturas ...
+                                </span>
+                            </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
@@ -244,12 +365,14 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">BLUE AMNESIA XXL AUTO</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/blue amnesia xxl auto.png" alt="blue amnesia xxl auto">
+                            <h3 class="item_home_cat"><span itemprop="name">NORTHERN LIGHTS</span></h3>
+                            <img itemprop="image" class="img_productos" src="img/automaticas/northern lights.png" alt="northern lights" title="Northern lights">
                             <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Blue Amnesia XXL Auto de Dinafem Seeds es una variedad de semilla autofloreciente feminizada Sativa/Indica/Ruderalis, fruto de la unión entre una Original Amnesia Autoflowering y una Aut...</h4>
-                            </span>
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    La Northern Lights Autofloreciente es el remedio perfecto cuando las perspectivas no son buenas y que necesitas una luz en la oscuridad. Esta potente hierba te alegrará el día y aliviará...
+                                </span>
+                            </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>
@@ -257,103 +380,14 @@
                     </div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <span itemprop="name"><h3 class="item_home_cat">CHEESE</h3></span>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/cheese.png" alt="cheese">
-                            <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Cheese es una variedad con sabor muy intenso, duradero, aromático, índico, a queso fuerte, más bien curado. El efecto es muy equilibrado, completamente mixto, físico y mental. Tiene un c...</h4>
-                            </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_home">
-                        <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat">CRITICAL CHEESE</h3>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/critical cheese.png" alt="critical cheese">
-                            <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Critical Cheese Auto es el cruce de la línea autofloreciente más productiva con la de sabor más fuerte. Tanto la Critical como la Cheese deben su origen a la genética Skunk, que es sinón...</h4>
-                            </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_home">
-                        <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat">CRITICAL JACK</h3>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/critical jack.png" alt="critical jack">
-                            <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Critical Jack  Automática: Esta variedad es la versión express de la Critical Jack. Necesita 70 días desde que nace de la semilla para completar su ciclo vital y sorprender con sólidos c...</h4>
-                            </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_home">
-                        <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat">HAZE 2.0</h3>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/haze 2.0.png" alt="haze 2.0">
-                            <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Haze 2.0 Autoflowering: es la versión mejorada de la ya famosa Haze Autoflowering de Dinafem. Para desarrollar esta variedad la han cruzado con la excelente Jack Herer consiguiendo una n...</h4>
-                            </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_home">
-                        <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat">HAZE XXL</h3>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/haze xxl.png" alt="haze xxl">
-                            <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Haze XXL Auto de Dinafem son una variedad autofloreciente feminizada con dominancia Sativa fruto de la unión entre una Jack Herer y una Haze 2.0 Autoflowering. Se trata de una semilla de...</h4>
-                            </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_home">
-                        <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat">BIG BANG</h3>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/big bang.png" alt="big bang">
-                            <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Big bang autofloewering: fuerte, corta y ancha, de alto rendimiento. Es una estupenda opción para cultivadores novatos. Su corto ciclo de vida y su gran resistencia a bajas temperaturas ...</h4>
-                            </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_home">
-                        <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat">NORTHERN LIGHTS</h3>
-                            <img itemprop="image" class="img_productos" src="img/automaticas/northern lights.png" alt="northern lights">
-                            <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">La Northern Lights Autofloreciente es el remedio perfecto cuando las perspectivas no son buenas y que necesitas una luz en la oscuridad. Esta potente hierba te alegrará el día y aliviará...</h4>
-                            </span>    
-                                <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
-                                <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_home">
-                        <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat">SUPER CRITICAL</h3>
+                            <h3 class="item_home_cat"><span itemprop="name">SUPER CRITICAL</span></h3>
                             <img itemprop="image" class="img_productos" src="img/automaticas/super critical.png" alt="super critical">
                             <div class="text_home">
-                            <span itemprop="description">
-                                <h4 class="text_home_sem">Super Critical: es una extraordinaria variedad, mejor que la suma de sus antepasados. Uniendo los genes de la Big Bud, Skunk y White Widow, se ha creado una variedad increíblemente produ...</h4>
-                            </span>    
+                            <h4 class="text_home_sem">
+                                <span itemprop="description">
+                                    Super Critical: es una extraordinaria variedad, mejor que la suma de sus antepasados. Uniendo los genes de la Big Bud, Skunk y White Widow, se ha creado una variedad increíblemente produ...
+                                </span>
+                            </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
                             </div>

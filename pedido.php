@@ -114,10 +114,11 @@
                 </div>
             </div>
         </header>
+        <section class="condic">
 			<?php
 				$carro = $carrito->get_content();
 						if($carro){
-							echo "<h3>Lista de productos</h3>";
+							echo "<div class=\"title_condic\"><h3>Lista de productos</h3></div>";
 
 							echo "<div id='tabla'>";
 					
@@ -155,25 +156,29 @@
 				echo "</div>";#tr
 				echo "</div>";#tabla
 						}else{
-							echo "<h2>No tiene productos en su carro.</h2>";
+							echo "<h2><div class=\"title_condic\">No tiene productos en su carro.<br><br></div></h2>";
 						}
 				
 			?>
 			
-		<a href="nuestros-productos.php">Ver Catalogo</a>
+		<div class="btn_mod"><br><a href="nuestros-productos.php">Ver Catalogo</a><br><br></div>
 
-		<hr />
+		
 
 	    <?php 
 		    if(@$_SESSION["usuario"]){
-		    	echo "<h2>Sus Datos</h2>";
-				echo '<a href="function/logout.php">salir</a>';
+		    	echo "<div class=\"title_condic\">Sus Datos</div>";
+                echo "<div class=\"btn_mod\">";
+				echo '<a href="function/logout.php">SALIR</a>';
+                echo "</div>";
 				echo '<br>';
 				$sql1 = "SELECT usuario.usu_id, usu_nombre, usu_fono, usu_mail, usu_edad FROM usuario WHERE usuario.usu_id = ".$_SESSION["usuario"];
 				$consulta1 = mysql_query($sql1);
 				$dato1 = mysql_fetch_array($consulta1);
 
+                echo "<div class=\"btn_mod\">";
 				echo '<a href="tusdatos.php">Modifica tus datos</a>';
+                echo "</div>";
 				echo '<br>';
 				echo 'Nombre: '.$dato1["usu_nombre"];
 				echo '<br>';
@@ -194,9 +199,10 @@
 					echo '<a href="function/comprar.php">COMPRAR!!</a>';
 				}
 		    }else{
-		    	echo '<a href="inicio-sesion.php">Login</a>';
+		    	echo '<div class="btn_mod"><br><a href="inicio-sesion.php">Login</a></div><br><br><br><br>';
 		    }
 	    ?>
+        </section>
         <footer class="pie">
                 <div class="cont_pie">
                     <div class="logo_pie">

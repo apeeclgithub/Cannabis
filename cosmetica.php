@@ -153,7 +153,7 @@
                     <div class="title_seccion"><strong class="seo">COSMÉTICA</strong></div>
                     <div class="item_home">
                         <div itemscope itemtype="http://schema.org/Product">
-                            <h3 class="item_home_cat"><span itemprop="name">CREMA FACIAL DE <strong class="seo">CANNABIS</strong></span></h3>
+                            <h3 class="item_home_cat"><span itemprop="name">CREMA FACIAL DE CANNABIS</span></h3>
                             <img itemprop="image" class="img_productos" src="img/1.png" alt="crema de cannabis" title="Crema facial de cannabis">
                             <div class="text_home">
                                 <h4 class="text_home">

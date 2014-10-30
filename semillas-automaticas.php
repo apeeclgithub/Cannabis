@@ -160,7 +160,7 @@
                             <div class="text_home">
                             <h4 class="text_home_sem">
                                 <span itemprop="description">
-                                    AutoWhite Widow pertenece al banco Dutch Passion. Es una planta de <strong class="seo">cannabis</strong> potente y robusta que proporciona un increíble subidón. Su genética ha ganado incontables premios y ha satisfe...
+                                    AutoWhite Widow pertenece al banco Dutch Passion. Es una planta de cannabis potente y robusta que proporciona un increíble subidón. Su genética ha ganado incontables premios y ha satisfe...
                                 </span>
                             </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
@@ -265,7 +265,7 @@
                             <div class="text_home">
                             <h4 class="text_home_sem">
                                 <span itemprop="description">
-                                    Blue Amnesia XXL Auto de Dinafem Seeds es una variedad de <strong class="seo">semilla</strong> autofloreciente feminizada Sativa/Indica/Ruderalis, fruto de la unión entre una Original Amnesia Autoflowering y una Aut...
+                                    Blue Amnesia XXL Auto de Dinafem Seeds es una variedad de semilla autofloreciente feminizada Sativa/Indica/Ruderalis, fruto de la unión entre una Original Amnesia Autoflowering y una Aut...
                                 </span>
                             </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
@@ -310,7 +310,7 @@
                             <div class="text_home">
                             <h4 class="text_home_sem">
                                 <span itemprop="description">
-                                    Critical Jack  Automática: Esta variedad es la versión express de la Critical Jack. Necesita 70 días desde que nace de la <strong class="seo">semilla</strong> para completar su ciclo vital y sorprender con sólidos c...
+                                    Critical Jack  Automática: Esta variedad es la versión express de la Critical Jack. Necesita 70 días desde que nace de la semilla para completar su ciclo vital y sorprender con sólidos c...
                                 </span>
                             </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
@@ -340,7 +340,7 @@
                             <div class="text_home">
                             <h4 class="text_home_sem">
                                 <span itemprop="description">
-                                    Haze XXL Auto de Dinafem son una variedad autofloreciente feminizada con dominancia Sativa fruto de la unión entre una Jack Herer y una Haze 2.0 Autoflowering. Se trata de una <strong class="seo">semilla</strong> de...
+                                    Haze XXL Auto de Dinafem son una variedad autofloreciente feminizada con dominancia Sativa fruto de la unión entre una Jack Herer y una Haze 2.0 Autoflowering. Se trata de una semilla de...
                                 </span>
                             </h4>
                                 <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;

@@ -1350,7 +1350,9 @@ padding-bottom: 2%;
 
 .seo{
 	font-weight: inherit;
-	font-style: normal; 
+	font-style: inherit;
+	font-size:inherit;
+	margin:0 auto;
 }
 /*****************MEDIA QUERY**********************/
 /**INDEX****/

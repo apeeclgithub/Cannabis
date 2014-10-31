@@ -126,11 +126,11 @@
                 </label>
                 <div class="menu_1">
                     <ul>
-                        <li ><a href="semillas-feminizadas.php" ><em class="seo">SEMILLAS FEMINIZADAS</em></a></li>
-                        <li ><a href="semillas-automaticas.php" ><em class="seo">SEMILLAS AUTOMÁTICAS</em></a></li>
-                        <li ><a href="fertilizantez.php" ><strong class="seo">FERTILIZANTES</strong></a></li>
-                        <li ><a href="vestuario.php"     ><em class="seo">VESTUARIO Y ACCESORIOS</em></a></li>
-                        <li ><a href="cosmetica.php"><strong class="seo">COSMÉTICA</strong></a></li>
+                        <li ><a href="semillas-feminizadas.php" ><h2 class="seo">SEMILLAS FEMINIZADAS</h2></a></li>
+                        <li ><a href="semillas-automaticas.php" ><h2 class="seo">SEMILLAS AUTOMÁTICAS</h2></a></li>
+                        <li ><a href="fertilizantez.php" ><h2 class="seo">FERTILIZANTES</h2></a></li>
+                        <li ><a href="vestuario.php"     ><h2 class="seo">VESTUARIO Y ACCESORIOS</h2></a></li>
+                        <li ><a href="cosmetica.php"><h2 class="seo">COSMÉTICA</h2></a></li>
                     </ul>
                 </div>
             </div>
@@ -139,11 +139,11 @@
                     <nav class="cat_1">
                         <ul id="cat-nav">
                             <li class="title_cat">&nbsp;CATEGORÍAS</li>
-                            <li><a href="semillas-feminizadas.php">+&nbsp;<em class="seo">SEMILLAS FEMINIZADAS</em></a></li>
-                            <li><a href="semillas-automaticas.php">+&nbsp;<em class="seo">SEMILLAS AUTOMÁTICAS</em></a></li>
-                            <li><a href="fertilizantes">+&nbsp;<strong class="seo">FERTILIZANTES</strong></a></li>
-                            <li><a href="vestuario.php">+&nbsp;<em class="seo">VESTUARIO Y ACCESORIOS</em></a></li>
-                            <li class="li_cos"><a href="cosmetica.php">+&nbsp;<strong class="seo">COSMÉTICA</strong></a></li>
+                            <li><a href="semillas-feminizadas.php"><h2 class="seo">&#43;&nbsp;SEMILLAS FEMINIZADAS</h2></a></li>
+                            <li><a href="semillas-automaticas.php"><h2 class="seo">&#43;&nbsp;SEMILLAS AUTOMÁTICAS</h2></a></li>
+                            <li><a href="fertilizantes"><h2 class="seo">&#43;&nbsp;FERTILIZANTES</h2></a></li>
+                            <li><a href="vestuario.php"><h2 class="seo">&#43;&nbsp;VESTUARIO Y ACCESORIOS</h2></a></li>
+                            <li class="li_cos"><a href="cosmetica.php"><h2 class="seo">&#43;&nbsp;COSMÉTICA</h2></a></li>
                         </ul>
                     </nav>
                 </aside>

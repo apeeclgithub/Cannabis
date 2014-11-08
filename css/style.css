@@ -1354,6 +1354,15 @@ padding-bottom: 2%;
 	font-size:inherit;
 	margin:0 auto;
 }
+.title_condic_1 {
+text-align: center;
+font-size: 23px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+color: #5a903f;
+padding-top: 5%;
+padding-bottom: 2%;
+}
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
 

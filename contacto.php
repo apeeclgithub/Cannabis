@@ -122,7 +122,6 @@
             <article class="art_contacto">
                 <fieldset id="contact_form">
                     <legend>Contacto</legend>
-                    <div id="result"></div>
                     <label for="name"><span>Nombre</span>
                         <input type="text" name="name" id="name"  />
                     </label>
@@ -142,6 +141,7 @@
                     <label><span>&nbsp;</span>
                         <button class="submit_btn" id="submit_btn">Enviar</button>
                     </label>
+                    <div id="result"></div>
                 </fieldset>
             </article>
         </section>

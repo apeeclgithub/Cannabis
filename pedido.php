@@ -177,9 +177,10 @@
 				$dato1 = mysql_fetch_array($consulta1);
 
                 echo "<div class=\"btn_mod\">";
-				echo '<a href="tusdatos.php">Modifica tus datos</a>';
+				echo '<a href="tus-datos.php">Modifica tus datos</a>';
                 echo "</div>";
 				echo '<br>';
+                echo "<div class=\"title_condic_1\">";
 				echo 'Nombre: '.$dato1["usu_nombre"];
 				echo '<br>';
 				echo 'Telefono: '.$dato1["usu_fono"];
@@ -188,7 +189,7 @@
 				echo '<br>';
 				echo 'Edad: '.$dato1["usu_edad"];
 				echo '<br>';
-
+                echo "</div>";
 				$dato2 = mysql_fetch_array(mysql_query("SELECT dir_id, usu_id, dir_direccion, com_id FROM direccion WHERE usu_id = ".$dato1["usu_id"]));
 
 				if ($dato2['dir_direccion']=='Sin definir'){
@@ -196,7 +197,9 @@
 					echo '<a href="agregar-direccion.php">Agregar dirección</a>';
 					echo "<script>if (window.confirm('Necesita Agregar una dirección para continuar con la compra')) {window.location.href='agregar-direccion.php';}</script>";
 				}else{
-					echo '<a href="function/comprar.php">COMPRAR!!</a>';
+                    echo "<div class=\"btn_mod\">";
+					echo '<a href="function/comprar.php">Comprar</a>';
+                    echo "</div><br><br>";
 				}
 		    }else{
 		    	echo '<div class="btn_mod"><br><a href="inicio-sesion.php">Login</a></div><br><br><br><br>';

@@ -1363,6 +1363,86 @@ color: #5a903f;
 padding-top: 5%;
 padding-bottom: 2%;
 }
+
+/**tabla pedido**/
+#img_ped{
+	float:left;
+	width: 20%;
+	text-align: center;
+}
+#img_ped img{
+	width: 100%;
+height: auto;
+}
+#nombre_ped{
+	float:left;
+	width: 20%;
+	text-align: center;
+}
+#cant_ped{
+	float:left;
+	width: 10%;
+	text-align: center;
+}
+#cant_ped a{
+	text-decoration: none;
+	color:inherit;
+	font-weight: bold;
+}
+#cant_ped img{
+	width:30%;
+}
+#valor_ped{
+	float:left;
+	width: 20%;
+	text-align: center;
+}
+#total_ped{
+	float:left;
+	width: 20%;
+	text-align: center;
+}
+#borrar_ped{
+	float:left;
+	width: 10%;
+	text-align: center;
+}
+#borrar_ped img{
+	width:30%;
+}
+#borrar_ped a{
+	text-decoration: none;
+	color: inherit;
+}
+#cont_pedido{
+	padding-top:5%;
+	font-weight: bold;
+}
+#cont_ped_det{
+	padding-top: 2%;
+	border-top: 4px solid #000;
+	font-weight: 300;
+}
+
+.nombre_ped{
+	padding-top: 3%;
+}
+.texto_ped {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+text-transform: none;
+color: #5a903f;
+}
+
+#total_pedido{
+	margin-top: 15%;
+	margin-bottom: 20%;
+}
+
+#total_pedido_1{
+	float: right;
+	font-weight: bold;
+}
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
 

@@ -118,43 +118,45 @@
 			<?php
 				$carro = $carrito->get_content();
 						if($carro){
-							echo "<div class=\"title_condic\"><h3>Lista de productos</h3></div>";
+							echo "<div class=\"title_condic\"><h3>LISTA DE PRODUCTOS</h3></div>";
 
-							echo "<div id='tabla'>";
+							echo "<div id='tabla' class=\"texto_ped\">";
 					
-									echo "<div id='tr'>";
-										echo "<div id='td'></div>";#td espacio vacio
-										echo "<div id='td'>Nombre</div>";
-										echo "<div id='td'>Cantidad</div>";
-										echo "<div id='td'>Valor</div>";
-										echo "<div id='td'>Total</div>";
-										echo "<div id='td'>Borrar</div>";
+									echo "<div id='cont_pedido'>";
+										echo "<div id='img_ped'>foto</div>";#td espacio vacio
+										echo "<div id='nombre_ped'>Nombre</div>";
+										echo "<div id='cant_ped'>Cantidad</div>";
+										echo "<div id='valor_ped'>Precio</div>";
+										echo "<div id='total_ped'>Total</div>";
+										echo "<div id='borrar_ped'>Borrar</div>";
 										echo "</div>";#tr
+                                        echo "<br><br>";
 										
 						    foreach($carro as $producto)
 						    {
 						    	
-						        echo "<div id='tr'>";
-							        echo '<div id="td"><img width="70px" height="70px" src="img/'.$producto["id"].'.png"></div>';
-							        echo '<div id="td">'.$producto["nombre"].'</div>';
-							        echo '<div id="td">'.$producto["cantidad"].'<br>';
+						        echo "<div id='cont_ped_det'>";
+							        echo '<div id="img_ped"><img width="70px" height="70px" src="img/'.$producto["id"].'.png"></div>';
+							        echo '<div id="nombre_ped" class="nombre_ped">'.$producto["nombre"].'</div>';
+							        echo '<div id="cant_ped" class="nombre_ped">'.$producto["cantidad"].'<br>';
 							       if($producto["cantidad"]>1){
-                                        echo '<a href="#"><span onclick="add('.$producto["id"].', -1, -'.$producto["precio"].', \''.$producto["nombre"].'\')")">-</span></a> / ';
+                                        echo '<a href="#"><span onclick="add('.$producto["id"].', -1, -'.$producto["precio"].', \''.$producto["nombre"].'\')")"><img src="img/rest_icon.png" alt=""> </span></a>';
                                    }
-                                    echo '<a href="#"><span onclick="add('.$producto["id"].', 1, '.$producto["precio"].', \''.$producto["nombre"].'\')">+</span></a>';
+                                    echo '<a href="#" ><span onclick="add('.$producto["id"].', 1, '.$producto["precio"].', \''.$producto["nombre"].'\')"> <img src="img/pluss_icon.png" alt=""></span></a>';
 
 							        echo '</div>';
-							        echo '<div id="td">'.number_format($producto["precio"],0,',','.').'</div>';
-							        echo '<div id="td">'.number_format($producto["cantidad"]*$producto["precio"],0,',','.').'</div>';
-							        echo '<div id="td"><a href="#"><span onclick="del(\''.$producto["unique_id"].'\')">x</span></a></div>';
+							        echo '<div id="valor_ped" class="nombre_ped">'.number_format($producto["precio"],0,',','.').'</div>';
+							        echo '<div id="total_ped" class="nombre_ped">'.number_format($producto["cantidad"]*$producto["precio"],0,',','.').'</div>';
+							        echo '<div id="borrar_ped" class="nombre_ped"><a href="#"><span onclick="del(\''.$producto["unique_id"].'\')"><img src="img/x_icon.png" alt=""></span></a></div>';
 						        echo '</div>';#tr
 
 						    }
-				echo "<div id='tr'>";
-				echo "<div id='td'>Total</div>";
-				echo "<div id='td'>".number_format($carrito->precio_total(),0,',','.')."</div>";
-				echo "</div>";#tr
-				echo "</div>";#tabla
+                echo "<div id='total_pedido'>";
+    				echo "<div id='total_pedido_1'>";
+    				echo "<div>Total  ".number_format($carrito->precio_total(),0,',','.')."</div>";
+    				echo "</div>";#tr
+    				echo "</div>";#tabla
+                echo "</div>";
 						}else{
 							echo "<h2><div class=\"title_condic\">No tiene productos en su carro.<br><br></div></h2>";
 						}

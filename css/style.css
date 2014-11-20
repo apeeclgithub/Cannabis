@@ -1419,9 +1419,9 @@ height: auto;
 	font-weight: bold;
 }
 #cont_ped_det{
-	padding-top: 2%;
 	border-top: 4px solid #000;
 	font-weight: 300;
+clear: both;
 }
 
 .nombre_ped{

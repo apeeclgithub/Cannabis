@@ -119,9 +119,7 @@
 				$carro = $carrito->get_content();
 						if($carro){
 							echo "<div class=\"title_condic\"><h3>LISTA DE PRODUCTOS</h3></div>";
-
 							echo "<div id='tabla' class=\"texto_ped\">";
-					
 									echo "<div id='cont_pedido'>";
 										echo "<div id='img_ped'>foto</div>";#td espacio vacio
 										echo "<div id='nombre_ped'>Nombre</div>";
@@ -131,10 +129,8 @@
 										echo "<div id='borrar_ped'>Borrar</div>";
 										echo "</div>";#tr
                                         echo "<br><br>";
-										
 						    foreach($carro as $producto)
 						    {
-						    	
 						        echo "<div id='cont_ped_det'>";
 							        echo '<div id="img_ped"><img width="70px" height="70px" src="img/'.$producto["id"].'.png"></div>';
 							        echo '<div id="nombre_ped" class="nombre_ped">'.$producto["nombre"].'</div>';
@@ -143,13 +139,11 @@
                                         echo '<a href="#"><span onclick="add('.$producto["id"].', -1, -'.$producto["precio"].', \''.$producto["nombre"].'\')")"><img src="img/rest_icon.png" alt=""> </span></a>';
                                    }
                                     echo '<a href="#" ><span onclick="add('.$producto["id"].', 1, '.$producto["precio"].', \''.$producto["nombre"].'\')"> <img src="img/pluss_icon.png" alt=""></span></a>';
-
 							        echo '</div>';
 							        echo '<div id="valor_ped" class="nombre_ped">'.number_format($producto["precio"],0,',','.').'</div>';
 							        echo '<div id="total_ped" class="nombre_ped">'.number_format($producto["cantidad"]*$producto["precio"],0,',','.').'</div>';
-							        echo '<div id="borrar_ped" class="nombre_ped"><a href="#"><span onclick="del(\''.$producto["unique_id"].'\')"><img src="img/x_icon.png" alt=""></span></a></div>';
+							        echo '<div id="borrar_ped" class="nombre_ped"><a href="#"><span onclick="del(\''.$producto["unique_id"].'\')"><img src="img/x_icon.png" alt=""></span></a></div><br><br>';
 						        echo '</div>';#tr
-
 						    }
                 echo "<div id='total_pedido'>";
     				echo "<div id='total_pedido_1'>";
@@ -159,14 +153,9 @@
                 echo "</div>";
 						}else{
 							echo "<h2><div class=\"title_condic\">No tiene productos en su carro.<br><br></div></h2>";
-						}
-				
+						}	
 			?>
-			
 		<div class="btn_mod"><br><a href="nuestros-productos.php">Ver Catalogo</a><br><br></div>
-
-		
-
 	    <?php 
 		    if(@$_SESSION["usuario"]){
 		    	echo "<div class=\"title_condic\">Sus Datos</div>";
@@ -177,7 +166,6 @@
 				$sql1 = "SELECT usuario.usu_id, usu_nombre, usu_fono, usu_mail, usu_edad FROM usuario WHERE usuario.usu_id = ".$_SESSION["usuario"];
 				$consulta1 = mysql_query($sql1);
 				$dato1 = mysql_fetch_array($consulta1);
-
                 echo "<div class=\"btn_mod\">";
 				echo '<a href="tus-datos.php">Modifica tus datos</a>';
                 echo "</div>";
@@ -193,7 +181,6 @@
 				echo '<br>';
                 echo "</div>";
 				$dato2 = mysql_fetch_array(mysql_query("SELECT dir_id, usu_id, dir_direccion, com_id FROM direccion WHERE usu_id = ".$dato1["usu_id"]));
-
 				if ($dato2['dir_direccion']=='Sin definir'){
 					echo 'Debe registrar su dirección antes de comprar<br>';
 					echo '<a href="agregar-direccion.php">Agregar dirección</a>';

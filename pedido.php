@@ -155,7 +155,7 @@
 							echo "<h2><div class=\"title_condic\">No tiene productos en su carro.<br><br></div></h2>";
 						}	
 			?>
-		<div class="btn_mod"><br><a href="nuestros-productos.php">Ver Catalogo</a><br><br></div>
+		<div class="btn_mod"><br><a href="nuestros-productos.php">Ver Catálogo</a><br><br></div>
 	    <?php 
 		    if(@$_SESSION["usuario"]){
 		    	echo "<div class=\"title_condic\">Sus Datos</div>";
@@ -187,7 +187,7 @@
 					echo "<script>if (window.confirm('Necesita Agregar una dirección para continuar con la compra')) {window.location.href='agregar-direccion.php';}</script>";
 				}else{
                     echo "<div class=\"btn_mod\">";
-					echo '<a href="function/comprar.php">Comprar</a>';
+					echo '<a href="function/comprar.php">Confirma tu compra</a>';
                     echo "</div><br><br>";
 				}
 		    }else{

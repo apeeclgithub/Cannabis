@@ -117,17 +117,18 @@
                 </div>
             </div>
         </header>
-    <section class="section">
-        <article>
-            <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-            <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-            <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-            <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-        </article>
-    </section>
+        <section class="condic">
+            <article >
+                <div class="title_condic"><h2>QUIÉNES SOMOS</h2></div>
+                <div class="texto_condic">
+                    Espacio Verde Natural, es una empresa de jóvenes profesionales que gusta de la vida sana y natural, que está ubicada en Santiago de Chile. Surge luego de un intenso año de trabajo con el propósito de dar a conocer sobre la utilización de las conocidas semillas de <strong class="seo">cáñamo<strong> y sus derivados.<br><br>
+                    Además, no olvidemos las aplicaciones terapéuticas y cosméticas de estas semillas y que cada vez están siendo más utilizadas, principalmente en las áreas de salud, algunas de estas variedades se encuentran en nuestro catálogo.<br><br>
+                    Somos un equipo con una gran empatía y con valores bien definidos, donde nuestra principal prioridad es la satisfacción de nuestros clientes. Creemos en lo que hacemos por eso entendemos los negocios como una relación basada en la confianza con nuestros clientes, donde la satisfacción y la calidad sean los principales pilares.<br><br>
+                    Los productos que encontrarán en esta web son de marcas de referencia en el ámbito del cultivo y la cosmética, y tienen todas las garantías para satisfacer tus expectativas. Enviamos nuestros productos a cualquier parte del país. Te invitamos a vivir esta experiencia con nosotros.<br><br>
+                    <div class="condic_thx"><br><br>STAFF ESPACIO VERDE NATURAL<br><br></div>
+                </div>
+            </article>
+        </section>
     <footer class="pie">
         <div class="cont_pie">
             <div class="logo_pie">

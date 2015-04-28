@@ -12,7 +12,7 @@
     <link href="../../img/logo-250.png" type="image/x-icon" rel="shortcut icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crema manos y cuerpo de cannabis - EVN</title>
+    <title>Crema de manos y cuerpo de cannabis - EVN</title>
     <script src="../../js/jquery-1.11.1.min.js"></script>
     <script src="../../js/script.js"></script>
     <script src="../../js/modernizr.js"></script>
@@ -118,40 +118,7 @@
 
             </div>
         </header>
-        <div class="wrapcenter">
-            
-            <div id="menuChicoC">
-                <input id="check2" type="checkbox" />
-                <label for="check2">
-                    MENÚ CATEGORÍAS
-                </label>
-                <div class="menu_1">
-                    <ul>
-                        <li ><a href="semillas-feminizadas.php" ><h2 class="seo">SEMILLAS FEMINIZADAS</h2></a></li>
-                        <li ><a href="semillas-automaticas.php" ><h2 class="seo">SEMILLAS AUTOMÁTICAS</h2></a></li>
-                        <li ><a href="fertilizantez.php" ><h2 class="seo">FERTILIZANTES</h2></a></li>
-                        <li ><a href="vestuario.php"     ><h2 class="seo">VESTUARIO Y ACCESORIOS</h2></a></li>
-                        <li ><a href="parafernalia.php"     >PARAFERNALIA</a></li>
-                        <li ><a href="cosmetica.php"><h2 class="seo">COSMÉTICA</h2></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="cont_aside">
-                <aside class="cat">
-                    <nav class="cat_1">
-                        <ul id="cat-nav">
-                            <li class="title_cat">&nbsp;CATEGORÍAS</li>
-                            <li><a href="semillas-feminizadas.php"><h2 class="seo">&#43;&nbsp;SEMILLAS FEMINIZADAS</h2></a></li>
-                            <li><a href="semillas-automaticas.php"><h2 class="seo">&#43;&nbsp;SEMILLAS AUTOMÁTICAS</h2></a></li>
-                            <li><a href="fertilizantes"><h2 class="seo">&#43;&nbsp;FERTILIZANTES</h2></a></li>
-                            <li><a href="vestuario.php"><h2 class="seo">&#43;&nbsp;VESTUARIO Y ACCESORIOS</h2></a></li>
-                            <li><a href="parafernalia.php"><h2 class="seo">&#43;&nbsp;PARAFERNALIA</h2></a></li>
-                            <li class="li_cos"><a href="cosmetica.php"><h2 class="seo">&#43;&nbsp;COSMÉTICA</h2></a></li>
-                        </ul>
-                    </nav>
-                </aside>
-            </div>
-            <div class="cont_prod">
+
         <section>
             <article class="detalle">
                 <div class="img_detalle"><img src="../../img/3.png" alt="crema manos y cuerpo de cannabis"></div>
@@ -172,8 +139,6 @@
                 </div>
             </article>
         </section>
-            </div>
-        </div>
 
         <footer class="pie">
             <div class="cont_pie">
@@ -181,7 +146,7 @@
                     <img src="../../img/logo-footer.png" alt="Espacio verde natural">
                 </div>
                 <div class="follow_pie">
-                    <div class="follow_text">Espacio verde natural, el gusto por lo natural.</div>
+                    <div class="follow_text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias</div>
                     <div class="sig_foot">
                         SÍGUENOS
                     </div>
@@ -198,10 +163,9 @@
                 <div class="contacto">
                     <div itemscope itemtype="http://schema.org/LocalBusiness">
                         <div class="title_cont">CONTÁCTANOS</div>
-                        <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;<span itemprop="email">ventas@espacioverdenatural.cl</span></div>
-                        <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">02/26995942</span></div>
-                        <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">6-1400225 / 6-8358062</span></div>                      
-                        <div class="cont_mail"><span itemprop="streetAddress">Huérfanos 1044</span>, oficina 905, <span itemprop="addressLocality">Santiago Centro.</span></div>                      
+                        <div class="cont_mail"><img src="../../img/mail.png" alt="Correo">&nbsp;&nbsp;<span itemprop="email">alo@espacioverdenatural.cl</span></div>
+                        <div class="cont_mail"><img src="../../img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">800 800 800</span></div>
+                        <div class="cont_mail"><img src="../../img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">+9 999 9999</span></div>                      
                     </div>
                 </div>
             </div>

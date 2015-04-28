@@ -130,6 +130,7 @@
                         <li ><a href="semillas-automaticas.php" ><h2 class="seo">SEMILLAS AUTOMÁTICAS</h2></a></li>
                         <li ><a href="fertilizantez.php" ><h2 class="seo">FERTILIZANTES</h2></a></li>
                         <li ><a href="vestuario.php"     ><h2 class="seo">VESTUARIO Y ACCESORIOS</h2></a></li>
+                        <li><a href="parafernalia.php"><h2 class="seo">&#43;&nbsp;PARAFERNALIA</h2></a></li>
                         <li ><a href="cosmetica.php"><h2 class="seo">COSMÉTICA</h2></a></li>
                     </ul>
                 </div>
@@ -143,6 +144,7 @@
                             <li><a href="semillas-automaticas.php"><h2 class="seo">&#43;&nbsp;SEMILLAS AUTOMÁTICAS</h2></a></li>
                             <li><a href="fertilizantes"><h2 class="seo">&#43;&nbsp;FERTILIZANTES</h2></a></li>
                             <li><a href="vestuario.php"><h2 class="seo">&#43;&nbsp;VESTUARIO Y ACCESORIOS</h2></a></li>
+                            <li><a href="parafernalia.php"><h2 class="seo">&#43;&nbsp;PARAFERNALIA</h2></a></li>
                             <li class="li_cos"><a href="cosmetica.php"><h2 class="seo">&#43;&nbsp;COSMÉTICA</h2></a></li>
                         </ul>
                     </nav>

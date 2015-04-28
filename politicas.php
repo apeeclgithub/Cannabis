@@ -117,13 +117,52 @@
                 </div>
             </div>
         </header>
-    <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-        <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-            <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
-
-                <div class="quienes">SITIO EN CONSTRUCCIÓN</div>
+        <section class="condic">
+            <article >
+                <div class="title_condic"><h2>POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</h2></div>
+                <div class="texto_condic">
+                    Espacio verde natural es un sitio dedicado a la venta de productos cosméticos de cannabis libres de THC, semillas de colección, productos de jardinería  y variedades de artículos de colección. La comercialización de semillas de cannabis tiene como único fin la colección de estas.
+                    <br><br>
+                    <div class="condic_thx">PREGUNTAS FRECUENTES</div>
+                    <br><br>
+                    <div class="condic_thx">¿Por qué ESPACIO VERDE NATURAL?</div><br><br>
+                    Porque somos una empresa emergente y la calidad es nuestra principal prioridad, si quieres algo excelente debes comprar en espacio verde natural. 
+                    <br><br>
+                    <div class="condic_thx">¿Cómo puedo comprar en Espacio Verde Natural?</div>
+                    <br><br>
+                    Hay múltiples opciones, puedes agregarnos a facebook, twitter o whatsapp y contactarte allí con un vendedor, también puedes acceder a nuestra página, donde tendrás el sistema de “carrito virtual”, podrás agregar cuantos productos quieras a tu carrito virtual, una ves terminado pinchas en pagar y tendrás la opción de pagar con tarjeta, deposito bancario o dirigirte a una de nuestras tiendas.
+                    <br><br>
+                    <div class="condic_thx">Aviso legal</div>
+                    <br><br>
+                    Para poder visitar y comprar en nuestra página web se requiere ser mayor de edad, es decir, tener más de 18 años. Quienes compren o visiten desde el extranjero deben tener mayoría de edad legal en su país de origen.
+                    <br><br>
+                    Espacio Verde Natural es un sitio dedicado a la venta de productos cosméticos de cannabis libres de THC, semillas de colección, productos de jardinería y variedades de artículos y accesorios derivados del cáñamo.
+                    <br><br>
+                    La legislación vigente en Chile No sanciona la posesión, venta y transporte de semillas de cannabis.Espacio Verde Natural se NEGARÁ a la venta de semillas de esta variedad a quienes nos den razones para creer que las germinarán y cultivarán, por tanto exigimos que conozca la regulación legal vigente.
+                    <br><br>
+                    La Convención Única de 1961 de las Naciones Unidas sobre Estupefacientes, ratificada en Chile por el Decreto N° 35, publicado en el Diario Oficial de Chile el 16 enero 1968, excluye a las semillas de cáñamo o cannabis de su regulación y señala como concepto de cannabis en el Art. 1 n° 1 letra b) lo siguiente:
+                    <br><br>
+                    “Por “cannabis” se entiende las sumidades, floridas o con fruto, de la planta de la cannabis (a excepción de las semillas y las hojas no unidas a las sumidades) de las cuales no se ha extraído la resina, cualquiera que sea el nombre con que se las designe.”
+                    <br><br>
+                    Dicha Convención, en su Art.28, establece que:
+                    <br><br>
+                    “La presente Convención no se aplicará al cultivo de la planta de cannabis destinado exclusivamente a fines industriales (fibra y semillas) u hortícolas”.
+                    <br><br>
+                    Espacio Verde Natural no desea inducir a nadie a actuar en contra de la ley 20.000 y bajo ninguna circunstancia promoverá o incitará el cultivo de Cannabis y tampoco nos haremos responsables por el mal uso que se les dé a las semillas.Todas las personas que adquieran semillas en este sitio, son responsables de sus acciones. Espacio Verde Natural no se hace responsable por el uso que el cliente le dé a los productos comprados en este sitio web. 
+                    <br><br>
+                    No podemos dar garantía sobre la germinación o sexo de las semillas de cáñamo, debido a que son objetos únicamente de colección genética y su cultivo está regulado y en determinados casos sancionado por la ley.
+                    <br><br>
+                    Toda la información contenida en esta página y cualquier material proporcionado por este sitio son para fines únicamente educativos y de conservación, y no para promover o incitar el uso o cultivo de sustancias ilegales.
+                    <br><br>
+                    Asimismo las imágenes expuestas en nuestra página web son de uso exclusivo de Espacio Verde Natural con el fin de publicitar y dar información sobre un determinado producto. 
+                    <br><br>
+                    Espacio Verde Natural solo hace envíos al extranjero en países donde sea legal la colección de semillas de cannabis y los productos provenientes del cáñamo. De no cumplir con lo anterior, Espacio Verde Natural, no realizará él envió de los productos requeridos.
+                    <br><br>
+                    Por lo tanto y de acuerdo a todo lo anterior expuesto, se sugiere a nuestra distinguida clientela informarse sobre la legislación vigente antes de comprar en nuestro sitio.
+                    <div class="condic_thx"><br><br>STAFF ESPACIO VERDE NATURAL<br><br></div>
+                </div>
+            </article>
+        </section>
     <footer class="pie">
         <div class="cont_pie">
             <div class="logo_pie">

@@ -28,16 +28,16 @@
 	<meta property="og:title" content="Espacio verde natural"/>
 	<meta property="og:image" content="img/logo-250.png"/>
 	<meta property="og:site_name" content="Espacio verde natural"/>
-	<meta property="og:description" content="Espacio verde natural, venta de variados productos"/>	
+	<meta property="og:description" content="Espacio verde natural, el gusto por lo natural"/>	
 	<!--Twitter Cards Tags-->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@PONER TWITTER">
 	<meta name="twitter:title" content="Espacio verde natural">
-	<meta name="twitter:description" content="Espacio verde natural, venta de variados productos">
+	<meta name="twitter:description" content="Espacio verde natural, el gusto por lo natural">
 	<meta name="twitter:creator" content="@PONER TWITTER">
 	<meta name="twitter:image:src" content="img/logo-250.png">
 
-	<meta name="description" content="Espacio verde natural, venta de variados productos">
+	<meta name="description" content="Espacio verde natural, el gusto por lo natural">
 	<meta name="author" content="Espacio verde natural">
 	<meta name="keywords" content="venta cremas, venta semillas, semillas, cremas, ropa, vestuario, venta vestuario,  venta ropa, venta fertilizante, fertilizante, cosmetica, semillas feminizadas, feminizadas, semillas automaticas, automaticas, accesorios, vestuario y accesorios, marihuana, cannabis">
 
@@ -147,24 +147,24 @@
 				</div>
 				<div class="item_home_index">
 					<div itemscope itemtype="http://schema.org/Product">
-						<span itemprop="name"><h3 class="item_home">ROPA</h3></span>
-							<img itemprop="image" class="item_home_img" src="img/prod1.png" alt="" >
+						<span itemprop="name"><h3 class="item_home">ACEITE PARA MASAJES DE CANNABIS</h3></span>
+							<img itemprop="image" class="item_home_img" src="img/4.png" alt="aceite para masajes de cannabis" title="Aceite para masajes de cannabis">
 							<div class="text_home">
 								<span itemprop="description">
-									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
+									<h4 class="text_home">Aceite corporal para Masajes con las propiedades del Aceite de Cannabis Sativa, los cuales regeneran y aumentan la resistencia de la piel, otorgando elasticidad y suavidad al tacto, devo...</h4>
 								</span>
-		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
+		                        <a href="categoria/cosmetica/aceite-para-masajes-de-cannabis.php" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
 		                        <a href="#" class="btn_vermas" onclick="add(1, 1, 19990, 'Producto destacado 1')"><img src="img/agregar.jpg" alt="Agregar"></a>
 							</div>
 					</div>
 				</div>
 				<div class="item_home_index">
 					<div itemscope itemtype="http://schema.org/Product">
-						<span itemprop="name"><h3 class="item_home">ROPA</h3></span>
-							<img itemprop="image" class="item_home_img" src="img/prod1.png" alt="" >
+						<span itemprop="name"><h3 class="item_home">ACEITE DE CÁÑAMO GOURMET</h3></span>
+							<img itemprop="image" class="item_home_img" src="img/10.png" alt="aceite de canamo" title="Aceite de cáñamo gourmet">
 							<div class="text_home">
 								<span itemprop="description">
-									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
+									<h4 class="text_home">Aceite Gourmet 100% puro Semilla de cáñamo. Rico en Omegas 3 - 6 y 9. Ingredientes Aceite de semilla de cáñamo (cannabis sativa, orgánico), menor al 0.4% de acidez. Contenido Neto: 250 ...</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
 		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -186,11 +186,11 @@
 				</div>
 				<div class="item_home_index">
 					<div itemscope itemtype="http://schema.org/Product">
-						<span itemprop="name"><h3 class="item_home">ROPA</h3></span>
-							<img itemprop="image" class="item_home_img" src="img/prod1.png" alt="" >
+						<span itemprop="name"><h3 class="item_home">CREAM CARAMEL AUTO</h3></span>
+							<img itemprop="image" class="item_home_img" src="img/automaticas/cream caramel auto.png" alt="cream caramel auto" title="Cream caramel auto">
 							<div class="text_home">
 								<span itemprop="description">
-									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
+									<h4 class="text_home">Cream Caramel: es una verdadera joya, muchas variedades han surgido posteriormente a esta magistral variedad de Sweet Seeds, pero superarla aún sigue siendo arduo propósito. Es una autof...</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
 		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -199,11 +199,11 @@
 				</div>
 				<div class="item_home_index">
 					<div itemscope itemtype="http://schema.org/Product">
-						<span itemprop="name"><h3 class="item_home">ROPA</h3></span>
-							<img itemprop="image" class="item_home_img" src="img/prod1.png" alt="" >
+						<span itemprop="name"><h3 class="item_home">CRITICAL JACK</h3></span>
+							<img itemprop="image" class="item_home_img" src="img/automaticas/critical jack.png" alt="critical jack" title="Critical jack">
 							<div class="text_home">
 								<span itemprop="description">
-									<h4 class="text_home">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</h4>
+									<h4 class="text_home">Critical Jack  Automática: Esta variedad es la versión express de la Critical Jack. Necesita 70 días desde que nace de la semilla para completar su ciclo vital y sorprender con sólidos c...</h4>
 								</span>
 		                        <a href="#" class="btn_vermas"><img src="img/vermas.jpg" alt="Ver mas"></a>&nbsp;&nbsp;&nbsp;
 		                        <a href="#" class="btn_vermas"><img src="img/agregar.jpg" alt="Agregar"></a>
@@ -257,7 +257,7 @@
 					<img src="img/logo-footer.png" alt="Espacio verde natural">
 				</div>
 				<div class="follow_pie">
-					<div class="follow_text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias</div>
+					<div class="follow_text">Espacio verde natural, el gusto por lo natural.</div>
 					<div class="sig_foot">
 						SÍGUENOS
 					</div>
@@ -265,10 +265,10 @@
 				</div>
 				<div class="soporte">
 					<div class="title_sop">SOPORTE</div>
-					<div class="cond_sop">Condiciones de compra</div>
-					<div class="cond_sop">Políticas de privacidad</div>
-					<div class="cond_sop">Términos de uso</div>
-					<div class="cond_sop_1">Preguntas frecuentes</div>
+					<div class="cond_sop"><a href="condiciones.php" id="link_footer">Condiciones de compra</a></div>
+					<div class="cond_sop"><a href="politicas.php" id="link_footer">Políticas de privacidad</a></div>
+					<div class="cond_sop"><a href="politicas.php" id="link_footer">Términos de uso</a></div>
+					<div class="cond_sop_1"><a href="politicas.php" id="link_footer">Preguntas frecuentes</a></div>
 
 				</div>
 	            <div class="contacto">

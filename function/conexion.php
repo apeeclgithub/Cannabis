@@ -1,6 +1,6 @@
 <?php
 
-$con= mysql_connect("localhost","root","");
+$con= mysql_connect("localhost","root","root");//mamp normal
 //$con= mysql_connect("apeecl_evnprueba","apeecl_evnprueba","ZGpBfd-8e&*k");
 mysql_query("SET NAMES 'utf8'");
 if($con) 

@@ -154,7 +154,7 @@
             <div class="cont_prod">
         <section>
             <article class="detalle">
-                <div class="img_detalle"><img src="../../img/4.png" alt="aceite para masajes de cannabis"></div>
+                <div class="img_detalle"><img src="../../img/5.png" alt="aceite de cannabis"></div>
                 <div class="det_producto">
                     <div class="nombre_item">ACEITE DE CANNABIS</div>
                     <select id="region">

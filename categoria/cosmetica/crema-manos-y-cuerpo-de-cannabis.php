@@ -154,7 +154,7 @@
             <div class="cont_prod">
         <section>
             <article class="detalle">
-                <div class="img_detalle"><img src="../../img/3.png" alt="crema manos y cuerpo de cannabis"></div>
+                <div class="img_detalle"><img src="../../img/3.png" alt="crema manos y cuerpo de cannabis" title="Crema manos y cuerpo de cannabis"></div>
                 <div class="det_producto">
                     <div class="nombre_item">CREMA MANOS Y CUERPO DE CANNABIS</div>
                     <select id="region">
@@ -189,11 +189,10 @@
                 </div>
                 <div class="soporte">
                     <div class="title_sop">SOPORTE</div>
-                    <div class="cond_sop">Condiciones de compra</div>
-                    <div class="cond_sop">Políticas de privacidad</div>
-                    <div class="cond_sop">Términos de uso</div>
-                    <div class="cond_sop_1">Preguntas frecuentes</div>
-
+                    <div class="cond_sop"><a href="condiciones.php" id="link_footer">Condiciones de compra</a></div>
+                    <div class="cond_sop"><a href="politicas.php" id="link_footer">Políticas de privacidad</a></div>
+                    <div class="cond_sop"><a href="politicas.php" id="link_footer">Términos de uso</a></div>
+                    <div class="cond_sop_1"><a href="politicas.php" id="link_footer">Preguntas frecuentes</a></div>
                 </div>
                 <div class="contacto">
                     <div itemscope itemtype="http://schema.org/LocalBusiness">

@@ -269,7 +269,6 @@
 					<div class="cond_sop"><a href="politicas.php" id="link_footer">Políticas de privacidad</a></div>
 					<div class="cond_sop"><a href="politicas.php" id="link_footer">Términos de uso</a></div>
 					<div class="cond_sop_1"><a href="politicas.php" id="link_footer">Preguntas frecuentes</a></div>
-
 				</div>
 	            <div class="contacto">
 	                <div itemscope itemtype="http://schema.org/LocalBusiness">

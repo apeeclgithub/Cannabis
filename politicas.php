@@ -119,11 +119,11 @@
         </header>
         <section class="condic">
             <article >
-                <div class="title_condic"><h2>POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</h2></div>
+                <div class="title_condic" id="politicas"><h2>POLÍTICAS DE PRIVACIDAD Y TÉRMINOS DE USO</h2></div>
                 <div class="texto_condic">
                     Espacio verde natural es un sitio dedicado a la venta de productos cosméticos de cannabis libres de THC, semillas de colección, productos de jardinería  y variedades de artículos de colección. La comercialización de semillas de cannabis tiene como único fin la colección de estas.
                     <br><br>
-                    <div class="condic_thx">PREGUNTAS FRECUENTES</div>
+                    <div class="condic_thx" id="preguntas-frecuentes">PREGUNTAS FRECUENTES</div>
                     <br><br>
                     <div class="condic_thx">¿Por qué ESPACIO VERDE NATURAL?</div><br><br>
                     Porque somos una empresa emergente y la calidad es nuestra principal prioridad, si quieres algo excelente debes comprar en espacio verde natural. 

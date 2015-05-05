@@ -119,7 +119,7 @@
         </header>
         <section class="condic">
             <article >
-                <div class="title_condic"><h2>CONDICIONES DE COMPRA</h2></div>
+                <div class="title_condic" id="condiciones"><h2>CONDICIONES DE COMPRA</h2></div>
                 <div class="texto_condic">
                     Puedes depositar y avisar por mail o teléfono el detalle de tu compra. Para enviar tu pedido, sólo sigue los siguientes pasos:<br><br>
                     1. Identifícate con tu nombre completo, destino completo (calle con número, cuidad y región) y contacto como celular o mail. Escoge los productos agregándolos al carro de compras.<br><br>

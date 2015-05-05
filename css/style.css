@@ -1452,6 +1452,11 @@ color: #5a903f;
 	float: right;
 	font-weight: bold;
 }
+
+a{
+	text-decoration: none;
+	color: white;
+}
 /*****************MEDIA QUERY**********************/
 /**INDEX****/
 

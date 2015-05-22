@@ -154,7 +154,7 @@
             <div class="cont_prod">
                 <section>
                     <article class="detalle">
-                    <div class="img_detalle"><img src="../../img/1.png" alt="crema facial de cannabis" title="Crema facial de cannabis"></div>
+                    <div class="img_detalle"><img src="../../img/cosmeticaV2/crema-facial.JPG" alt="crema facial de cannabis" title="Crema facial de cannabis"></div>
                     <div class="det_producto">
                         <div class="nombre_item">CREMA FACIAL DE CANNABIS</div>
                         <select id="region">

@@ -152,8 +152,8 @@
                 <div itemscope itemtype="http://schema.org/LocalBusiness">
                     <div class="title_cont">CONTÁCTANOS</div>
                     <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;<a href="mailto:ventas@espacioverdenatural.cl"><span itemprop="email">ventas@espacioverdenatural.cl</span></a></div>
-                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+56226995942"><span itemprop="telephone">02/26995942</span></a></div>
-                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+56961400225"><span itemprop="telephone">6-1400225</span></a>&nbsp;/&nbsp;<a href="tel:+56968358062"><span itemprop="telephone">6-8358062</span></a></div>
+                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+56226995942"><span itemprop="telephone">02/26995942</span></a></div
+>                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+56961400225"><span itemprop="telephone">6-1400225</span></a>&nbsp;/&nbsp;<a href="tel:+56968358062"><span itemprop="telephone">6-8358062</span></a></div>
                     <div class="cont_mail"><span itemprop="streetAddress">Huérfanos 1044</span>, oficina 905, <span itemprop="addressLocality">Santiago Centro.</span></div>                      
                 </div>
             </div>

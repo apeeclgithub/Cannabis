@@ -128,7 +128,7 @@
                     <ul>
                         <li ><a href="semillas-feminizadas.php" >SEMILLAS FEMINIZADAS</a></li>
                         <li ><a href="semillas-automaticas.php" >SEMILLAS AUTOMÁTICAS</a></li>
-                        <li ><a href="fertilizantez.php" >FERTILIZANTES</a></li>
+                        <li ><a href="fertilizantes.php" >FERTILIZANTES</a></li>
                         <li ><a href="vestuario.php"     >VESTUARIO Y ACCESORIOS</a></li>
                         <li ><a href="parafernalia.php"     >PARAFERNALIA</a></li>
                         <li ><a href="cosmetica.php">COSMÉTICA</a></li>
@@ -142,7 +142,7 @@
                             <li class="title_cat">&nbsp;CATEGORÍAS</li>
                             <li><a href="semillas-feminizadas.php">+&nbsp;SEMILLAS FEMINIZADAS</a></li>
                             <li><a href="semillas-automaticas.php">+&nbsp;SEMILLAS AUTOMÁTICAS</a></li>
-                            <li><a href="fertilizantes">+&nbsp;FERTILIZANTES</a></li>
+                            <li><a href="fertilizantes.php">+&nbsp;FERTILIZANTES</a></li>
                             <li><a href="vestuario.php">+&nbsp;VESTUARIO Y ACCESORIOS</a></li>
                             <li><a href="parafernalia.php"><h2 class="seo">&#43;&nbsp;PARAFERNALIA</h2></a></li>
                             <li class="li_cos"><a href="cosmetica.php">+&nbsp;COSMÉTICA</a></li>
@@ -292,25 +292,25 @@
                 <img src="img/logo-footer.png" alt="Espacio verde natural">
             </div>
             <div class="follow_pie">
-                <div class="follow_text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias</div>
+                <div class="follow_text">Espacio verde natural, el gusto por lo natural.</div>
                 <div class="sig_foot">
                     SÍGUENOS
                 </div>
                 <div class="tw_pie"><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></div>
             </div>
-            <div class="soporte">
+           <div class="soporte">
                 <div class="title_sop">SOPORTE</div>
-                <div class="cond_sop"><a href="condiciones.php" id="link_footer">Condiciones de compra</a></div>
-                <div class="cond_sop"><a href="politicas.php" id="link_footer">Políticas de privacidad</a></div>
-                <div class="cond_sop"><a href="politicas.php" id="link_footer">Términos de uso</a></div>
-                <div class="cond_sop_1"><a href="politicas.php" id="link_footer">Preguntas frecuentes</a></div>
+                <div class="cond_sop"><a href="condiciones.php#condiciones" id="link_footer">Condiciones de compra</a></div>
+                <div class="cond_sop"><a href="politicas.php#politicas" id="link_footer">Políticas de privacidad</a></div>
+                <div class="cond_sop"><a href="politicas.php#politicas" id="link_footer">Términos de uso</a></div>
+                <div class="cond_sop_1"><a href="politicas.php#preguntas-frecuentes" id="link_footer">Preguntas frecuentes</a></div>
             </div>
             <div class="contacto">
                 <div itemscope itemtype="http://schema.org/LocalBusiness">
                     <div class="title_cont">CONTÁCTANOS</div>
-                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;<span itemprop="email">ventas@espacioverdenatural.cl</span></div>
-                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">02/26995942</span></div>
-                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<span itemprop="telephone">6-1400225 / 6-8358062</span></div>                      
+                    <div class="cont_mail"><img src="img/mail.png" alt="Correo">&nbsp;<a href="mailto:ventas@espacioverdenatural.cl"><span itemprop="email">ventas@espacioverdenatural.cl</span></a></div>
+                    <div class="cont_mail"><img src="img/telefono.png" alt="Telefono">&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+56226995942"><span itemprop="telephone">02/26995942</span></a></div>
+                    <div class="cont_mail"><img src="img/celu.png" alt="Celular">&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+56961400225"><span itemprop="telephone">6-1400225</span></a>&nbsp;/&nbsp;<a href="tel:+56968358062"><span itemprop="telephone">6-8358062</span></a></div>
                     <div class="cont_mail"><span itemprop="streetAddress">Huérfanos 1044</span>, oficina 905, <span itemprop="addressLocality">Santiago Centro.</span></div>                      
                 </div>
             </div>

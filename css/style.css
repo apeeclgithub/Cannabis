@@ -1059,7 +1059,7 @@ margin-bottom: -7%;
 
 .img_productos{
 	width:266px;
-	height: 238px;
+	height: 350px;
 	margin: 0 auto;
 	padding-top: 0px;
 	width: 100%;
@@ -1783,7 +1783,7 @@ a{
 @media only screen and (min-width:634px) and (max-width: 767px){
 
 	.img_productos {
-    	height: 192px;
+    	/*height: 192px;*/
     }
 
 	#cat-nav {
